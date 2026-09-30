@@ -33,6 +33,7 @@ These come from the book's Methodology and bind every module.
 3. **A failed diagnostic is reported, not retuned.** A failure is a finding. Adjusting parameters until the test passes turns a test into a demonstration of the modeller's patience.
 4. **No smuggling.** A model may use only what the book has earned by the stage it tests. A model of Orientation may not encode a direction; a model of Distance may not start from coordinates; a model of Time may not rely on an iteration counter as a clock. Every module states what its rule is forbidden to contain, and the review checks for it.
 5. **Results must survive a faithful change of representation.** Relabelling nodes, reordering updates or swapping an equivalent encoding should not change the verdict. If it does, the result belongs to the representation, not to the structure (Formalism, 9.28, diagnostic 1).
+6. **Origin is represented openly.** A model may not fix what lies below the resolution it starts from. Initial conditions are sampled across the admissible alternatives (uniform, unresolved variation, and so on) rather than chosen as one, and a verdict that depends on that choice is reported as such (Origin, 1.5).
 
 ## Evidence standard
 
