@@ -10,6 +10,16 @@
 
 The diagnostic against its control, with the variation across runs.
 
+## Null outcomes
+
+For every diagnostic that registered no difference, say which applies, with the positive control's reading beside it:
+
+| Diagnostic | Positive control registered? | Outcome |
+| --- | --- | --- |
+| | yes / no | Absent / Derived / Unresolved |
+
+Only "absent" counts as evidence that a relation does not participate, or that two microstates are the same.
+
 ## Representation checks
 
 Which relabellings and re-encodings were run, and whether the verdict survived each.
