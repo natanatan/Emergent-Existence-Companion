@@ -1,0 +1,3129 @@
+[
+ {
+  "code": "Ad",
+  "lexicon_id": "addressability",
+  "label": "Relational addressability",
+  "kind": "term",
+  "row": "Cl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 6,
+  "section": "6.12",
+  "status": "Working definition (Provisional)",
+  "symbols": [
+   "Ē"
+  ],
+  "definition": "The condition under which a closed organization enters higher-order relations as one relatum: an external relation E is well defined on the class O_(F) exactly when Σ_(a) ~_(F) Σ_(b) implies E(Σ_(a)) ~_(F′) E(Σ_(b)), so E descends to the class, as in a quotient construction or a lumpable Markov chain. Not yet causal addressability.",
+  "requires": [
+   "Id",
+   "Ob"
+  ]
+ },
+ {
+  "code": "Aj",
+  "lexicon_id": "spatial-adjacency",
+  "label": "Spatial adjacency",
+  "kind": "term",
+  "row": "Sp",
+  "volume": 1,
+  "book": 1,
+  "chapter": 13,
+  "section": "13.10",
+  "status": "Candidate",
+  "symbols": [
+   "edge ≠ spatial adjacency"
+  ],
+  "definition": "Primitive incidence becomes spatial adjacency only through metric neighborhood, stable coordination and consequential locality, and a candidate adjacency must survive coarse-graining, coordinate removal, heterogeneous probing, non-destructive perturbation and independent accessibility tests; otherwise spatiality may have been encoded in the representation.",
+  "requires": [
+   "Nb",
+   "Lo"
+  ],
+  "basis": "p.258"
+ },
+ {
+  "code": "An",
+  "lexicon_id": "anchor",
+  "label": "Organizational anchor",
+  "kind": "term",
+  "row": "Cl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 6,
+  "section": "6.13",
+  "status": "Definition (Strong; localization Open)",
+  "symbols": [
+   "A_(F)"
+  ],
+  "definition": "The reference role of a closed identity O_(F) once it is dynamically persistent and representative-independently addressable: later higher-order distinctions can be specified relative to O_(F) without selecting an arbitrary lower-order representative. Not an additional entity or a privileged internal member, and not inherited from Ω. The first reference role the derivation earns.",
+  "requires": [
+   "Ad",
+   "Dc",
+   "Id"
+  ]
+ },
+ {
+  "code": "Bd",
+  "lexicon_id": "boundary",
+  "label": "Boundary",
+  "kind": "stage",
+  "order": 4,
+  "row": "Bd",
+  "volume": 1,
+  "book": 1,
+  "chapter": 4,
+  "section": "4.12",
+  "status": "Working definition",
+  "symbols": [
+   "B_(ab)"
+  ],
+  "definition": "A preserved criterion of non-collapse: two poles remain non-equivalent, as resolved by a frame W, across a declared family of diagnostic structural variations 𝔗_(test). That family belongs to the robustness test, not to the structure, and is a different type from admissible transformation 𝒰. A criterion of separability, not a spatial surface.",
+  "requires": [
+   "Ds"
+  ]
+ },
+ {
+  "code": "Be",
+  "lexicon_id": "behavioral-eq",
+  "label": "Behavioral equivalence (bisimulation)",
+  "kind": "term",
+  "row": "Fm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 9,
+  "section": "9.12",
+  "status": "Working definition (candidate criterion)",
+  "symbols": [
+   "≈_(𝒰)",
+   "~_(F)",
+   "~_(W)"
+  ],
+  "definition": "Sameness of admissible succession patterns, kept distinct from identity equivalence ~_(F) and frame equivalence ~_(W). Bisimulation is the candidate strong behavioral criterion, not the definition of object identity, since realizations can preserve F while differing in some admissible futures.",
+  "requires": [
+   "Ss"
+  ]
+ },
+ {
+  "code": "Bh",
+  "lexicon_id": "black-holes",
+  "label": "Black Holes",
+  "kind": "stage",
+  "order": 19,
+  "row": "Bh",
+  "volume": 1,
+  "book": 2,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "A regime where geometry, accessibility, information retention and extreme closure meet.",
+  "follows_in_reading": [
+   "Mt"
+  ]
+ },
+ {
+  "code": "Bn",
+  "lexicon_id": "relational-bound",
+  "label": "Relational bound",
+  "kind": "term",
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.22",
+  "status": "Working definition",
+  "symbols": [
+   "relational bound ≠ geometric boundary"
+  ],
+  "definition": "A bound stated by comparative magnitude without stating a size: an organization can be no larger or no smaller than a standard, as a pairing rather than a measurement. It is a comparison, distinct from a boundary in Boundary's sense of preserved non-equivalence.",
+  "requires": [
+   "Cm"
+  ],
+  "basis": "p.199"
+ },
+ {
+  "code": "Ca",
+  "lexicon_id": "constitutive-asymmetry",
+  "label": "Constitutive asymmetry",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.9",
+  "status": "Working definition (counterfactual diagnostic)",
+  "symbols": [
+   "∃ r ∈ C such that removing r changes F(C), while not every r′ ∉ C does"
+  ],
+  "definition": "An object-like cluster C should show that some relations matter constitutively to its identity criterion F while arbitrary external relations do not. With no metric of coupling strength earned, the diagnostic is counterfactual rather than quantitative and does not define a complete boundary.",
+  "requires": [
+   "Id",
+   "Ob"
+  ],
+  "basis": "p.90"
+ },
+ {
+  "code": "Cc",
+  "lexicon_id": "consciousness",
+  "label": "Consciousness",
+  "kind": "stage",
+  "order": 30,
+  "row": "Cc",
+  "volume": 2,
+  "book": null,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "Whether consciousness appears along a continuum of recursive organization or needs an additional principle.",
+  "follows_in_reading": [
+   "Co"
+  ]
+ },
+ {
+  "code": "Cd",
+  "lexicon_id": "coordinates",
+  "label": "Coordinates",
+  "kind": "term",
+  "row": "Gm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 12,
+  "section": "12.10",
+  "status": "Working definition",
+  "symbols": [
+   "x ↦ (x^1, …, x^n)"
+  ],
+  "definition": "Once a family of independent modes is stable enough to be re-identified, a coordinate tuple is a compressed label for relational position relative to those modes. Coordinates are earned as efficient representations and do not produce the geometry; descriptions preserving the same invariants differ only in labels.",
+  "requires": [
+   "Ed"
+  ],
+  "basis": "p.234"
+ },
+ {
+  "code": "Cf",
+  "lexicon_id": "config",
+  "label": "Configuration carrier",
+  "kind": "term",
+  "row": "Ds",
+  "volume": 1,
+  "book": 1,
+  "chapter": 3,
+  "section": "3.3",
+  "status": "Defined term",
+  "symbols": [
+   "𝒞_𝔇",
+   "𝒞"
+  ],
+  "definition": "Type promotion of the dyad's poles to minimal configurations that succession can move between.",
+  "requires": [
+   "Df"
+  ]
+ },
+ {
+  "code": "Cg",
+  "lexicon_id": "congruence",
+  "label": "Transformation-compatible equivalence (congruence)",
+  "kind": "term",
+  "row": "Fm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 9,
+  "section": "9.9",
+  "status": "Working definition",
+  "symbols": [
+   "Σ_(a) ~_(F) Σ_(b) ⇒ Q_(F)(𝒰[Σ_(a)]) = Q_(F)(𝒰[Σ_(b)])"
+  ],
+  "definition": "An identity equivalence compatible with admissible succession, so that equivalent representatives have matching successor behavior at the quotient level. Equivalence alone does not guarantee it; only compatibility supports quotient dynamics. Congruence from universal algebra is the precedent, not a claim that the core is an algebra.",
+  "requires": [
+   "Id",
+   "Ss"
+  ]
+ },
+ {
+  "code": "Ck",
+  "lexicon_id": "clockhood",
+  "label": "Clockhood",
+  "kind": "term",
+  "row": "Tm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 14,
+  "section": "14.13",
+  "status": "Candidate",
+  "symbols": [],
+  "definition": "A relational role played by sufficiently stable recurrent structures that furnish endogenous temporal standards.",
+  "requires": [
+   "Sd",
+   "Rt"
+  ],
+  "kept_distinct_from": [
+   "Fr"
+  ]
+ },
+ {
+  "code": "Cl",
+  "lexicon_id": "closure",
+  "label": "Closure",
+  "kind": "stage",
+  "order": 6,
+  "row": "Cl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 6,
+  "section": "6.2",
+  "status": "Working definition (Provisional)",
+  "symbols": [
+   "Closed_(F)",
+   "Closed_F"
+  ],
+  "definition": "A relational domain ℛ is structurally closed with respect to an invariant F when every dependency constitutively required to maintain F is supplied within ℛ, apart from inputs explicitly classed as non-constitutive conditions. The Minimal Closure Test (6.4) gives necessary conditions, deliberately one-way: internal sufficiency, constraint participation and consistent realizability. A snapshot predicate, not an operator, and not isolation from an environment. Simplicial completion (K4) is one possible later realization, not the meaning of closure.",
+  "requires": [
+   "Rl",
+   "Cn",
+   "Id",
+   "St"
+  ],
+  "refers_ahead_to": [
+   "Sm",
+   "Mm"
+  ]
+ },
+ {
+  "code": "Cm",
+  "lexicon_id": "cmp",
+  "label": "Comparative magnitude",
+  "kind": "term",
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.4",
+  "status": "Working definition (Retained)",
+  "symbols": [
+   "Cmp",
+   "~#"
+  ],
+  "definition": "Sameness of amount by bijection, order of amount by injection; earned before any numeral.",
+  "requires": [
+   "Mb"
+  ]
+ },
+ {
+  "code": "Cn",
+  "lexicon_id": "constitutive",
+  "label": "Constitutive dependency",
+  "kind": "term",
+  "row": "Cl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 6,
+  "section": "6.5",
+  "status": "Working definition",
+  "symbols": [],
+  "definition": "A dependency without which the identity-relevant organization F is not specified or maintained; contrasted with an enabling condition.",
+  "requires": [
+   "St"
+  ]
+ },
+ {
+  "code": "Co",
+  "lexicon_id": "communication",
+  "label": "Communication",
+  "kind": "stage",
+  "order": 29,
+  "row": "Co",
+  "volume": 2,
+  "book": null,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "One agent's retained distinctions altering another's.",
+  "follows_in_reading": [
+   "Sm"
+  ]
+ },
+ {
+  "code": "Cp",
+  "lexicon_id": "constraint-propagation",
+  "label": "Constraint propagation",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.5",
+  "status": "Interpretive",
+  "symbols": [
+   "retained r_(a) ⇒ Δ𝒫(r_(b) | ℛ)",
+   "(Σ_(n), Σ_(n+1)) ∈ 𝒰"
+  ],
+  "definition": "A retained distinction propagates when removing its contribution changes the admissible possibilities of another relation in a later configuration, so it persists through consequences in later admissibility rather than through literal preservation of its original carrier.",
+  "requires": [
+   "Rd",
+   "Ps",
+   "Pr",
+   "St"
+  ],
+  "basis": "p.87"
+ },
+ {
+  "code": "Cq",
+  "lexicon_id": "cg",
+  "label": "Coarse-graining (spatial)",
+  "kind": "term",
+  "row": "Sp",
+  "volume": 1,
+  "book": 1,
+  "chapter": 13,
+  "section": "13.14",
+  "status": "Quarantined: a later model, not an earned claim of Book I",
+  "symbols": [
+   "CG"
+  ],
+  "definition": "Spatial coarse-graining of a metric, g_(mn) = CG[G_(AB)], appears in no chapter of the current draft and would import a spacetime metric before Space and Time are coupled. Scale's CG_(s) is the earned coarse-graining operator. Kept only as a candidate for Book II."
+ },
+ {
+  "code": "Cr",
+  "lexicon_id": "responsive-coordination",
+  "label": "Responsive coordination",
+  "kind": "term",
+  "row": "Sp",
+  "volume": 1,
+  "book": 1,
+  "chapter": 13,
+  "section": "13.16",
+  "status": "Candidate proposition",
+  "symbols": [
+   "Φ ↦ ΔK_(ij) ↦ Δd_(ij) ↦ ΔGeo_(eff)",
+   "Φ ↦ ΔGeo_(eff) ↦ ΔΦ′"
+  ],
+  "definition": "Spatial coordination need not be rigid: a relational transformation may alter local couplings, effective metric relations and neighborhood organization, and the altered geometry may then constrain later transformation. A candidate, not a derived dynamical law, and it establishes neither gravity nor quantum dynamics.",
+  "requires": [
+   "Lc",
+   "Ly"
+  ],
+  "basis": "p.262"
+ },
+ {
+  "code": "Cs",
+  "lexicon_id": "coarse",
+  "label": "Scale-relative coarse-graining",
+  "kind": "term",
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.20",
+  "status": "Working definition (Provisional)",
+  "symbols": [
+   "CG_s"
+  ],
+  "definition": "Reduction of detail indexed to an earned comparison standard, admissible only after magnitude, standard and scale-relative equivalence.",
+  "requires": [
+   "Sd"
+  ]
+ },
+ {
+  "code": "Cu",
+  "lexicon_id": "curvature",
+  "label": "Curvature-like incompatibility",
+  "kind": "term",
+  "row": "Gm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 12,
+  "section": "12.20",
+  "status": "Candidate",
+  "symbols": [],
+  "definition": "Failure of global compatibility among local standards; curvature read as failed return.",
+  "reuses": [
+   "Rt"
+  ],
+  "requires": [
+   "Sd"
+  ]
+ },
+ {
+  "code": "Cv",
+  "lexicon_id": "covariance",
+  "label": "Symmetry covariance",
+  "kind": "term",
+  "row": "Ds",
+  "volume": 1,
+  "book": 1,
+  "chapter": 3,
+  "section": "3.5",
+  "status": "Rule (no hidden labels)",
+  "symbols": [
+   "(x,y) ∈ 𝒰 ⟺ (σx,σy) ∈ 𝒰"
+  ],
+  "definition": "The 'no analyst-imposed labels' rule: primitive admissibility must respect the dyad's automorphisms. With nontriviality, it forces reciprocal exchange at the two-pole minimum.",
+  "requires": [
+   "Es",
+   "Ut"
+  ]
+ },
+ {
+  "code": "Cx",
+  "lexicon_id": "complexity",
+  "label": "Complexity",
+  "kind": "stage",
+  "order": 21,
+  "row": "Cx",
+  "volume": 1,
+  "book": 2,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "Multiscale organization required before physical structures support durable, recursively integrated systems.",
+  "follows_in_reading": [
+   "Rg"
+  ]
+ },
+ {
+  "code": "Da",
+  "lexicon_id": "decomposition-admissibility",
+  "label": "Decomposition admissibility",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.17",
+  "status": "Falsifiability condition (stabilization Open)",
+  "symbols": [],
+  "definition": "A relational distance is admissible only when its loci, mediating relations, admissible chains and scale standard are independently constrained rather than chosen after seeing the desired result. Among decompositions representing the same organization, one requiring fewer arbitrary relational commitments is preferable.",
+  "requires": [
+   "Dt"
+  ],
+  "basis": "p.217"
+ },
+ {
+  "code": "Dc",
+  "lexicon_id": "dyn-closure",
+  "label": "Dynamic and robust closure",
+  "kind": "term",
+  "row": "Cl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 6,
+  "section": "6.7",
+  "status": "Working definition",
+  "symbols": [
+   "ℭ_(F), 𝔗_(C)"
+  ],
+  "definition": "Dynamic closure adds preservation of sufficiency under 𝒰; robust closure adds survival across a preregistered class 𝔗.",
+  "requires": [
+   "Ut",
+   "Sy",
+   "Dg"
+  ]
+ },
+ {
+  "code": "Dd",
+  "lexicon_id": "degrees",
+  "label": "Relational dimensionality",
+  "kind": "term",
+  "row": "Fm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 9,
+  "section": "9.22",
+  "status": "Conditional definition (9.22)",
+  "symbols": [
+   "d_(R)",
+   "d_R"
+  ],
+  "definition": "A candidate pre-metric count of independently variable relational modes, introduced only once an independence structure Ind_(R) is earned: d_(R) := rank(Ind_(R)). Counts independent modes under a declared independence criterion; not yet spatial, vector-space or orthogonal dimension.",
+  "derived_from": [
+   "Fm"
+  ],
+  "requires": [
+   "Ix"
+  ]
+ },
+ {
+  "code": "Df",
+  "lexicon_id": "difference",
+  "label": "Difference",
+  "kind": "foundation",
+  "order": 2,
+  "row": "Df",
+  "volume": 1,
+  "book": 1,
+  "chapter": 2,
+  "section": "2.3",
+  "status": "Working axiom (Prop. 2A)",
+  "symbols": [
+   "𝔇",
+   "≬"
+  ],
+  "definition": "Primitive Difference: the least constructive structure beyond Origin, a symmetric dyad whose two poles are related by symmetric, irreflexive non-equivalence ≬. Poles and difference are co-constitutive. Dyadicity is a stated primitive cost.",
+  "follows_in_reading": [
+   "Om"
+  ]
+ },
+ {
+  "code": "Dg",
+  "lexicon_id": "diag-family",
+  "label": "Diagnostic transformation family",
+  "kind": "term",
+  "row": "Bd",
+  "volume": 1,
+  "book": 1,
+  "chapter": 4,
+  "section": "4.4",
+  "status": "Working definition",
+  "symbols": [
+   "𝔗_(test)",
+   "𝔗_(R)",
+   "𝔗_(C)",
+   "𝔗*"
+  ],
+  "definition": "A declared family of transformations, stated in the theory's metalanguage, used to test whether a distinction survives structural variation. Members may alter carrier, realization, relation or embedding, and may include collapse maps. It belongs to the robustness test, not to the modeled structure. It is a different type from the internal update 𝒰 and is not a third primitive unless later physics requires one. Specialized as 𝔗_R (organization level, 5.6) and 𝔗_C (preregistered closure robustness, 6.8).",
+  "kept_distinct_from": [
+   "Ut"
+  ]
+ },
+ {
+  "code": "Dm",
+  "lexicon_id": "dom",
+  "label": "Identity domain",
+  "kind": "term",
+  "row": "Rt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 8,
+  "section": "8.18",
+  "status": "Working definition",
+  "symbols": [
+   "Dom_(F)",
+   "Dom_A"
+  ],
+  "definition": "The set of configurations satisfying a closed identity's criterion F, the members of O_(F), associated with anchor A_(F). Deliberately weaker than a basin of attraction, which would presuppose state-space structure the framework has not earned.",
+  "requires": [
+   "Id",
+   "An"
+  ]
+ },
+ {
+  "code": "Do",
+  "lexicon_id": "domain",
+  "label": "Relational domain",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.2",
+  "status": "Working definition",
+  "symbols": [
+   "q_(i)"
+  ],
+  "definition": "Several retained distinctions collected into one jointly describable organization. The matrix R is bookkeeping, not an ontological layer and not a coordinate grid, and the domain is invariant under relabeling of positions. Not yet a structure: that requires mutual constraint (5.4).",
+  "requires": [
+   "Rd"
+  ]
+ },
+ {
+  "code": "Dp",
+  "lexicon_id": "deriv-priority",
+  "label": "Derivational priority",
+  "kind": "term",
+  "row": "Om",
+  "volume": 1,
+  "book": 1,
+  "chapter": 1,
+  "section": "1.3",
+  "status": "Ledger (L 1.1)",
+  "symbols": [
+   "derivational priority ≠ temporal priority"
+  ],
+  "definition": "The book's default sense of 'before' and 'next': one concept is prior if it cannot be specified without the other, even when no physical time separates them. The book's own ledger L 1.1.",
+  "refers_ahead_to": [
+   "Tm"
+  ]
+ },
+ {
+  "code": "Dq",
+  "lexicon_id": "diff-persistence",
+  "label": "Differential persistence",
+  "kind": "term",
+  "row": "Or",
+  "volume": 1,
+  "book": 1,
+  "chapter": 7,
+  "section": "7.9",
+  "status": "Working proposal (Speculative)",
+  "symbols": [],
+  "definition": "The proposed mechanism of symmetry breaking without hard-coded direction. Among accessible asymmetric configurations, those compatible with maintaining or recovering a higher-order identity persist under a wider class of admissible transformations. Re-entry compatibility can then stabilize one of two exchange-related branches. 'Selected' implies no agency, optimization, probability or fitness.",
+  "requires": [
+   "Ea",
+   "Dc"
+  ],
+  "refers_ahead_to": [
+   "Rt"
+  ]
+ },
+ {
+  "code": "Dr",
+  "lexicon_id": "departure",
+  "label": "Departure (vs dissolution)",
+  "kind": "term",
+  "row": "Rt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 8,
+  "section": "8.4",
+  "status": "Working definition",
+  "symbols": [
+   "∃ i : Σ_(i) ∉ O_(F)"
+  ],
+  "definition": "Leaving an identity class while its criterion F remains applicable and false: the relata F concerns persist but the organization does not satisfy F. Distinct from dissolution, where the relata or roles are unavailable and F is inapplicable rather than false; re-satisfaction after dissolution is re-instantiation, not return. Persistence without departure is not return.",
+  "requires": [
+   "Id"
+  ]
+ },
+ {
+  "code": "Ds",
+  "lexicon_id": "distinction",
+  "label": "Distinction",
+  "kind": "stage",
+  "order": 3,
+  "row": "Ds",
+  "volume": 1,
+  "book": 1,
+  "chapter": 3,
+  "section": "3.6",
+  "status": "Working definition (Prop. 3A)",
+  "symbols": [
+   "𝒟"
+  ],
+  "definition": "Difference becomes operative Distinction when the dyad's poles are promoted to a minimal configuration carrier and a nontrivial admissible transition relation 𝒰, invariant under Aut(𝔇), licenses succession between them.",
+  "requires": [
+   "Df",
+   "Ut"
+  ]
+ },
+ {
+  "code": "Dt",
+  "lexicon_id": "distance",
+  "label": "Distance",
+  "kind": "stage",
+  "order": 11,
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.3",
+  "status": "Working definition (Provisional)",
+  "symbols": [
+   "d_(u)(A,B)"
+  ],
+  "definition": "Relational separation becomes metrically expressible once magnitude applies to the mediation between relational positions. Difference is not separation; separation requires mediation.",
+  "requires": [
+   "Sc",
+   "Cm",
+   "Po"
+  ],
+  "kept_distinct_from": [
+   "Ut"
+  ]
+ },
+ {
+  "code": "Du",
+  "lexicon_id": "scale-relative-distance",
+  "label": "Scale-relative distance",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.16",
+  "status": "Candidate proposition",
+  "symbols": [
+   "d^(u)(A,B)",
+   "d^(u′)(A,B)"
+  ],
+  "definition": "Distance may differ between scale regimes with standards u and u′, because chains available at a fine level need not survive coarse-graining; this need not make either false. Distance may be scale-relative while structurally objective within a declared regime, provided coarse-grained distance preserves the distinctions relevant at that scale.",
+  "requires": [
+   "Dt",
+   "Cs"
+  ],
+  "basis": "p.217"
+ },
+ {
+  "code": "Dx",
+  "lexicon_id": "directed-distance",
+  "label": "Directed distance",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.11",
+  "status": "Working definition (Retained)",
+  "symbols": [
+   "d(A,B) ≠ d(B,A)"
+  ],
+  "definition": "Metric symmetry is not primitive: because Orientation earned consequential non-equivalence under role reversal, the first structure Distance earns may be a directed metric-like measure. Symmetry is recovered only where every mediating relation is reversibly equivalent and every chain has a reverse of equal magnitude.",
+  "requires": [
+   "Or"
+  ]
+ },
+ {
+  "code": "Ea",
+  "lexicon_id": "eff-asym",
+  "label": "Effective asymmetry",
+  "kind": "term",
+  "row": "Or",
+  "volume": 1,
+  "book": 1,
+  "chapter": 7,
+  "section": "7.4",
+  "status": "Working definition",
+  "symbols": [
+   "W^(L)"
+  ],
+  "definition": "A lower-order non-equivalence that survives a higher-order identity's resolving criterion and changes its admissible organization. Between latent asymmetry and orientation.",
+  "requires": [
+   "Rf",
+   "Es"
+  ],
+  "refers_ahead_to": [
+   "Cs"
+  ]
+ },
+ {
+  "code": "Ed",
+  "lexicon_id": "eff-dim",
+  "label": "Effective dimension",
+  "kind": "term",
+  "row": "Gm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 12,
+  "section": "12.18",
+  "status": "Candidate (Open: whether d_(R) and d_(probe) agree)",
+  "symbols": [
+   "d_(probe)",
+   "d_(R)",
+   "d_(eff)(σ)"
+  ],
+  "definition": "Two candidate senses, kept apart. Structural: the rank of stable independent collective modes, for which Geometry reuses Formalism's d_(R) := rank(Ind_(R)) evaluated on the modes surviving the geometric regime (12.6). Operational: d_(probe), the fewest independent parameters that preserve the declared geometric invariants across admissible probes (12.18). They agree when every structural mode is separately resolvable, which is not shown. Layer is not dimension; independence precedes orthogonality; d_(eff)(σ) may vary with scale regime (12.26).",
+  "requires": [
+   "Dd"
+  ]
+ },
+ {
+  "code": "Ef",
+  "lexicon_id": "effective-smoothness",
+  "label": "Effective smoothness",
+  "kind": "term",
+  "row": "Gm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 12,
+  "section": "12.12",
+  "status": "Working definition",
+  "symbols": [
+   "𝔏^(σ) ≈ 𝔏_(smooth)"
+  ],
+  "definition": "Over a declared scale regime σ, coarse-graining may make discrete changes regular enough that a smooth description preserves the invariants of interest. Local smoothness is an earned modeling relation, not fundamental continuity, so smooth and nonsmooth regimes can coexist.",
+  "requires": [
+   "Gm",
+   "Cs"
+  ],
+  "basis": "p.235"
+ },
+ {
+  "code": "Em",
+  "lexicon_id": "embedding",
+  "label": "Embedding",
+  "kind": "term",
+  "row": "Bd",
+  "volume": 1,
+  "book": 1,
+  "chapter": 4,
+  "section": "4.16",
+  "status": "Working definition",
+  "symbols": [
+   "e : 𝒞_𝔇 → X"
+  ],
+  "definition": "A robustness test that maps the dyad into a larger carrier X without claiming X is an integrated relational domain; if e(a) and e(b) stay resolvable as non-equivalent under W, the distinction survives enlargement. X is only the target of the test, and a many-to-one projection can do the opposite, collapsing some distinctions.",
+  "requires": [
+   "Cf",
+   "Rf"
+  ],
+  "basis": "p.74"
+ },
+ {
+  "code": "Eo",
+  "lexicon_id": "event-order",
+  "label": "Temporal order candidate",
+  "kind": "term",
+  "row": "Tm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 14,
+  "section": "14.5",
+  "status": "Candidate",
+  "symbols": [
+   "≺ₜ"
+  ],
+  "definition": "Retained dependency ≺ is condensed by collapsing mutually dependent cycles, then ordered on the quotient: [eᵢ] ≺ₜ [eⱼ] iff eᵢ ≺⁺ eⱼ and not(eⱼ ≺⁺ eᵢ). A strict partial order that allows incomparable events and assumes no global clock. A structural candidate only: Time must still show it is intrinsic and frame-coherent.",
+  "requires": [
+   "Pr",
+   "Md"
+  ]
+ },
+ {
+  "code": "Es",
+  "lexicon_id": "dyad-symmetry",
+  "label": "Exchange symmetry",
+  "kind": "term",
+  "row": "Df",
+  "volume": 1,
+  "book": 1,
+  "chapter": 2,
+  "section": "2.7",
+  "status": "Defined term",
+  "symbols": [
+   "Aut(𝔇)"
+  ],
+  "definition": "Invariance of the dyad under relabeling of its poles in the theory's metalanguage. Descriptive, not generative.",
+  "derived_from": [
+   "Df"
+  ]
+ },
+ {
+  "code": "Ex",
+  "lexicon_id": "extension",
+  "label": "Extension",
+  "kind": "term",
+  "row": "Sp",
+  "volume": 1,
+  "book": 1,
+  "chapter": 13,
+  "section": "13.11",
+  "status": "Candidate",
+  "symbols": [
+   "H(Geo) ≠ H(Geo/L)"
+  ],
+  "definition": "Non-collapsible plurality of coordinated localization: distinct localization roles that cannot be collapsed without changing a declared spatial invariant. Extension need not be an independently existing continuum or container.",
+  "requires": [
+   "Lc"
+  ]
+ },
+ {
+  "code": "Fa",
+  "lexicon_id": "formal-admissibility",
+  "label": "Formal Admissibility Rule",
+  "kind": "term",
+  "row": "Fm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 9,
+  "section": "9.3",
+  "status": "Methodological rule",
+  "symbols": [],
+  "definition": "A symbol, operator, relation or construction may do ontological work only when its content is inherited from earlier chapters or definable from inherited structure. Richer mathematics may be used externally for proof, simulation or bookkeeping, but its extra structure must not be read back into the modeled world: metalanguage richness ≠ object-language richness."
+ },
+ {
+  "code": "Fb",
+  "lexicon_id": "flexible-boundary",
+  "label": "Flexible boundary",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.13",
+  "status": "Strong",
+  "symbols": [
+   "boundary stability ≠ boundary rigidity"
+  ],
+  "definition": "A higher-order boundary can persist as the criterion F together with a pattern of constitutive participation while individual relations enter, leave, change realization or remain ambiguous; persistence of an identity criterion does not require invariant membership. A transitional case is one that does not yet satisfy the participation pattern of either of two nearby identity-relevant regimes.",
+  "requires": [
+   "Id",
+   "Pr"
+  ],
+  "basis": "p.94"
+ },
+ {
+  "code": "Fm",
+  "lexicon_id": "formalism",
+  "label": "Formalism",
+  "kind": "stage",
+  "order": 9,
+  "row": "Fm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 9,
+  "section": "9.26",
+  "status": "Working definition (Provisional)",
+  "symbols": [
+   "𝔊"
+  ],
+  "definition": "Mathematical structure introduced only after determining which operations the preceding ontology has earned. Formalism is not ontology.",
+  "follows_in_reading": [
+   "Rt"
+  ]
+ },
+ {
+  "code": "Fp",
+  "lexicon_id": "fixed-point",
+  "label": "Identity-class fixed point",
+  "kind": "term",
+  "row": "Fm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 9,
+  "section": "9.15",
+  "status": "Working definition",
+  "symbols": [
+   "T̄"
+  ],
+  "definition": "A macro-identity preserved while the lower-order state changes; distinct from an exact fixed point.",
+  "requires": [
+   "Qd"
+  ]
+ },
+ {
+  "code": "Fr",
+  "lexicon_id": "formal-recurrence",
+  "label": "Formal recurrence",
+  "kind": "term",
+  "row": "Ds",
+  "volume": 1,
+  "book": 1,
+  "chapter": 3,
+  "section": "3.10",
+  "status": "Working distinction",
+  "symbols": [],
+  "definition": "Recovery of the same minimal configuration by composing the reciprocal update, J_𝒰² = id. The exponent counts formal composition in the analyst's notation, not duration. Not Return, which concerns re-entry of a higher-order identity into an independently specified class, and not clockhood, which needs recurrence, countability, stability and couplability.",
+  "requires": [
+   "Ic"
+  ]
+ },
+ {
+  "code": "Gm",
+  "lexicon_id": "geometry",
+  "label": "Geometry",
+  "kind": "stage",
+  "order": 12,
+  "row": "Gm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 12,
+  "section": "12.1",
+  "status": "Working definition (Provisional)",
+  "symbols": [],
+  "definition": "Metric relations stop being merely pairwise and constrain one another, so that neighborhoods persist and an effective dimension can be counted.",
+  "requires": [
+   "Dt"
+  ]
+ },
+ {
+  "code": "Gv",
+  "lexicon_id": "gravity",
+  "label": "Gravity",
+  "kind": "stage",
+  "order": 16,
+  "row": "Gv",
+  "volume": 1,
+  "book": 2,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "Whether relationally generated geometry can acquire effective curvature dynamics.",
+  "follows_in_reading": [
+   "Sx"
+  ]
+ },
+ {
+  "code": "Hd",
+  "lexicon_id": "ho-discern",
+  "label": "Higher-order discernibility",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.10",
+  "status": "Working definition",
+  "symbols": [
+   "λ_(W)(O_(A)) ≠ λ_(W)(O_(B))"
+  ],
+  "definition": "If two internally equivalent persistent organizations coexist as distinct members of one domain, some relation in the larger frame must preserve their non-equivalence. No intrinsic difference is needed, only a difference in relational participation. A higher-level recurrence of the weak-discernibility problem.",
+  "requires": [
+   "Pf",
+   "Rf",
+   "Ob"
+  ],
+  "reuses": [
+   "Wd"
+  ]
+ },
+ {
+  "code": "Ho",
+  "lexicon_id": "higher-origin",
+  "label": "Higher-order origin",
+  "kind": "term",
+  "row": "Cl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 6,
+  "section": "6.13",
+  "status": "Working definition (Provisional)",
+  "symbols": [
+   "O_(F)^(n)",
+   "A_(F)^(n)"
+  ],
+  "definition": "A closed, relationally addressable organization taken as a new starting unit for further relational construction: ℛ^(n) ⇝ O_(F)^(n+1) ≡ A_(F)^(n+1) ⇝ ℛ^(n+1). The superscript marks organizational level, not scale or time. Higher-order originhood is a role re-instantiated by Closure through the organizational anchor; Ω is not copied upward.",
+  "requires": [
+   "Ad",
+   "An"
+  ]
+ },
+ {
+  "code": "Ic",
+  "lexicon_id": "identity-comp",
+  "label": "Identity under composition",
+  "kind": "term",
+  "row": "Ds",
+  "volume": 1,
+  "book": 1,
+  "chapter": 3,
+  "section": "3.9",
+  "status": "Derived",
+  "symbols": [
+   "J_𝒰²"
+  ],
+  "definition": "Identity arises from composition of admissible succession, not from primitive stasis.",
+  "requires": [
+   "Rc"
+  ]
+ },
+ {
+  "code": "Id",
+  "lexicon_id": "identity-criterion",
+  "label": "Identity criterion",
+  "kind": "term",
+  "row": "Bd",
+  "volume": 1,
+  "book": 1,
+  "chapter": 4,
+  "section": "4.14",
+  "status": "Working definition",
+  "symbols": [
+   "O_(F)",
+   "[Σ]_(~F)",
+   "[Σ]_(F)",
+   "[Σ]_F",
+   "~_(F)",
+   "~_F",
+   "F"
+  ],
+  "definition": "A minimal identity criterion F, identity equivalence ~_(F), and candidate identity class O = [Σ]_(~F), all without an anchor. F is kept distinct from the resolving frame W so that observation is not smuggled into identity."
+ },
+ {
+  "code": "Ii",
+  "lexicon_id": "internal-identification",
+  "label": "Internal identification",
+  "kind": "term",
+  "row": "Cl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 6,
+  "section": "6.15",
+  "status": "Open (forward pointer to Volume II)",
+  "symbols": [
+   "W_(S)(ℛ_(S)) ↦ σ_(S)",
+   "σ_(S)"
+  ],
+  "definition": "The later transition in which a system contains a resolving process mapping aspects of its own state into an internal model σ_S, so that closure becomes internally represented rather than only externally identified. Not yet self-consciousness; no self-model is required for ontic closure.",
+  "requires": [
+   "Oc",
+   "Rf"
+  ],
+  "basis": "p.117"
+ },
+ {
+  "code": "In",
+  "lexicon_id": "information",
+  "label": "Information",
+  "kind": "term",
+  "row": "Bd",
+  "volume": 1,
+  "book": 1,
+  "chapter": 4,
+  "section": "4.17",
+  "status": "Working definition",
+  "symbols": [
+   "I"
+  ],
+  "definition": "In the book's minimal functional sense: retention plus consequential change in admissible possibilities. A retained distinction counts as information when it changes what can follow; preservation alone is not enough, and information is not a separate substance.",
+  "requires": [
+   "Rd",
+   "Ps"
+  ]
+ },
+ {
+  "code": "Io",
+  "lexicon_id": "rel-inside",
+  "label": "Relational inside / outside",
+  "kind": "term",
+  "row": "Cl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 6,
+  "section": "6.10",
+  "status": "Working definition",
+  "symbols": [
+   "inside_(F), outside_(F)"
+  ],
+  "definition": "Once closure is earned, boundary can be read as the distinction between relations whose participation is required for the F-maintaining closure and relations that are not. Closure and boundary then constrain each other: boundary says which relations participate, and closure says why they count together. Not spatial enclosure (6.20).",
+  "requires": [
+   "Mb"
+  ],
+  "reuses": [
+   "Bd"
+  ]
+ },
+ {
+  "code": "Ip",
+  "lexicon_id": "interpretation",
+  "label": "Interpretation",
+  "kind": "stage",
+  "order": 31,
+  "row": "Ip",
+  "volume": 3,
+  "book": null,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "Where private representation becomes socially consequential.",
+  "follows_in_reading": [
+   "Cc"
+  ]
+ },
+ {
+  "code": "Ir",
+  "lexicon_id": "irreversibility",
+  "label": "Relational irreversibility",
+  "kind": "term",
+  "row": "Or",
+  "volume": 1,
+  "book": 1,
+  "chapter": 7,
+  "section": "7.8",
+  "status": "Working proposition (Speculative as precursor of temporal irreversibility)",
+  "symbols": [
+   "Ret(A_(F); 𝔒) = 1, Ret(A_(F); 𝔒⁻¹) = 0"
+  ],
+  "definition": "Anchor-relative: reversing the orientational dependencies destroys, changes or redirects return to the same identity anchor. Not thermodynamic irreversibility and not an arrow of physical time.",
+  "requires": [
+   "Or",
+   "An"
+  ],
+  "refers_ahead_to": [
+   "Rt"
+  ]
+ },
+ {
+  "code": "Ix",
+  "lexicon_id": "ind-r",
+  "label": "Relational independence structure",
+  "kind": "term",
+  "row": "Fm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 9,
+  "section": "9.22",
+  "status": "Conditional definition",
+  "symbols": [
+   "Ind_(R)",
+   "Ind_R"
+  ],
+  "definition": "An independence system over relational modes: which modes can vary without constraining one another. Independence precedes rank, as it precedes orthogonality; once a suitable finite independence structure is earned, its rank is d_(R).",
+  "requires": [
+   "St"
+  ]
+ },
+ {
+  "code": "Jr",
+  "lexicon_id": "joint-resolvability",
+  "label": "Joint resolvability",
+  "kind": "term",
+  "row": "Sp",
+  "volume": 1,
+  "book": 1,
+  "chapter": 13,
+  "section": "13.4",
+  "status": "Working definition",
+  "symbols": [
+   "Joint(A,B)"
+  ],
+  "definition": "A and B are recoverable as distinct loci within the same effective geometry: both participate in one relational configuration from which their mutual organization can be resolved. Not simultaneity, which needs metric Time.",
+  "requires": [
+   "Gm"
+  ]
+ },
+ {
+  "code": "Kn",
+  "lexicon_id": "knowing",
+  "label": "Knowing",
+  "kind": "stage",
+  "order": 24,
+  "row": "Kn",
+  "volume": 1,
+  "book": 2,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "When an organized system uses retained distinctions to model conditions beyond its immediate state, including itself.",
+  "follows_in_reading": [
+   "Mm"
+  ]
+ },
+ {
+  "code": "Lc",
+  "lexicon_id": "localization",
+  "label": "Coordinated localization",
+  "kind": "term",
+  "row": "Sp",
+  "volume": 1,
+  "book": 1,
+  "chapter": 13,
+  "section": "13.5",
+  "status": "Candidate",
+  "symbols": [
+   "Loc(A)"
+  ],
+  "definition": "Localization as a relational role; localizations constrain localizations within one coordinated domain.",
+  "requires": [
+   "Po"
+  ],
+  "reuses": [
+   "Cl"
+  ]
+ },
+ {
+  "code": "Le",
+  "lexicon_id": "learning",
+  "label": "Learning",
+  "kind": "stage",
+  "order": 27,
+  "row": "Le",
+  "volume": 2,
+  "book": null,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "Action selection modified by learning, supporting counterfactual comparison.",
+  "follows_in_reading": [
+   "Va"
+  ]
+ },
+ {
+  "code": "Lf",
+  "lexicon_id": "life",
+  "label": "Life",
+  "kind": "stage",
+  "order": 22,
+  "row": "Lf",
+  "volume": 1,
+  "book": 2,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "When a bounded system begins participating in maintaining the conditions of its own continued organization.",
+  "follows_in_reading": [
+   "Cx"
+  ]
+ },
+ {
+  "code": "Li",
+  "lexicon_id": "latent-integration",
+  "label": "Latent integration interval",
+  "kind": "term",
+  "row": "Tm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 14,
+  "section": "14.6",
+  "status": "Working definition",
+  "symbols": [
+   "L_(n)"
+  ],
+  "definition": "Unresolved internal reorganization associated with an admissible transition; 'interval' is functional, not metric, and denotes no amount of duration. Latent integration may carry dependency structure before it carries duration; 𝒰 is not a temporal evolution operator.",
+  "requires": [
+   "Ut"
+  ]
+ },
+ {
+  "code": "Lo",
+  "lexicon_id": "locality",
+  "label": "Consequential locality",
+  "kind": "term",
+  "row": "Sp",
+  "volume": 1,
+  "book": 1,
+  "chapter": 13,
+  "section": "13.9",
+  "status": "Candidate",
+  "symbols": [
+   "Adm(A,B)"
+  ],
+  "definition": "From geometric neighborhood to physical locality, without presupposing matter.",
+  "requires": [
+   "Lc",
+   "Ph"
+  ]
+ },
+ {
+  "code": "Ly",
+  "lexicon_id": "layer",
+  "label": "Metric-relational layer",
+  "kind": "term",
+  "row": "Gm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 12,
+  "section": "12.5",
+  "status": "Candidate",
+  "symbols": [
+   "𝔏_(α)",
+   "K_(αβ)"
+  ],
+  "definition": "A distributed family of relational constraints whose members support internally comparable separation: loci X_(α), separation d_(α), constraints K_(α). Not a sheet, hidden surface or field on a manifold. Layer is not dimension: the number of layers is independent of the number of dimensions.",
+  "requires": [
+   "Dt"
+  ]
+ },
+ {
+  "code": "Mb",
+  "lexicon_id": "membership",
+  "label": "Higher-order membership",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.12",
+  "status": "Convention (∃/∀ Derived; threshold Deferred)",
+  "symbols": [
+   "M_(ℛ)",
+   "𝒜"
+  ],
+  "definition": "A relation r belongs to the organization ℛ exactly when embedding it there changes its admissible possibilities, 𝒫(r given ℛ) ≠ 𝒫(r). Not a new primitive: quantification over members stays in the metalanguage, and 𝒜 survives only as notation for it. Threshold and weighted membership are deferred until magnitude is earned.",
+  "requires": [
+   "St",
+   "Ps"
+  ],
+  "refers_ahead_to": [
+   "Cm"
+  ]
+ },
+ {
+  "code": "Mc",
+  "lexicon_id": "magnitude-class",
+  "label": "Magnitude class",
+  "kind": "term",
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.6",
+  "status": "Working definition",
+  "symbols": [
+   "[A]_(~#)"
+  ],
+  "definition": "The equinumerosity class of an organization A: every member pairs one to one with every other, capturing a comparative property while ignoring which members carry it. It parallels object identity [Σ]_(~F) as cardinal identity.",
+  "requires": [
+   "Cm"
+  ],
+  "basis": "p.192"
+ },
+ {
+  "code": "Md",
+  "lexicon_id": "mutual-dependency",
+  "label": "Mutual dependency (cycle quotient)",
+  "kind": "term",
+  "row": "Tm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 14,
+  "section": "14.5",
+  "status": "Working definition",
+  "symbols": [
+   "≈_(≺)",
+   "≺⁺",
+   "𝓔/≈_(≺)"
+  ],
+  "definition": "Events mutually reachable through retained dependency are collapsed into one unresolved dependency unit, so the condensation is acyclic by construction without imposing acyclicity on raw ≺. The quotient 𝓔/≈_(≺) carries the temporal order candidate ≺ₜ.",
+  "requires": [
+   "Pr"
+  ]
+ },
+ {
+  "code": "Me",
+  "lexicon_id": "metric-special-case",
+  "label": "Metric as a special case",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.12",
+  "status": "Conditional result",
+  "symbols": [
+   "relational organization ⇝ metric axioms as consequences"
+  ],
+  "definition": "On the relevant quotient domain, non-negativity, zero-distance identity and the triangle inequality make the relational construction metric-like, and if reversible equivalence also yields symmetry it supports an ordinary metric. Metric axioms emerge from the organization rather than defining it in advance.",
+  "requires": [
+   "Zs",
+   "Tr",
+   "Dx"
+  ],
+  "basis": "p.216"
+ },
+ {
+  "code": "Mg",
+  "lexicon_id": "metric-tensor",
+  "label": "Local metric coupling (metric tensor)",
+  "kind": "term",
+  "row": "Gm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 12,
+  "section": "12.11",
+  "status": "Interpretive",
+  "symbols": [
+   "ds^2 = g_(ij)(x) dx^i dx^j",
+   "g_(ij)"
+  ],
+  "definition": "The coefficients g_ij, read as an effective rule summarizing how changes in independently resolved local modes jointly contribute to separation. The formula is not foundational here; it names content still to be explained, and local metric relations should summarize emerged organization rather than be inserted as unexplained fields.",
+  "requires": [
+   "Cd"
+  ],
+  "basis": "p.235"
+ },
+ {
+  "code": "Mi",
+  "lexicon_id": "metric-time",
+  "label": "Metric time (minimal conditions)",
+  "kind": "term",
+  "row": "Tm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 14,
+  "section": "14.24",
+  "status": "Conditional (Open)",
+  "symbols": [],
+  "definition": "A metric temporal quantity becomes defensible only if ordered comparability, a repeatable standard, cross-standard calibration, resolution robustness, frame coherence and non-circularity are satisfied. These conditions do not prove metric time must emerge; they state what must be demonstrated before the stronger claim is licensed.",
+  "requires": [
+   "Eo",
+   "Tq"
+  ],
+  "basis": "p.286"
+ },
+ {
+  "code": "Ml",
+  "lexicon_id": "compositional-magnitude-law",
+  "label": "Compositional magnitude law",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.8",
+  "status": "Requirement (additivity to be earned)",
+  "symbols": [
+   "L(π₁ ∘ π₂) = L(π₁) + L(π₂)"
+  ],
+  "definition": "Metric distance requires a law for how the burdens of concatenated mediating relations combine. Addition is one candidate, justified only if burdens combine without interference; it is not primitive merely because familiar geometry uses it.",
+  "requires": [
+   "Rn"
+  ],
+  "basis": "p.212"
+ },
+ {
+  "code": "Mm",
+  "lexicon_id": "memory",
+  "label": "Memory",
+  "kind": "stage",
+  "order": 23,
+  "row": "Mm",
+  "volume": 1,
+  "book": 2,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "Retained change that becomes internally consequential for a self-maintaining system. Requires self-maintenance, not self-awareness.",
+  "follows_in_reading": [
+   "Lf"
+  ],
+  "requires": [
+   "Rd",
+   "Pd"
+  ],
+  "kept_distinct_from": [
+   "Pc"
+  ]
+ },
+ {
+  "code": "Mn",
+  "lexicon_id": "meaning",
+  "label": "Meaning",
+  "kind": "stage",
+  "order": 34,
+  "row": "Mn",
+  "volume": 3,
+  "book": null,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "A higher-order relational achievement: difference ⇝ information ⇝ organization ⇝ agency ⇝ interpretation ⇝ shared significance.",
+  "follows_in_reading": [
+   "Nm"
+  ],
+  "requires": [
+   "In"
+  ]
+ },
+ {
+  "code": "Mo",
+  "lexicon_id": "methodological-rules",
+  "label": "Methodological rules",
+  "kind": "term",
+  "row": "Om",
+  "volume": 1,
+  "book": 1,
+  "chapter": 1,
+  "section": "1.8",
+  "status": "Governing constraint",
+  "symbols": [
+   "higher-order structure ∉ premises of the derivation; higher-order structure ∈ diagnostics applied to its outputs"
+  ],
+  "definition": "Do not assume at one level what a later level is intended to derive, and do not promote a computational or representational convenience into ontology when a thinner relation already does the work: in constitutive use no property may be used before its stage has earned it, while representational (labelled) and diagnostic uses are admissible. Five standards accompany this (minimize primitives, mark every added assumption, separate formal consequence from physical identification, state where derivation ends and analogy begins, name what cannot yet be derived as a research problem), and diagnostics are declared before the run, with failures reported rather than retuned away.",
+  "requires": [],
+  "basis": "p.24"
+ },
+ {
+  "code": "Mr",
+  "lexicon_id": "metarelation",
+  "label": "Metarelation",
+  "kind": "term",
+  "row": "Fm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 9,
+  "section": "9.17",
+  "status": "Working definition",
+  "symbols": [
+   "μ(r_(a), r_(b))"
+  ],
+  "definition": "A relation among relations: once a relation is a stable, addressable structure it can itself be a relatum in a higher-order relation μ(r_(a), r_(b)). Not automatically a new ontological category: the same relational grammar is re-instantiated at a higher organizational level, which is what blocks an uncontrolled regress of primitive types.",
+  "requires": [
+   "St",
+   "Ad"
+  ]
+ },
+ {
+  "code": "Ms",
+  "lexicon_id": "measurement",
+  "label": "Measurement as internal interaction",
+  "kind": "term",
+  "row": "Gm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 12,
+  "section": "12.15",
+  "status": "Working definition (Provisional)",
+  "symbols": [
+   "I_(F)"
+  ],
+  "definition": "A probe is a bounded relational system inside the organization it resolves. Measurement separates resolution loss (many substrate distinctions map to one result) from back-action (the coupling alters what is resolved). Effective objectivity is cross-frame stability of declared invariants H across heterogeneous probes, not a view from nowhere. No interpretation of quantum measurement is assumed.",
+  "requires": [
+   "Pj"
+  ]
+ },
+ {
+  "code": "Mt",
+  "lexicon_id": "matter",
+  "label": "Matter",
+  "kind": "stage",
+  "order": 18,
+  "row": "Mt",
+  "volume": 1,
+  "book": 2,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "Whether persistent relational modes appear as localized excitations with stable internal properties.",
+  "follows_in_reading": [
+   "Qg"
+  ]
+ },
+ {
+  "code": "Nb",
+  "lexicon_id": "neighborhood",
+  "label": "Metric neighborhood",
+  "kind": "term",
+  "row": "Gm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 12,
+  "section": "12.2",
+  "status": "Working definition (Provisional)",
+  "symbols": [
+   "N_(ε)(A)"
+  ],
+  "definition": "A scale-relative relational neighborhood whose membership follows from the independently constrained distance relation. Local geometric coherence is the persistence of neighborhood relations under admissible transformation, relabeling and coarse-graining; overlaps between neighborhoods are the first collective geometric constraint.",
+  "requires": [
+   "Dt"
+  ]
+ },
+ {
+  "code": "Nl",
+  "lexicon_id": "numeral-label",
+  "label": "Numerals as labels",
+  "kind": "term",
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.7",
+  "status": "Working definition",
+  "symbols": [
+   "mag(A) = n"
+  ],
+  "definition": "Once finite magnitude classes are established relationally, natural-number symbols may be used as labels for them; the numeral names a relation available first through correspondence and does not create the magnitude. External counting does not become internal magnitude because the analyst writes a number.",
+  "requires": [
+   "Mc"
+  ],
+  "basis": "p.192"
+ },
+ {
+  "code": "Nm",
+  "lexicon_id": "norms",
+  "label": "Norms and institutions",
+  "kind": "stage",
+  "order": 33,
+  "row": "Nm",
+  "volume": 3,
+  "book": null,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "Norm formation, institutions, technology and culture as collective relational organization.",
+  "follows_in_reading": [
+   "Sr"
+  ]
+ },
+ {
+  "code": "Nt",
+  "lexicon_id": "nontriviality",
+  "label": "Nontriviality",
+  "kind": "term",
+  "row": "Ds",
+  "volume": 1,
+  "book": 1,
+  "chapter": 3,
+  "section": "3.5",
+  "status": "Condition",
+  "symbols": [
+   "∃x, y ∈ 𝒞_𝔇 : x ≠ y and (x, y) ∈ 𝒰"
+  ],
+  "definition": "The requirement that the admissible transition relation contain at least one transition between non-identical configurations. For the symmetric dyad, one such transition plus symmetry covariance forces reciprocity.",
+  "requires": [
+   "Ut",
+   "Cf"
+  ],
+  "basis": "p.58"
+ },
+ {
+  "code": "Ob",
+  "lexicon_id": "object-like",
+  "label": "Object-like identity",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.9",
+  "status": "Working definition (Speculative as route to objecthood)",
+  "symbols": [
+   "O = [Σ]_(~F)"
+  ],
+  "definition": "Provisionally, an equivalence class O = [Σ]_(~F) of relational configurations that preserve identity-relevant organization across admissible transformation, with constitutive asymmetry between relations inside and outside the cluster. It is useful only if the criterion survives nontrivial tests specified independently of the desired grouping. A model of persistence, not a completed ontology of objects.",
+  "requires": [
+   "Id",
+   "Sy"
+  ]
+ },
+ {
+  "code": "Oc",
+  "lexicon_id": "ontic-closure",
+  "label": "Ontic closure",
+  "kind": "term",
+  "row": "Cl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 6,
+  "section": "6.14",
+  "status": "Working distinction",
+  "symbols": [
+   "F_(dyn)",
+   "F_(obs)"
+  ],
+  "definition": "Closure of the organization actually preserved by relational succession (F_dyn), as distinct from its frame-mediated identification (F_obs) through a resolving frame W. A candidate invariant earns ontic status only if it does explanatory work under preregistered intervention or continuation. It keeps Volume I pre-conscious: no mind or self-model is needed for closure.",
+  "requires": [
+   "Rf",
+   "Id"
+  ]
+ },
+ {
+  "code": "Od",
+  "lexicon_id": "ont-distance",
+  "label": "Ontological distance",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.13",
+  "status": "Quarantined: an older construct, not the result of Distance",
+  "symbols": [
+   "d_O"
+  ],
+  "definition": "An older representational construct: the vector (d_P, d_I) of physical and informational distance. It is not the result of Distance, whose 11.13 is Distance Without Coordinates, and physical distance d_P belongs downstream. Kept for reference only."
+ },
+ {
+  "code": "Og",
+  "lexicon_id": "orthogonality",
+  "label": "Orthogonality",
+  "kind": "term",
+  "row": "Gm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 12,
+  "section": "12.7",
+  "status": "Not yet earned",
+  "symbols": [
+   "g(e_(i), e_(j)) = 0"
+  ],
+  "definition": "A comparison rule among modes equivalent to an inner product, g, which is additional structure beyond independence. The derivational order is independent variation, basis-like structure, comparison among modes, angle, then orthogonality; independence is not orthogonality.",
+  "requires": [
+   "Ix"
+  ],
+  "basis": "p.232"
+ },
+ {
+  "code": "Om",
+  "lexicon_id": "origin",
+  "label": "Origin",
+  "kind": "foundation",
+  "order": 1,
+  "row": "Om",
+  "volume": 1,
+  "book": 1,
+  "chapter": 1,
+  "section": "1.5",
+  "status": "Defined term",
+  "symbols": [
+   "Ω"
+  ],
+  "definition": "The minimally resolved reference condition: a condition from which no operative distinction is available within the framework's initial relational frame, Res_(W_0)(Ω) = ∅. Undifferentiated at that resolution, not the absolute absence of distinction. Not a place, moment, substance or cause, and not an anchor: a reference role is earned only later, in Closure.",
+  "reinstantiates": [
+   "Ho",
+   "Rg",
+   "An"
+  ],
+  "requires": [
+   "Ud"
+  ],
+  "refers_ahead_to": [
+   "Rd"
+  ]
+ },
+ {
+  "code": "Or",
+  "lexicon_id": "orientation",
+  "label": "Orientation",
+  "kind": "stage",
+  "order": 7,
+  "row": "Or",
+  "volume": 1,
+  "book": 1,
+  "chapter": 7,
+  "section": "7.2",
+  "status": "Working definition (Provisional)",
+  "symbols": [
+   "K_(ij)",
+   "≺ₒ"
+  ],
+  "definition": "Persistent, consequential non-equivalence between otherwise exchangeable relational dependency roles, bearing on whether a higher-order identity can re-enter the class referenced by its anchor A_(F). Derived, not primitive: an arrow is notation applied once the non-equivalence is established. Not partial order, causality, metric time or spatial direction.",
+  "requires": [
+   "Cl",
+   "An",
+   "Ea",
+   "Pr"
+  ],
+  "refers_ahead_to": [
+   "Cs"
+  ]
+ },
+ {
+  "code": "Ot",
+  "lexicon_id": "orient-threshold",
+  "label": "Orientation persistence threshold",
+  "kind": "term",
+  "row": "Or",
+  "volume": 1,
+  "book": 1,
+  "chapter": 7,
+  "section": "7.7",
+  "status": "Working definition (Strong; adequacy Open)",
+  "symbols": [],
+  "definition": "An asymmetry counts as orientation if it persists just long enough to change whether, or in what relational condition, the identity criterion F is re-satisfied relative to the anchor. The threshold is functional, not durational. It uses only Closure's re-satisfaction of F and representative-independent addressability, not Return's predicate. Asymmetries that vanish without affecting any higher-order dependency are transient perturbations.",
+  "requires": [
+   "Id",
+   "Ad",
+   "An"
+  ]
+ },
+ {
+  "code": "Ov",
+  "lexicon_id": "overlapping-closure",
+  "label": "Overlapping closure",
+  "kind": "term",
+  "row": "Cl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 6,
+  "section": "6.11",
+  "status": "Strong (compatibility conditions Open)",
+  "symbols": [
+   "r_(i) ∈ ℛ_(A) and r_(i) ∈ ℛ_(B)"
+  ],
+  "definition": "A retained relation may participate in more than one closed organization when it contributes to distinct, compatible identity-relevant invariants F_A and F_B; the closure definition contains no exclusivity axiom. What happens when two closures demand incompatible states of a shared relation is left open.",
+  "requires": [
+   "Cl"
+  ],
+  "basis": "p.112"
+ },
+ {
+  "code": "Pc",
+  "lexicon_id": "path-consequence",
+  "label": "Retained path consequence",
+  "kind": "term",
+  "row": "Rt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 8,
+  "section": "8.14",
+  "status": "Working definition",
+  "symbols": [
+   "χ"
+  ],
+  "definition": "Difference in internal condition, not constitutive of F_(A), left behind by the route through which an identity returned. Distinct from retention and from memory, which requires internal consequence for a self-maintaining system.",
+  "requires": [
+   "Rd"
+  ]
+ },
+ {
+  "code": "Pd",
+  "lexicon_id": "path-dep",
+  "label": "Retained-dependency path dependence",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.13",
+  "status": "Working definition (Provisional)",
+  "symbols": [],
+  "definition": "Two configurations that are equivalent under the present coarse description can have different admissible futures because their retained-dependency histories differ. It needs no metric thresholds or elapsed time, and it is a structural precursor of history, not yet memory. Memory waits until retained change matters internally to a self-maintaining system.",
+  "requires": [
+   "Pr"
+  ]
+ },
+ {
+  "code": "Pf",
+  "lexicon_id": "profile",
+  "label": "Relational profile",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.3",
+  "status": "Working definition",
+  "symbols": [
+   "λ_(i)",
+   "λ_(W)",
+   "λ_W",
+   "λ"
+  ],
+  "definition": "The ordered collection of retained relations a position participates in, as resolved by a frame W. Different profiles are structurally distinguishable without intrinsic properties.",
+  "requires": [
+   "Rd",
+   "Do",
+   "Rf"
+  ]
+ },
+ {
+  "code": "Ph",
+  "lexicon_id": "physical-consequence",
+  "label": "Physical consequence (physical ≠ material)",
+  "kind": "term",
+  "row": "Sp",
+  "volume": 1,
+  "book": 1,
+  "chapter": 13,
+  "section": "13.8",
+  "status": "Working definition (Retained)",
+  "symbols": [
+   "Adm(A,B | Geo)"
+  ],
+  "definition": "A geometric distinction is physically consequential when changing it changes the admissible relational organization of other instantiated structures rather than merely an investigator's description. Physical does not mean material; matter arrives later.",
+  "requires": [
+   "Gm"
+  ]
+ },
+ {
+  "code": "Pj",
+  "lexicon_id": "projection",
+  "label": "Projection",
+  "kind": "term",
+  "row": "Gm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 12,
+  "section": "12.13",
+  "status": "Working definition",
+  "symbols": [
+   "Π_(F)",
+   "Π"
+  ],
+  "definition": "A resolution map from a richer relational substrate to an effective geometry, Π_(F)(𝔏) = 𝔏_(F). It may be many-to-one, so one stable projection need not fix the substrate. Its target in Book I is effective geometry, not spacetime.",
+  "requires": [
+   "Sb"
+  ]
+ },
+ {
+  "code": "Pn",
+  "lexicon_id": "proportion",
+  "label": "Proportion (cross-correspondence)",
+  "kind": "term",
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.10",
+  "status": "Working definition (Retained)",
+  "symbols": [
+   "≐"
+  ],
+  "definition": "Sameness of comparative form, defined by correspondence alone using ordered pairs, before any numeral, ratio or unit. Ratio, when it arrives, represents a relation pairing had already fixed. Stated for finite organizations; extension beyond them is open.",
+  "requires": [
+   "Cm"
+  ]
+ },
+ {
+  "code": "Po",
+  "lexicon_id": "position",
+  "label": "Relational position",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.11",
+  "status": "Working definition (Provisional)",
+  "symbols": [
+   "p_(A)",
+   "p_A"
+  ],
+  "definition": "The distinctive relational profile an object occupies, as resolved by a frame W. No anchor is required: position may be fixed by a distributed profile across the domain rather than by relation to one privileged member. Not a coordinate.",
+  "requires": [
+   "Pf",
+   "Hd"
+  ]
+ },
+ {
+  "code": "Pp",
+  "lexicon_id": "pres",
+  "label": "Preservation predicate",
+  "kind": "term",
+  "row": "Bd",
+  "volume": 1,
+  "book": 1,
+  "chapter": 4,
+  "section": "4.6",
+  "status": "Working definition",
+  "symbols": [
+   "Pres_W"
+  ],
+  "definition": "Whether a distinction survives a diagnostic family of transformations 𝔗_test. Distinct from Return's Ret_A.",
+  "requires": [
+   "Rf",
+   "Dg"
+  ]
+ },
+ {
+  "code": "Pr",
+  "lexicon_id": "precedence",
+  "label": "Retained-dependency precedence",
+  "kind": "term",
+  "row": "Bd",
+  "volume": 1,
+  "book": 1,
+  "chapter": 4,
+  "section": "4.11",
+  "status": "Working definition",
+  "symbols": [
+   "≺"
+  ],
+  "definition": "A non-temporal precursor of later causal and temporal order. Not assumed transitive, acyclic, total, causal or temporal.",
+  "requires": [
+   "Rd"
+  ]
+ },
+ {
+  "code": "Ps",
+  "lexicon_id": "possibility",
+  "label": "Admissible-possibility set",
+  "kind": "term",
+  "row": "Bd",
+  "volume": 1,
+  "book": 1,
+  "chapter": 4,
+  "section": "4.10",
+  "status": "Working definition",
+  "symbols": [
+   "𝒫"
+  ],
+  "definition": "The set of reachable configurations. Not a probability distribution.",
+  "requires": [
+   "Ut"
+  ]
+ },
+ {
+  "code": "Qd",
+  "lexicon_id": "quotient",
+  "label": "Quotient dynamics",
+  "kind": "term",
+  "row": "Fm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 9,
+  "section": "9.10",
+  "status": "Working definition (Provisional)",
+  "symbols": [
+   "𝒰̄"
+  ],
+  "definition": "Transition descending to identity classes, so higher-order identity supports dynamics independent of lower-order representative.",
+  "requires": [
+   "Ad",
+   "Ut",
+   "Cg"
+  ]
+ },
+ {
+  "code": "Qg",
+  "lexicon_id": "quantum-gravity",
+  "label": "Quantum Gravity",
+  "kind": "stage",
+  "order": 17,
+  "row": "Qg",
+  "volume": 1,
+  "book": 2,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "Where the smooth description must fail and what more primitive organization becomes visible there.",
+  "follows_in_reading": [
+   "Gv"
+  ]
+ },
+ {
+  "code": "Ra",
+  "lexicon_id": "ratio-representation",
+  "label": "Ratio representation",
+  "kind": "term",
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.11",
+  "status": "Strong",
+  "symbols": [
+   "Cmp(X, Y) ↦ mag(X)/mag(Y)"
+  ],
+  "definition": "With finite cardinal magnitude available, a proportion established by correspondence compresses to a ratio of magnitudes. The ratio represents the comparative relation rather than creating it and is not an additional primitive.",
+  "requires": [
+   "Pn",
+   "Nl"
+  ],
+  "basis": "p.195"
+ },
+ {
+  "code": "Rb",
+  "lexicon_id": "rbit",
+  "label": "Relational bit",
+  "kind": "term",
+  "row": "Bd",
+  "volume": 1,
+  "book": 1,
+  "chapter": 4,
+  "section": "4.9",
+  "status": "Editorial shorthand (alias of retained distinction)",
+  "symbols": [
+   "r_(ij)",
+   "r_ij"
+  ],
+  "definition": "Editorial shorthand for a retained distinction r_(ij). The book prefers \"retained distinction\"; the term names no separately earned unit.",
+  "aliases": [
+   "Rd"
+  ]
+ },
+ {
+  "code": "Rc",
+  "lexicon_id": "reciprocal",
+  "label": "Reciprocal map",
+  "kind": "term",
+  "row": "Ds",
+  "volume": 1,
+  "book": 1,
+  "chapter": 3,
+  "section": "3.8",
+  "status": "Derived",
+  "symbols": [
+   "J_𝒰"
+  ],
+  "definition": "At the two-pole minimum, covariance under Aut(𝔇) forces reciprocal exchange 𝒰_min = {(a,b),(b,a)}. Derived from nontriviality plus symmetry, not stipulated.",
+  "requires": [
+   "Ut",
+   "Es",
+   "Cv"
+  ],
+  "kept_distinct_from": [
+   "Df"
+  ]
+ },
+ {
+  "code": "Rd",
+  "lexicon_id": "retained",
+  "label": "Retained distinction",
+  "kind": "term",
+  "row": "Bd",
+  "volume": 1,
+  "book": 1,
+  "chapter": 4,
+  "section": "4.9",
+  "status": "Defined term (Prop. 1A)",
+  "symbols": [
+   "r_(ab)",
+   "r_ab"
+  ],
+  "definition": "Distinguishability that survives transformation long enough to constrain later states. Carries no Ω, primitive orientation, or binary value.",
+  "requires": [
+   "Pp"
+  ]
+ },
+ {
+  "code": "Re",
+  "lexicon_id": "record",
+  "label": "Record asymmetry",
+  "kind": "term",
+  "row": "Tm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 14,
+  "section": "14.18",
+  "status": "Candidate",
+  "symbols": [
+   "Record_(B)(A) ≠ ∅; Record_(A)(B) = ∅"
+  ],
+  "definition": "A structural asymmetry by which some dependency orientations can be internally recovered; not yet a thermodynamic arrow.",
+  "requires": [
+   "Rd",
+   "Pr"
+  ]
+ },
+ {
+  "code": "Rf",
+  "lexicon_id": "resolving-frame",
+  "label": "Resolving frame",
+  "kind": "term",
+  "row": "Bd",
+  "volume": 1,
+  "book": 1,
+  "chapter": 4,
+  "section": "4.5",
+  "status": "Working definition",
+  "symbols": [
+   "Res_W",
+   "W",
+   "~_(W)"
+  ],
+  "definition": "A structural frame relative to which distinctions are resolvable; Res_W remains set-valued. Frame-relative resolvability returns here after Distinction removed a generic resolver.",
+  "reuses": [
+   "Om",
+   "Ud"
+  ]
+ },
+ {
+  "code": "Rg",
+  "lexicon_id": "cosmogenesis",
+  "label": "Recursive Cosmogenesis",
+  "kind": "stage",
+  "order": 20,
+  "row": "Rg",
+  "volume": 1,
+  "book": 2,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "Speculatively, whether extreme closure could recreate origin-like conditions at another organizational level.",
+  "follows_in_reading": [
+   "Bh"
+  ]
+ },
+ {
+  "code": "Ri",
+  "lexicon_id": "reinst",
+  "label": "Relational re-instantiation",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.7",
+  "status": "Defined term",
+  "symbols": [
+   "~_(F)"
+  ],
+  "definition": "A new realization preserving selected relational invariants of an earlier structured state. Equivalence with respect to F, never physical identity.",
+  "requires": [
+   "Sy"
+  ],
+  "kept_distinct_from": [
+   "Rt"
+  ]
+ },
+ {
+  "code": "Rl",
+  "lexicon_id": "relation",
+  "label": "Relation",
+  "kind": "stage",
+  "order": 5,
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.4",
+  "status": "Working definition",
+  "symbols": [
+   "r_(ij)",
+   "ℛ",
+   "R"
+  ],
+  "definition": "Structure as mutual constraint among multiple retained distinctions: relations r_(ij) cease to vary independently and become parts of an organization ℛ whose pattern of mutual constraint persists. R = [r_(ij)] records the relations; a collection of relations becomes a structure only when they constrain one another.",
+  "requires": [
+   "Bd"
+  ],
+  "refers_ahead_to": [
+   "Ix",
+   "Dd"
+  ]
+ },
+ {
+  "code": "Rm",
+  "lexicon_id": "relational-composition",
+  "label": "Relational composition",
+  "kind": "term",
+  "row": "Fm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 9,
+  "section": "9.7",
+  "status": "Defined term",
+  "symbols": [
+   "𝒰 ∘ 𝒰",
+   "𝒰^k",
+   "Id_(𝒞)"
+  ],
+  "definition": "Composition of relations by quantifying over an intermediate configuration: Σ (𝒰 ∘ 𝒰) Σ″ iff some Σ′ has Σ 𝒰 Σ′ and Σ′ 𝒰 Σ″. It gives repeated application a precise meaning without making 𝒰 functional; an identity relation is also available, but a nontrivial transition may preserve F without being the identity.",
+  "requires": [
+   "Ut"
+  ],
+  "basis": "p.170"
+ },
+ {
+  "code": "Rn",
+  "lexicon_id": "rel-chain",
+  "label": "Admissible relational chain (mediation)",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.3",
+  "status": "Working definition",
+  "symbols": [
+   "κ_(AB)",
+   "K(A,B)",
+   "L_(u)(κ)",
+   "u"
+  ],
+  "definition": "A chain of relational mediation between loci within a single configuration, compared by earned finite magnitude under a reusable standard u. Mediation between loci is not transition between configurations: conflating them would make distance a count of updates and leave Time nothing to earn.",
+  "requires": [
+   "Cm",
+   "Rs"
+  ],
+  "kept_distinct_from": [
+   "Ut"
+  ]
+ },
+ {
+  "code": "Rp",
+  "lexicon_id": "relabeling-invariance",
+  "label": "Relabeling invariance",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.2",
+  "status": "Requirement",
+  "symbols": [
+   "R ↦ R^π, (R^π)_(ij) = r_(π(i)π(j))",
+   "π"
+  ],
+  "definition": "The ontology must remain invariant under mere renaming: permuting the labels of relational positions while preserving every relation changes the description, not the structure. The matrix R is bookkeeping, and its rows and columns are not directions, coordinates or locations.",
+  "requires": [
+   "Do"
+  ],
+  "basis": "p.84"
+ },
+ {
+  "code": "Rq",
+  "lexicon_id": "regulation",
+  "label": "Regulation",
+  "kind": "stage",
+  "order": 25,
+  "row": "Rq",
+  "volume": 2,
+  "book": null,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "Reactive behavior becoming regulation.",
+  "follows_in_reading": [
+   "Kn"
+  ]
+ },
+ {
+  "code": "Rs",
+  "lexicon_id": "rel-separation",
+  "label": "Relational separation",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.2",
+  "status": "Working definition",
+  "symbols": [
+   "ρ(A,B)"
+  ],
+  "definition": "Pre-metric separation: A and B occupy non-equivalent positions within an organization and the relation between those positions cannot be collapsed into identity under the declared criterion. Not yet a number; difference is not separation.",
+  "requires": [
+   "Po"
+  ]
+ },
+ {
+  "code": "Rt",
+  "lexicon_id": "return",
+  "label": "Return",
+  "kind": "stage",
+  "order": 8,
+  "row": "Rt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 8,
+  "section": "8.3",
+  "status": "Working definition (Provisional)",
+  "symbols": [
+   "Ret(A_(F); ·)",
+   "Ret"
+  ],
+  "definition": "Departure from an independently specified identity class, oriented transformation, and re-entry into that class: Ret(A_(F); Σ_(k)) = 1 iff Σ_(k) ∈ O_(F) after genuine departure. A predicate over earned relations, not a new operation. Return of identity does not require exact repetition of state; persistence without departure is not return; and departure requires F to remain applicable, since a configuration to which F no longer applies has dissolved rather than departed, and its later re-satisfaction is re-instantiation, not return (8.4).",
+  "requires": [
+   "Or",
+   "An",
+   "Id",
+   "Su",
+   "Dr"
+  ],
+  "kept_distinct_from": [
+   "Fr",
+   "Pp"
+  ],
+  "refers_ahead_to": [
+   "Cs"
+  ]
+ },
+ {
+  "code": "Rv",
+  "lexicon_id": "recursion",
+  "label": "Recursion",
+  "kind": "term",
+  "row": "Cl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 6,
+  "section": "6.13",
+  "status": "Working definition",
+  "symbols": [],
+  "definition": "Organization at one level becomes the starting unit for construction at the next: ℛ^(n) ⇝ O_(F)^(n+1) ≡ A_(F)^(n+1) ⇝ ℛ^(n+1). What recurs is the origin role, re-earned by Closure at each level; Ω is not propagated.",
+  "requires": [
+   "Ho"
+  ]
+ },
+ {
+  "code": "Rz",
+  "lexicon_id": "realizability",
+  "label": "Consistent realizability",
+  "kind": "term",
+  "row": "Cl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 6,
+  "section": "6.6",
+  "status": "Necessary condition",
+  "symbols": [
+   "𝒮_(F)(ℛ) ≠ ∅",
+   "𝒮_(F)(ℛ)"
+  ],
+  "definition": "The set 𝒮_F(ℛ) of configurations of ℛ satisfying the constraints constitutive of F must be non-empty: syntactically circular requirements with no jointly admissible state describe no organization to be closed. It carries no metric, measure or state-space geometry and has force when a proposed specification of F is tested.",
+  "requires": [
+   "Id",
+   "St"
+  ],
+  "basis": "p.109"
+ },
+ {
+  "code": "Sa",
+  "lexicon_id": "spatial-distance",
+  "label": "Spatial distance",
+  "kind": "term",
+  "row": "Sp",
+  "volume": 1,
+  "book": 1,
+  "chapter": 13,
+  "section": "13.12",
+  "status": "Candidate",
+  "symbols": [
+   "d_(S)",
+   "d_(G)"
+  ],
+  "definition": "Not a new metric but relational distance interpreted within coordinated physical localization: mediation burden ⇝ metric separation ⇝ geometric separation ⇝ spatial separation. Relational distance ≠ spatial distance.",
+  "requires": [
+   "Dt",
+   "Lc"
+  ]
+ },
+ {
+  "code": "Sb",
+  "lexicon_id": "substrate",
+  "label": "Substrate",
+  "kind": "term",
+  "row": "Fm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 9,
+  "section": "9.24",
+  "status": "Working definition (Open)",
+  "symbols": [
+   "𝔏",
+   "𝔏_(α)"
+  ],
+  "definition": "Earlier stages' word for the total evolving relational structure. Formalism resolves it conservatively: no medium beneath relations is required, the formal carrier is the relational configurations and admissible transitions themselves, and if 'substrate' is retained it names the total relational structure at a given level, not a substance in which relations float. Geometry's candidate substrate is the layered structure 𝔏 = {𝔏_(α), K_(αβ)} from which effective geometry is projected."
+ },
+ {
+  "code": "Sc",
+  "lexicon_id": "scale",
+  "label": "Scale",
+  "kind": "stage",
+  "order": 10,
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.2",
+  "status": "Working definition",
+  "symbols": [],
+  "definition": "Whether recursively related organizations can establish stable comparative relations without presupposing an external ruler: magnitude, then standard, then scale-relative equivalence.",
+  "follows_in_reading": [
+   "Fm"
+  ]
+ },
+ {
+  "code": "Sd",
+  "lexicon_id": "std",
+  "label": "Endogenous standard",
+  "kind": "term",
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.18",
+  "status": "Working definition (Provisional)",
+  "symbols": [
+   "Cmp*"
+  ],
+  "definition": "A comparative relation the structure supplies repeatedly through recurrence rather than importing. Not yet a unit.",
+  "requires": [
+   "Cm",
+   "Rt"
+  ]
+ },
+ {
+  "code": "Sf",
+  "lexicon_id": "scale-factor",
+  "label": "Stable scale factor",
+  "kind": "term",
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.13",
+  "status": "Working definition (Provisional)",
+  "symbols": [
+   "λ*",
+   "R(λ) = λ"
+  ],
+  "definition": "A stable comparative ratio produced by recursive composition across levels; the stability belongs to the relation, not to any level's magnitude. Not every recursion converges, and recursion depth ≠ scale. φ is one such ratio for one recurrence and is not privileged (golden-ratio universality Rejected).",
+  "requires": [
+   "Pn",
+   "Rv"
+  ]
+ },
+ {
+  "code": "Si",
+  "lexicon_id": "scale-invariance",
+  "label": "Scale invariance and self-similarity",
+  "kind": "term",
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.21",
+  "status": "Speculative",
+  "symbols": [
+   "scale invariance ≠ geometric self-similarity"
+  ],
+  "definition": "Scale invariance means some identified organization is preserved when the scale relation is applied; self-similarity is the stronger case in which the organization at one level reproduces that at another under the comparison. Both are stated abstractly without metric or embedding; whether any relational organization here is self-similar is untested.",
+  "requires": [
+   "Sc"
+  ],
+  "basis": "p.199"
+ },
+ {
+  "code": "Sm",
+  "lexicon_id": "self-model",
+  "label": "Self-modeling",
+  "kind": "stage",
+  "order": 28,
+  "row": "Sm",
+  "volume": 2,
+  "book": null,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "Counterfactual comparison recursively directed toward the system's own representations.",
+  "follows_in_reading": [
+   "Le"
+  ]
+ },
+ {
+  "code": "Sn",
+  "lexicon_id": "spatial-dimension",
+  "label": "Spatial dimension",
+  "kind": "term",
+  "row": "Sp",
+  "volume": 1,
+  "book": 1,
+  "chapter": 13,
+  "section": "13.13",
+  "status": "Candidate",
+  "symbols": [
+   "d_(relational)",
+   "d_(geometric)",
+   "d_(spatial)"
+  ],
+  "definition": "A geometric independent mode becomes a spatial dimension when variation along it changes localization within the coordinated physical domain. A richer substrate can carry more organization than any bounded frame resolves as spatial dimensionality.",
+  "requires": [
+   "Ed",
+   "Lc"
+  ]
+ },
+ {
+  "code": "So",
+  "lexicon_id": "spatial-objectivity",
+  "label": "Spatial objectivity",
+  "kind": "term",
+  "row": "Sp",
+  "volume": 1,
+  "book": 1,
+  "chapter": 13,
+  "section": "13.22",
+  "status": "Working definition",
+  "symbols": [
+   "Sp_(F) = Π_(F)(I_(F)(R))",
+   "H(Sp_(F1)) ~ H(Sp_(F2))"
+  ],
+  "definition": "Cross-frame stability of coordinated localization invariants: different probing frames may represent space differently, but declared spatial invariants must agree across admissible heterogeneous probes. Frame-dependent representation neither makes space subjective nor makes one frame exhaustive.",
+  "requires": [
+   "Lc",
+   "Pj",
+   "Ms"
+  ],
+  "basis": "p.265"
+ },
+ {
+  "code": "Sp",
+  "lexicon_id": "space",
+  "label": "Space",
+  "kind": "stage",
+  "order": 13,
+  "row": "Sp",
+  "volume": 1,
+  "book": 1,
+  "chapter": 13,
+  "section": "13.23",
+  "status": "Candidate derivation",
+  "symbols": [
+   "Sp"
+  ],
+  "definition": "Geometric organization becomes consequential: localizations constrain localizations, so that where something stands limits what else can be the case.",
+  "requires": [
+   "Gm"
+  ]
+ },
+ {
+  "code": "Sr",
+  "lexicon_id": "shared-reference",
+  "label": "Shared reference",
+  "kind": "stage",
+  "order": 32,
+  "row": "Sr",
+  "volume": 3,
+  "book": null,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "Retained distinctions acquiring interpretations stable enough to coordinate multiple agents.",
+  "follows_in_reading": [
+   "Ip"
+  ]
+ },
+ {
+  "code": "Ss",
+  "lexicon_id": "successor-set",
+  "label": "Successor set",
+  "kind": "term",
+  "row": "Fm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 9,
+  "section": "9.5",
+  "status": "Working definition",
+  "symbols": [
+   "𝒰[Σ]"
+  ],
+  "definition": "The set of admissible successor configurations of Σ. It may be empty (no continuation), a singleton (deterministic continuation at that resolving level) or multiple (branching admissibility, not yet probability). Determinism is a property of 𝒰 on a domain, not part of its primitive type; effective branching ≠ fundamental randomness.",
+  "requires": [
+   "Ut"
+  ]
+ },
+ {
+  "code": "St",
+  "lexicon_id": "structure",
+  "label": "Relational structure",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.4",
+  "status": "Working definition (Strong; formalization Open)",
+  "symbols": [
+   "ℛ"
+  ],
+  "definition": "A set of retained relations whose admissible states are constrained by the others: 𝒫(r_(ij) / ℛ) ≠ 𝒫(r_(ij)). Stronger than coexistence or connectivity.",
+  "requires": [
+   "Ps",
+   "Do"
+  ]
+ },
+ {
+  "code": "Su",
+  "lexicon_id": "succession",
+  "label": "Succession",
+  "kind": "term",
+  "row": "Ds",
+  "volume": 1,
+  "book": 1,
+  "chapter": 3,
+  "section": "3.11",
+  "status": "Working definition",
+  "symbols": [],
+  "definition": "Operational following-on licensed by 𝒰. Not yet time, duration, causal order or orientation.",
+  "requires": [
+   "Ut"
+  ]
+ },
+ {
+  "code": "Sx",
+  "lexicon_id": "spacetime",
+  "label": "Spacetime",
+  "kind": "stage",
+  "order": 15,
+  "row": "Sx",
+  "volume": 1,
+  "book": 2,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "Whether the space and time earned in Book I can be coupled into one physical geometry. Requires both Space and Time.",
+  "requires": [
+   "Tm",
+   "Sp"
+  ]
+ },
+ {
+  "code": "Sy",
+  "lexicon_id": "struct-persist",
+  "label": "Structural persistence",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.6",
+  "status": "Working definition",
+  "symbols": [
+   "F(T(Σ)) = F(Σ)"
+  ],
+  "definition": "Preservation of an identity-relevant invariant F through an explicitly declared organization-level diagnostic family 𝔗_R, a specialization of Boundary's 𝔗_test and not an internal update law: F(T(Σ)) = F(Σ) for every T ∈ 𝔗_R. Distinct from state persistence and carrier persistence.",
+  "requires": [
+   "Id",
+   "St",
+   "Dg"
+  ]
+ },
+ {
+  "code": "Ta",
+  "lexicon_id": "threshold-aggregation",
+  "label": "Threshold aggregation",
+  "kind": "term",
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.8",
+  "status": "Strong (weighted aggregation Open)",
+  "symbols": [
+   "A_(P) = { r ∈ ℜ : P(r) }",
+   "K ↪ A_(P)",
+   "mag(A_(P)) ≥ k"
+  ],
+  "definition": "Aggregation such as \"at least three\" or \"a majority\", deferred from Relation, expressed as an injection of a standard finite collection K into the relations satisfying a predicate, and compressed to mag(A_P) ≥ k once cardinal labels exist. It needs no primitive beyond correspondence.",
+  "requires": [
+   "Cm",
+   "Mb"
+  ],
+  "basis": "p.193"
+ },
+ {
+  "code": "Tc",
+  "lexicon_id": "temporal-chain",
+  "label": "Temporal chain, branch and merge",
+  "kind": "term",
+  "row": "Tm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 14,
+  "section": "14.9",
+  "status": "Working definition",
+  "symbols": [
+   "[e₀] ≺ₜ [e₁] ≺ₜ … ≺ₜ [eₙ]",
+   "branch",
+   "merge"
+  ],
+  "definition": "A temporal chain is a set of mutually comparable quotient events under ≺ₜ; a branch occurs when one event constrains more than one incomparable admissible successor, and a merge when one event depends on retained consequences from more than one predecessor. The resulting structure resembles a directed dependency network rather than a universal timeline.",
+  "requires": [
+   "Eo"
+  ],
+  "basis": "p.279"
+ },
+ {
+  "code": "Tm",
+  "lexicon_id": "time",
+  "label": "Time",
+  "kind": "stage",
+  "order": 14,
+  "row": "Tm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 14,
+  "section": "14.23",
+  "status": "Candidate derivation: the strict quotient order ≺ₜ is the strongest result; metric duration remains conditional",
+  "symbols": [
+   "𝒯"
+  ],
+  "definition": "A temporal order is a stable, recursively recoverable strict ordering of relational transformations derived from retained dependency, constraining admissible histories without an external time parameter; under stated conditions it admits a measure without an external clock.",
+  "follows_in_reading": [
+   "Sp"
+  ],
+  "requires": [
+   "Pr"
+  ]
+ },
+ {
+  "code": "Tq",
+  "lexicon_id": "temporal-measure",
+  "label": "Clock-relative temporal measure",
+  "kind": "term",
+  "row": "Tm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 14,
+  "section": "14.12",
+  "status": "Conditional (Open)",
+  "symbols": [
+   "τ_(K)",
+   "n_(K)",
+   "u_(K)"
+  ],
+  "definition": "A metric-like temporal quantity built from counted cycles of a recurrent subsystem K. Metric time may be recoverable from cross-clock invariance without a primitive universal clock, but a local shared calibration establishes neither cosmic time nor a universal rate.",
+  "requires": [
+   "Ck",
+   "Uc"
+  ]
+ },
+ {
+  "code": "Tr",
+  "lexicon_id": "triangle",
+  "label": "Triangle inequality",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.10",
+  "status": "Derived result (Provisional: inherits the additivity premise)",
+  "symbols": [
+   "d(A,C) ≤ d(A,B) + d(B,C)"
+  ],
+  "definition": "Derived, not assumed: concatenating least chains A→B and B→C gives an admissible chain A→C, so minimality yields d(A,C) ≤ d(A,B) + d(B,C) provided mediating burdens add (11.8). Where composition is non-additive only a weaker inequality may survive (open). With non-negativity and zero-distance identity it makes the quotient domain metric-like; symmetry needs reversible equivalence in addition (11.11-11.12)."
+ },
+ {
+  "code": "Uc",
+  "lexicon_id": "update-count",
+  "label": "Update count",
+  "kind": "term",
+  "row": "Tm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 14,
+  "section": "14.11",
+  "status": "Working definition (Provisional)",
+  "symbols": [
+   "N_(C)"
+  ],
+  "definition": "The number of distinguishable retained updates along an ordered chain. A legitimate structural quantity but resolution-dependent: it becomes a precursor of duration only when the counted unit is stable, reproducible and relationally accessible. Counting change is not measuring time.",
+  "requires": [
+   "Eo"
+  ]
+ },
+ {
+  "code": "Ud",
+  "lexicon_id": "undifferentiated",
+  "label": "Undifferentiated (frame-relative)",
+  "kind": "term",
+  "row": "Om",
+  "volume": 1,
+  "book": 1,
+  "chapter": 1,
+  "section": "1.5",
+  "status": "Defined term",
+  "symbols": [],
+  "definition": "A condition is undifferentiated relative to a resolving frame when no relation available within that frame distinguishes one part, state or feature from another. Failure to resolve a distinction is not proof that no distinction exists."
+ },
+ {
+  "code": "Ut",
+  "lexicon_id": "u",
+  "label": "Admissible transformation",
+  "kind": "foundation",
+  "row": "Ds",
+  "volume": 1,
+  "book": 1,
+  "chapter": 3,
+  "section": "3.2",
+  "status": "Working axiom (Prop. 1B)",
+  "symbols": [
+   "𝒰_min",
+   "𝒰"
+  ],
+  "definition": "A constraint on what may follow what: the admissible transition relation 𝒰 ⊆ 𝒞 × 𝒞. The second foundational commitment, unavoidable unless later derived.",
+  "kept_distinct_from": [
+   "Df"
+  ]
+ },
+ {
+  "code": "Va",
+  "lexicon_id": "valuation",
+  "label": "Valuation",
+  "kind": "stage",
+  "order": 26,
+  "row": "Va",
+  "volume": 2,
+  "book": null,
+  "chapter": null,
+  "section": null,
+  "status": "Planned",
+  "symbols": [],
+  "definition": "Regulation supporting valuation, which guides action selection.",
+  "follows_in_reading": [
+   "Rq"
+  ]
+ },
+ {
+  "code": "Vf",
+  "lexicon_id": "constrained-freedom",
+  "label": "Constrained freedom",
+  "kind": "term",
+  "row": "Cl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 6,
+  "section": "6.16",
+  "status": "Working definition (qualitative)",
+  "symbols": [
+   "V_(F)",
+   "V_(F) ≠ ∅"
+  ],
+  "definition": "The set V_F of admissible variations that preserve F must be non-empty and include at least one non-identity transformation, while not every variation may be admitted. Persistent higher-order identity requires constrained freedom, not maximal constraint.",
+  "requires": [
+   "Cl",
+   "Id"
+  ],
+  "basis": "p.118"
+ },
+ {
+  "code": "Wd",
+  "lexicon_id": "weak-discern",
+  "label": "Weak discernibility",
+  "kind": "term",
+  "row": "Df",
+  "volume": 1,
+  "book": 1,
+  "chapter": 2,
+  "section": "2.6",
+  "status": "Defined term",
+  "symbols": [],
+  "definition": "Poles are discernible only relationally, without intrinsic qualitative asymmetry. Diagnostic of the dyad, not what produces it.",
+  "derived_from": [
+   "Df"
+  ]
+ },
+ {
+  "code": "Wk",
+  "lexicon_id": "relational-work",
+  "label": "Relational work",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.6",
+  "status": "Interpretive analogy",
+  "symbols": [
+   "L(κ)",
+   "distance = minimum relational work of connection"
+  ],
+  "definition": "The comparative burden of relational structure required to connect one admissible position to another, understood pre-physically and implying no traversal. Minimum relational mediation is formally sufficient; relational work remains an interpretive analogy and is not promoted into a minimality law.",
+  "requires": [
+   "Rn"
+  ],
+  "basis": "p.211"
+ },
+ {
+  "code": "Wt",
+  "lexicon_id": "weighted-distance",
+  "label": "Weighted distance",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.7",
+  "status": "Provisional",
+  "symbols": [
+   "w(r)",
+   "L(κ) = Σ_(r ∈ κ) w(r)",
+   "d(A,B) = min_(κ ∈ K(A,B)) Σ_(r ∈ κ) w(r)"
+  ],
+  "definition": "Distance as the minimum over admissible chains of the summed weights of mediating relations, where weights are grounded by Scale's comparative machinery. The shortest-path form is representational and stays provisional until its weights derive from independently justified relational magnitude.",
+  "requires": [
+   "Rn",
+   "Dt"
+  ],
+  "basis": "p.211"
+ },
+ {
+  "code": "Zs",
+  "lexicon_id": "zero-sep",
+  "label": "Zero-separation quotient",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.9",
+  "status": "Working definition",
+  "symbols": [
+   "~₀",
+   "[A]_(~₀)"
+  ],
+  "definition": "Metric identity by quotienting: if zero separation is an equivalence compatible with the organization, zero-separated loci are one higher-order locus and the metric acts on classes rather than representatives.",
+  "requires": [
+   "Qd"
+  ]
+ }
+]

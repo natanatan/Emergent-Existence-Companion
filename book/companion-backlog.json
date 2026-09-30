@@ -1,0 +1,518 @@
+[
+ {
+  "id": "EE-H-0002",
+  "aliases": [
+   "H-2"
+  ],
+  "hypothesis": "The substrate follows diffusion dynamics, wave dynamics, or separate regimes of one deeper evolution",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "A formal statement of substrate dynamics that assigns each regime",
+  "revisited_in": "Distance; App D",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0009",
+  "aliases": [
+   "H-9"
+  ],
+  "hypothesis": "The torus is dynamically selected rather than assumed",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "A toy model in which closed circulation emerges as an attractor",
+  "revisited_in": "Return",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0012",
+  "aliases": [
+   "H-12"
+  ],
+  "hypothesis": "Dimension and 3+1 Lorentzian geometry emerge from simple recursive relational rules",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "Computational toy-model results",
+  "revisited_in": "Closure, 9, 13; App E",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0051",
+  "aliases": [
+   "H-51"
+  ],
+  "hypothesis": "Object-like identity can be modeled as an equivalence class of configurations preserving identity-relevant organization, O = [Σ]_~F",
+  "status": "Speculative",
+  "status_text": "Speculative",
+  "resolve_by": "Nontrivial persistence criteria or a computational test that separates integrated clusters from arbitrary groupings",
+  "revisited_in": "Relation (5.9, 5.16); App G",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0055",
+  "aliases": [
+   "H-55"
+  ],
+  "hypothesis": "Stable dynamics can select effective orthogonality through decoupling rather than orthogonality being a capacity of the domain",
+  "status": "Deferred",
+  "status_text": "Deferred",
+  "resolve_by": "A model in which cross-coupling between collective modes decreases under coarse-graining",
+  "revisited_in": "Relation (5.14); Distance to Space",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0060",
+  "aliases": [
+   "H-60"
+  ],
+  "hypothesis": "A closed organization is relationally addressable, and can serve as a new higher-order origin, exactly when external relations descend to its equivalence class (the quotient, or lumpability, condition)",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The addressability diagnostic of 6.17 against matched controls (App G, module 5)",
+  "revisited_in": "Closure (6.12, 6.13, 6.17)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0062",
+  "aliases": [
+   "H-62"
+  ],
+  "hypothesis": "The invariant F that individuates an object can be constrained by dynamics and perturbation (F_dyn) rather than chosen after the fact by a frame (F_obs)",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "Preregistered perturbation and ablation tests showing F_dyn is recoverable",
+  "revisited_in": "Closure (6.14; 6.19, Objection 4)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0071",
+  "aliases": [
+   "H-71"
+  ],
+  "hypothesis": "Orientation is derived, not primitive: it is persistent, consequential non-equivalence among relational dependency roles (K_ij ≁ K_ji), and an arrow is notation applied after that non-equivalence is established",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The role-exchange and reversal tests of 7.15 under rules that encode no direction (App G, module 6)",
+  "revisited_in": "Orientation (7.2, 7.5); App G",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0075",
+  "aliases": [
+   "H-75"
+  ],
+  "hypothesis": "Structural selection: among accessible asymmetric configurations, compatibility with recursive closure and anchor-relative return can differentially stabilize some orientations without a primitive preferred direction",
+  "status": "Speculative",
+  "status_text": "Speculative",
+  "resolve_by": "Simulations in which symmetric rules yield branch-specific persistence without programmer-supplied direction",
+  "revisited_in": "Orientation (7.9, 7.10); App G",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0077",
+  "aliases": [
+   "H-77"
+  ],
+  "hypothesis": "Return is departure from an independently specified identity class, oriented transformation, and re-entry into that class; Ret(A_F; ·) is a predicate over earned relations, not a new primitive",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The ten diagnostics of 8.23 under rules containing no cycle template (App G, module 7)",
+  "revisited_in": "Return (8.3, 8.5); Orientation (7.8); App G",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0083",
+  "aliases": [
+   "H-83"
+  ],
+  "hypothesis": "Return-compatible organizations may be differentially retained or re-instantiated under recursive dynamics, without reproduction, fitness or a preferred direction",
+  "status": "Speculative",
+  "status_text": "Speculative",
+  "resolve_by": "Simulations showing differential retention with no return reward encoded",
+  "revisited_in": "Return (8.17); App G",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0090",
+  "aliases": [
+   "H-90"
+  ],
+  "hypothesis": "An ontological result must survive faithful changes of representation; one that exists in a single encoding is a representational artifact",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "Diagnostic 1 of 9.28, applied to the results of Chapters 5 to 8 (Question 5)",
+  "revisited_in": "Formalism (9.26, 9.30); Relation (5.2)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0091",
+  "aliases": [
+   "H-91"
+  ],
+  "hypothesis": "Finite historical dependence is first-order update on a sufficiently specified state, so retained dependence needs no primitive memory",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "Diagnostic 10 of 9.28",
+  "revisited_in": "Formalism (9.21); Distinction (3.7); Memory",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0093",
+  "aliases": [
+   "H-93"
+  ],
+  "hypothesis": "Whether binary relations are expressively sufficient for every higher-order constraint, or genuine n-ary relations are required",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "Diagnostic 7 of 9.28, comparing binary and hypergraph encodings for changed invariants (Question 6)",
+  "revisited_in": "Formalism (9.18); Relation (5.2); Orientation (7.2)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0094",
+  "aliases": [
+   "H-94"
+  ],
+  "hypothesis": "A matroid-like independence system may give d_R a pre-metric definition, formalizing independence before orthogonality",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Diagnostic 11 of 9.28 (Questions 13 and 14)",
+  "revisited_in": "Formalism (9.22); Relation (5.14)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0095",
+  "aliases": [
+   "H-95"
+  ],
+  "hypothesis": "Magnitude is earned by correspondence before any numeral: bijection gives sameness of amount, injection gives order, and a numeral labels a class the correspondence established",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "The ten diagnostics of 10.25, in particular the correspondence-first and relabeling tests (App G, module 9)",
+  "revisited_in": "Scale (10.4, 10.5, 10.7); Relation (5.12)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0096",
+  "aliases": [
+   "H-96"
+  ],
+  "hypothesis": "Threshold aggregation, deferred at 5.12, is expressible as an injection from a standard collection and needs no primitive beyond comparative magnitude",
+  "status": "Derived",
+  "status_text": "Derived",
+  "resolve_by": "Diagnostic 3 of 10.25, which reconstructs the condition from a standard collection before using numeral shorthand",
+  "revisited_in": "Scale (10.8); Relation (5.12); Closure (6.9)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0097",
+  "aliases": [
+   "H-97"
+  ],
+  "hypothesis": "Recursive composition can produce a stable comparative ratio, and the stability belongs to the relation rather than to any level’s magnitude; φ is one such ratio among many",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Diagnostics 6 to 8 of 10.25: ratio convergence, recurrence perturbation and robustness to initial conditions",
+  "revisited_in": "Scale (10.13 to 10.17); Distinction (3.7)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0100",
+  "aliases": [
+   "H-100"
+  ],
+  "hypothesis": "A scale-indexed coarse-graining operator CG_s is admissible once its comparison standard is earned relationally, and remains pre-geometric",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Diagnostic 10 of 10.25, admitting the quotient only after its standard is independently earned",
+  "revisited_in": "Scale (10.20); Orientation (7.4)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0102",
+  "aliases": [
+   "H-102"
+  ],
+  "hypothesis": "The triangle inequality is derived, not assumed: chain composition plus additive magnitude plus minimality yields d(A,C) ≤ d(A,B) + d(B,C)",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Diagnostics 8 and the additivity condition of 11.8 (Questions 3 and 4)",
+  "revisited_in": "Distance (11.8, 11.10)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0104",
+  "aliases": [
+   "H-104"
+  ],
+  "hypothesis": "Metric symmetry is not primitive: orientation permits d(A,B) ≠ d(B,A), so a directed metric-like structure appears first",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "Diagnostic 7 of 11.21, reversing admissible chains and comparing magnitudes (Question 5)",
+  "revisited_in": "Distance (11.11); Orientation (7.2)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0105",
+  "aliases": [
+   "H-105"
+  ],
+  "hypothesis": "The decomposition vulnerability inherited from Scale is amplified in Distance: loci, mediating relations, chain admissibility and the scale standard must all be independently constrained",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "Diagnostics 3 and 10 of 11.21: decomposition perturbation, and comparison against matched random organizations (Question 7)",
+  "revisited_in": "Distance (11.17); Scale (10.27)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0106",
+  "aliases": [
+   "H-106"
+  ],
+  "hypothesis": "Geometry begins where metric relations cease to be pairwise and become mutually constraining: stable neighborhoods under admissible transformation, with overlap as the first collective constraint",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Diagnostics 1 to 3 of 12.25: relabeling and representation invariance, and decomposition perturbation",
+  "revisited_in": "Geometry (12.2, 12.3); Distance",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0107",
+  "aliases": [
+   "H-107"
+  ],
+  "hypothesis": "A layer is not a dimension: the number of metric-relational layers is independent of the number of geometric dimensions",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "Diagnostic 5 of 12.25, measuring rank from the generated organization rather than stipulating it",
+  "revisited_in": "Geometry (12.6); Formalism (9.22)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0108",
+  "aliases": [
+   "H-108"
+  ],
+  "hypothesis": "Whether the structural and operational senses of effective dimension agree: d_R, the rank of stable independent modes, and d_probe, the fewest parameters preserving declared invariants across probes",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "Diagnostics 5 and 6 of 12.25 run together: measure rank from the organization, then measure it again across heterogeneous probes",
+  "revisited_in": "Geometry (12.6, 12.18)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0109",
+  "aliases": [
+   "H-109"
+  ],
+  "hypothesis": "Measurement is an interaction within the organization, not a look at it from outside: O_F = Π_F(I_F(𝔏)), separating resolution loss from back-action",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Diagnostic 6 of 12.25 and the projection-stability programme of 12.27, requiring heterogeneous probes that could have disagreed",
+  "revisited_in": "Geometry (12.15 to 12.17); Closure (6.14)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0110",
+  "aliases": [
+   "H-110"
+  ],
+  "hypothesis": "Variation in cross-layer coupling may produce variation in effective metric relations, a candidate route to curvature-like structure",
+  "status": "Speculative",
+  "status_text": "Speculative",
+  "resolve_by": "Diagnostic 8 of 12.25, distinguishing route-dependent failure from coordinate artifacts, and the modelling programme of 12.26",
+  "revisited_in": "Geometry (12.20, 12.22)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0111",
+  "aliases": [
+   "H-111"
+  ],
+  "hypothesis": "Whether a relational substrate with no target dimensionality in its rules converges on a stable low-dimensional effective rank",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "Diagnostics 4, 5, 9 and 10 of 12.25 together: no hidden dimension in the rules, rank recovered rather than stipulated, comparison against matched random organizations, and failure reported",
+  "revisited_in": "Geometry (12.26); App G",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0112",
+  "aliases": [
+   "H-112"
+  ],
+  "hypothesis": "Space becomes available when localizations constrain localizations: distinct loci in an effective geometry become mutually coordinated, so that no position can be varied independently of the others",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The coordinate-removal and perturbation-coordination tests of 13.26",
+  "revisited_in": "Space (13.6, 13.23); Geometry; Relation (5.9)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0113",
+  "aliases": [
+   "H-113"
+  ],
+  "hypothesis": "Physical does not mean material: a geometric distinction is physically consequential when changing it changes the admissible relational organization of other instantiated structures",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "The locality-prediction test of 13.26, against randomized baselines",
+  "revisited_in": "Space (13.8)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0114",
+  "aliases": [
+   "H-114"
+  ],
+  "hypothesis": "Detecting a failure of smoothness is not resolving fundamental structure: a probe may reach an intermediate organizational regime and no further",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "The smoothness-failure test of 13.26, which must distinguish loss of continuity from loss of localization",
+  "revisited_in": "Space (13.14, 13.15)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0115",
+  "aliases": [
+   "H-115"
+  ],
+  "hypothesis": "Spatial coordination may be responsive: a distributed relational transformation can alter couplings, hence separations, hence the effective geometry, which then constrains subsequent transformation",
+  "status": "Speculative",
+  "status_text": "Speculative",
+  "resolve_by": "The responsive-geometry test of 13.26, perturbing the substrate without changing geometric variables explicitly",
+  "revisited_in": "Space (13.16, 13.17); Geometry (12.22)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0116",
+  "aliases": [
+   "H-116"
+  ],
+  "hypothesis": "Local neighborhoods can persist while global metric separations change, so localization survives what separation does not",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The scale test of 13.26, repeated coarse-graining with localization and adjacency measured separately from global separation",
+  "revisited_in": "Space (13.18); Scale (10.20)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0117",
+  "aliases": [
+   "H-117"
+  ],
+  "hypothesis": "Space is intrinsic before it is embedded: an embedding ι may be useful representationally and cannot be inferred from its convenience",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "The coordinate-removal test of 13.26, stripping embeddings and drawing positions before recovery is attempted",
+  "revisited_in": "Space (13.20, 13.21)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0119",
+  "aliases": [
+   "H-119"
+  ],
+  "hypothesis": "Retained consequence defines intrinsic dependency precedence, Σₐ ≺ Σᵦ, without physical time as a primitive: Σᵦ contains consequences whose removal would change Σᵦ or its admissibility",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The index-removal and counterfactual-dependency tests of 14.25, which are the chapter’s T-1 condition",
+  "revisited_in": "Time (14.3, 14.4); Boundary (4.4)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0120",
+  "aliases": [
+   "H-120"
+  ],
+  "hypothesis": "Temporal order is a partial order, not a total sequence: dependency-incomparable events are admitted rather than forced onto one line",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "The branching test of 14.25: introduce incomparable update structures and verify no artificial global order is forced",
+  "revisited_in": "Time (14.5, 14.10)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0121",
+  "aliases": [
+   "H-121"
+  ],
+  "hypothesis": "Derivation order is not physical time: an ordering that vanishes when counters, equation labels and manuscript sequence are removed was never derived",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "The index-removal test of 14.25, run before any other temporal claim is assessed",
+  "revisited_in": "Time (14.8); App G",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0122",
+  "aliases": [
+   "H-122"
+  ],
+  "hypothesis": "Counting retained updates is not measuring duration: N_C(eₐ,eᵦ) is a structural quantity, and becomes a temporal measure only where the counted unit is stable and reproducible",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The coarse-graining test of 14.25: change temporal resolution and check that precedence and any metric ratios survive",
+  "revisited_in": "Time (14.11, 14.22); Distance (11.18)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0123",
+  "aliases": [
+   "H-123"
+  ],
+  "hypothesis": "Clockhood is a relational role, not a property: a subsystem functions as a clock when it satisfies recurrence, countability, stability and couplability",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The cycle-calibration test of 14.25, with two independently organized recurrences and neither defined through the other",
+  "revisited_in": "Time (14.12, 14.13)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0124",
+  "aliases": [
+   "H-124"
+  ],
+  "hypothesis": "Metric time may be recoverable from cross-clock invariance, τ_K(A,B) / τ_J(A,B) approximately constant over a regime, without any primitive universal clock",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "The six minimal conditions of 14.24: ordered comparability, repeatable standard, cross-standard calibration, resolution robustness, frame coherence and non-circularity",
+  "revisited_in": "Time (14.14, 14.24)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0125",
+  "aliases": [
+   "H-125"
+  ],
+  "hypothesis": "Propagation is not earned in Book I: speed as spatial separation over temporal duration is unavailable, since numerator and denominator have not been shown to participate in one invariant structure",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "The spacetime-withholding test of 14.25: verify that no propagation speed, Lorentzian signature, null relation or invariant c is required for the temporal construction to work",
+  "revisited_in": "Time (14.16, 14.28, 14.31)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0126",
+  "aliases": [
+   "H-126"
+  ],
+  "hypothesis": "Record asymmetry makes dependency orientation internally recoverable: Record_B(A) non-empty while Record_A(B) is empty along the realized chain",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The reverse-rule test of 14.25: use microscopically reversible laws and check that irreversibility is not manufactured",
+  "revisited_in": "Time (14.17, 14.18)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0127",
+  "aliases": [
+   "H-127"
+  ],
+  "hypothesis": "Whether temporal order emerges from retained dependency inside the organization, or physical time has been reintroduced through the update rule used to generate the sequence",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "An update rule specified without reference to an external time variable, then the index-removal and counterfactual tests run against it",
+  "revisited_in": "Time (14.29); Space (13.29)",
+  "companion_testable": true
+ }
+]

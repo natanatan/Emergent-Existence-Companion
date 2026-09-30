@@ -1,0 +1,8961 @@
+[
+ {
+  "id": "EE-C-0001",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "derivational priority ≠ temporal priority",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Dp"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 1,
+    "section": "1.3",
+    "label": "1.1",
+    "type_word": "Ledger"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 2,
+    "section": "2.15",
+    "cites": "1.1"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 2,
+    "section": "2.1",
+    "cites": "1.1"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0002",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "A condition is undifferentiated relative to a resolving frame when no relation available within that frame distinguishes one part, state, or feature from another.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Ud"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 1,
+    "section": "1.5",
+    "label": "1.2",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0003",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "Origin, Ω, is the minimally resolved reference condition: the condition from which no operative distinction is available within the framework’s initial resolving frame. ResW₀(Ω) = ∅",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0002"
+  ],
+  "relations": [],
+  "concepts": [
+   "Om"
+  ],
+  "composition": [
+   "Ud"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 1,
+    "section": "1.5",
+    "label": "1.3",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "1.3"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 1,
+    "section": "1.17",
+    "cites": "1.3"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 2,
+    "section": "2.1",
+    "cites": "1.3"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 4,
+    "section": "4.5",
+    "cites": "1.3"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0004",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "failure to resolve a distinction ≠ proof that no distinction exists",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0003"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ud",
+   "Om"
+  ],
+  "composition": [
+   "Om"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 1,
+    "section": "1.5",
+    "label": "1.4",
+    "type_word": "Ledger"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "1.4"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 1,
+    "section": "1.12",
+    "cites": "1.4"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 1,
+    "section": "1.13",
+    "cites": "1.4"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0005",
+  "kind": "rule",
+  "use": "constitutive",
+  "status": null,
+  "text": "Do not assume at one level what a later level is intended to derive.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Mo"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 1,
+    "section": "1.8",
+    "label": "1.7",
+    "type_word": "Rule"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "1.7"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0006",
+  "kind": "rule",
+  "use": "constitutive",
+  "status": null,
+  "text": "Do not promote a computational or representational convenience into ontology when a thinner relation already does the work.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Mo"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 1,
+    "section": "1.8",
+    "label": "1.8",
+    "type_word": "Rule"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0007",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "An observable relational difference must be able to survive transformation long enough to constrain later states. distinction ⇝ persistence ⇝ retained distinction ⇝ information",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "foreshadows",
+    "claim": "EE-C-0024"
+   }
+  ],
+  "concepts": [
+   "Rd",
+   "In"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 1,
+    "section": "1.9",
+    "label": "1.10",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 1,
+    "section": "1.2",
+    "cites": "1.10"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 4,
+    "section": "4.2",
+    "cites": "1.10"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0008",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "The framework provisionally treats difference, a bare non-equivalence prior to measure, direction or observer, as the first commitment from which relational differentiation begins, and admissible transformation, a constraint on what may follow what, as the second. Distinction is the later achievement by which difference becomes operative in that succession.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Df",
+   "Ut"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 1,
+    "section": "1.9",
+    "label": "1.11",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 1,
+    "section": "1.13",
+    "cites": "1.11"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "cites": "1.11"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 4,
+    "section": "4.13",
+    "cites": "1.11"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0009",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "The least constructive structure beyond the unresolved Origin is a symmetric dyad whose two poles are numerically two as a primitive cost and are related by a symmetric, irreflexive relation of non-equivalence. Difference and its poles are co-constitutive: neither independently constituted relata nor a relation existing prior to all relata is asserted. ▪ 𝔇 = ⟨a, b ; ≬⟩ ▪ a ≬ b ⟺ b ≬ a ▪ ¬(a ≬ a) and ¬(b ≬ b)",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0003"
+  ],
+  "relations": [],
+  "concepts": [
+   "Df"
+  ],
+  "composition": [
+   "Om"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 2,
+    "section": "2.3",
+    "label": "2.1",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "2.1"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 3,
+    "section": "3.1",
+    "cites": "2.1"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0010",
+  "kind": "representation",
+  "use": "representational",
+  "status": null,
+  "text": "σ(a) = b, σ(b) = a, σ(𝔇) = 𝔇",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "represents",
+    "claim": "EE-C-0009"
+   }
+  ],
+  "concepts": [
+   "Es"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 2,
+    "section": "2.7",
+    "label": "2.2",
+    "type_word": "Representation"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0011",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "Difference = non-equivalence; Distinction = non-equivalence made operative",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0009"
+  ],
+  "relations": [],
+  "concepts": [
+   "Df",
+   "Ds"
+  ],
+  "composition": [
+   "Df"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 2,
+    "section": "2.10",
+    "label": "2.3",
+    "type_word": "Ledger"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "2.3"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 2,
+    "section": "2.2",
+    "cites": "2.3"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 3,
+    "section": "3.15",
+    "cites": "2.3"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0012",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "𝒞𝔇 = {a, b} ... The update relation is typed as: 𝒰 ⊆ 𝒞𝔇 × 𝒞𝔇",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0009"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cf",
+   "Ut"
+  ],
+  "composition": [
+   "Df"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 3,
+    "section": "3.3",
+    "label": "3.1",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 2,
+    "section": "2.8",
+    "cites": "3.1"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0013",
+  "kind": "rule",
+  "use": "constitutive",
+  "status": null,
+  "text": "(x, y) ∈ 𝒰 ⟺ (σx, σy) ∈ 𝒰 for every σ ∈ Aut(𝔇)",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0012",
+   "EE-C-0009"
+  ],
+  "relations": [
+   {
+    "type": "refines",
+    "claim": "EE-C-0010"
+   }
+  ],
+  "concepts": [
+   "Cv"
+  ],
+  "composition": [
+   "Cf",
+   "Df",
+   "Ut"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 3,
+    "section": "3.5",
+    "label": "3.2",
+    "type_word": "Rule"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0014",
+  "kind": "criterion",
+  "use": "constitutive",
+  "status": null,
+  "text": "Nontriviality requires at least one transition between non-identical configurations: ∃x, y ∈ 𝒞𝔇 : x ≠ y and (x, y) ∈ 𝒰",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0012"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ut"
+  ],
+  "composition": [
+   "Cf",
+   "Ut"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 3,
+    "section": "3.5",
+    "label": "3.3",
+    "type_word": "Criterion"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0015",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "A primitive Difference becomes an operative Distinction when the dyad’s poles are promoted to a minimal configuration carrier and a nontrivial admissible transition relation 𝒰, invariant under Aut(𝔇), licenses succession between them. At the two-pole minimum, covariance forces reciprocal exchange without privileging either pole. ▪ 𝒰min = {(a, b), (b, a)}",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0009",
+   "EE-C-0012",
+   "EE-C-0013",
+   "EE-C-0014"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ds",
+   "Rc"
+  ],
+  "composition": [
+   "Cf",
+   "Cv",
+   "Df",
+   "Ut"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 3,
+    "section": "3.6",
+    "label": "3.4",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 2,
+    "section": "2.18",
+    "cites": "3.4"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "3.4"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 4,
+    "section": "4.1",
+    "cites": "3.4"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 4,
+    "section": "4.29",
+    "cites": "3.4"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0016",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "≬ constrains what differs; 𝒰 constrains what may follow",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0015"
+  ],
+  "relations": [],
+  "concepts": [
+   "Df",
+   "Ut"
+  ],
+  "composition": [
+   "Ds",
+   "Rc"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 3,
+    "section": "3.7",
+    "label": "3.5",
+    "type_word": "Ledger"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 3,
+    "section": "3.6",
+    "cites": "3.5"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 3,
+    "section": "3.17",
+    "cites": "3.5"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0017",
+  "kind": "representation",
+  "use": "representational",
+  "status": null,
+  "text": "J𝒰(a) = b ▪ J𝒰(b) = a",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "represents",
+    "claim": "EE-C-0015"
+   }
+  ],
+  "concepts": [
+   "Rc"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 3,
+    "section": "3.8",
+    "label": "3.6",
+    "type_word": "Representation"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0018",
+  "kind": "representation",
+  "use": "representational",
+  "status": null,
+  "text": "J𝒰² = id",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "represents",
+    "claim": "EE-C-0017"
+   }
+  ],
+  "concepts": [
+   "Ic"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 3,
+    "section": "3.9",
+    "label": "3.7",
+    "type_word": "Representation"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 4,
+    "section": "4.1",
+    "cites": "3.7"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0019",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "formal recurrence ≠ higher-order Return ≠ physical clock",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "diagnoses",
+    "claim": "EE-C-0018"
+   }
+  ],
+  "concepts": [
+   "Fr"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 3,
+    "section": "3.10",
+    "label": "3.8",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0020",
+  "kind": "definition",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Let 𝔗test denote a declared family of transformations used in the theory's metalanguage to test preservation. A member T may alter the carrier, the realization of the poles, the relation that instantiates non-equivalence, or the embedding of the dyad, provided its source and target types are explicit.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "tests",
+    "claim": "EE-C-0015"
+   }
+  ],
+  "concepts": [
+   "Dg"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 4,
+    "section": "4.4",
+    "label": "4.2",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "4.2"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0021",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Let W denote a resolving frame: a structural criterion or map that determines which distinctions are accessible at a declared organizational level. [...] ▪ ResW(Σ) = the set of distinctions resolvable from Σ under W",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0003"
+  ],
+  "relations": [],
+  "concepts": [
+   "Rf"
+  ],
+  "composition": [
+   "Om"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 4,
+    "section": "4.5",
+    "label": "4.3",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 1,
+    "section": "1.5",
+    "cites": "4.3"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0022",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Frame equivalence is then written ~W. Two configurations are frame-equivalent when W cannot resolve them apart.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0021"
+  ],
+  "relations": [],
+  "concepts": [
+   "Rf"
+  ],
+  "composition": [
+   "Rf"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 4,
+    "section": "4.5",
+    "label": "4.4",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 4,
+    "section": "4.15",
+    "cites": "4.4"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0023",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ PresW(a,b;T) iff T(a) ≁W T(b)",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0020",
+   "EE-C-0022"
+  ],
+  "relations": [],
+  "concepts": [
+   "Pp"
+  ],
+  "composition": [
+   "Dg",
+   "Rf"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 4,
+    "section": "4.6",
+    "label": "4.5",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0024",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "When the reciprocal distinction remains recoverable under the declared relevant transformation regime, write rab for that retained distinction. [...] rab = retained reciprocal non-equivalence of a and b",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0034",
+   "ch05.M5.1a"
+  ],
+  "dependencies": [
+   "EE-C-0023"
+  ],
+  "relations": [],
+  "concepts": [
+   "Rd"
+  ],
+  "composition": [
+   "Pp"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 4,
+    "section": "4.9",
+    "label": "4.6",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 5,
+    "section": "5.1",
+    "cites": "4.6"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 1,
+    "section": "1.9",
+    "cites": "4.6"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 4,
+    "section": "4.24",
+    "cites": "4.6"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 4,
+    "section": "4.29",
+    "cites": "4.6"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0025",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "𝒫(Σ) = {Σ′ : Σ′ is reachable from Σ under admissible succession}",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0015"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ps"
+  ],
+  "composition": [
+   "Ds",
+   "Rc"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 4,
+    "section": "4.10",
+    "label": "4.7",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0026",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ Σa ≺ Σb when Σb contains, or its admissibility depends on, a retained consequence inherited from Σa such that removing the relevant retained contribution changes Σb or changes the admissible possibility set leading to it. This is retained-dependency precedence.",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0230",
+   "ch14.C14.4"
+  ],
+  "dependencies": [
+   "EE-C-0024",
+   "EE-C-0025",
+   "EE-C-0015"
+  ],
+  "relations": [],
+  "concepts": [
+   "Pr"
+  ],
+  "composition": [
+   "Ds",
+   "Ps",
+   "Rc",
+   "Rd"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 4,
+    "section": "4.11",
+    "label": "4.8",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 14,
+    "section": "14.4",
+    "cites": "4.8"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 4,
+    "section": "4.21",
+    "cites": "4.8"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0027",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ Bab(W, 𝔗*) = {T ∈ 𝔗* : PresW(a,b;T)}",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "represents",
+    "claim": "EE-C-0023"
+   }
+  ],
+  "concepts": [
+   "Bd"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 4,
+    "section": "4.12",
+    "label": "4.9",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0028",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Σ ~F Σ′ iff Σ and Σ′ satisfy the same criterion F",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Id"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 4,
+    "section": "4.14",
+    "label": "4.10",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 4,
+    "section": "4.15",
+    "cites": "4.10"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0029",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "O = [Σ]~F",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0028"
+  ],
+  "relations": [],
+  "concepts": [
+   "Id"
+  ],
+  "composition": [
+   "Id"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 4,
+    "section": "4.14",
+    "label": "4.11",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0030",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "▪ e : 𝒞𝔇 → X",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "tests",
+    "claim": "EE-C-0021"
+   }
+  ],
+  "concepts": [
+   "Cf",
+   "Rd"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 4,
+    "section": "4.16",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0031",
+  "kind": "criterion",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ 𝒫(Σ,rab) ≠ 𝒫(Σ,∅)",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0024",
+   "EE-C-0025"
+  ],
+  "relations": [],
+  "concepts": [
+   "In"
+  ],
+  "composition": [
+   "Ps",
+   "Rd"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 4,
+    "section": "4.17",
+    "label": "4.12",
+    "type_word": "Criterion"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 1,
+    "section": "1.15",
+    "cites": "4.12"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 4,
+    "section": "4.22",
+    "cites": "4.12"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0032",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ R = [rij], ℛ = {qi, rij}",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0036",
+   "ch05.M5.2a"
+  ],
+  "dependencies": [
+   "EE-C-0024"
+  ],
+  "relations": [],
+  "concepts": [
+   "Do"
+  ],
+  "composition": [
+   "Rd"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.2",
+    "label": "5.1",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 5,
+    "section": "5.2",
+    "cites": "5.1"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0033",
+  "kind": "rule",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ R ↦ R^π, with (R^π)ij = rπ(i)π(j). Here π is a relabeling, a permutation of the relational positions. [...] It is that the ontology remain invariant under mere renaming.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "represents",
+    "claim": "EE-C-0032"
+   }
+  ],
+  "concepts": [
+   "Do"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.2",
+    "label": "5.2",
+    "type_word": "Rule"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 5,
+    "section": "5.18",
+    "cites": "5.2"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0035",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Open",
+  "text": "Whether several retained relations can generate integrated organization without a new primitive.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Rl",
+   "St"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 5,
+    "section": "5.1",
+    "type_word": "Forward pointer"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0037",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Open",
+  "text": "How networks of retained-dependency precedence ≺ constrain a domain while the retained relations themselves remain unoriented.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0026"
+  ],
+  "relations": [],
+  "concepts": [
+   "Pr",
+   "Do"
+  ],
+  "composition": [
+   "Pr"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 5,
+    "section": "5.2",
+    "type_word": "Forward pointer"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0038",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ λi = (ri1, ri2, …, rin)",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0032"
+  ],
+  "relations": [],
+  "concepts": [
+   "Pf"
+  ],
+  "composition": [
+   "Do"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.3",
+    "label": "5.3",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0039",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "An object's primitive identity may be its stable position within a relational organization rather than an intrinsic property carried independently of that organization.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0038"
+  ],
+  "relations": [],
+  "concepts": [
+   "Pf",
+   "Id"
+  ],
+  "composition": [
+   "Pf"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.3",
+    "label": "5.4",
+    "type_word": "Proposition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0040",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ 𝒫(rij | ℛ) ≠ 𝒫(rij) [...] A relational structure is a set of retained relations whose admissible states are constrained by the organization of other relations in the set.",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0041",
+   "ch05.M5.4a"
+  ],
+  "dependencies": [
+   "EE-C-0025",
+   "EE-C-0032"
+  ],
+  "relations": [],
+  "concepts": [
+   "St"
+  ],
+  "composition": [
+   "Do",
+   "Ps"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.4",
+    "label": "5.5",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 5,
+    "section": "5.4",
+    "cites": "5.5"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "5.5"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 5,
+    "section": "5.16",
+    "cites": "5.5"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 5,
+    "section": "5.18",
+    "cites": "5.5"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0042",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Open",
+  "text": "Whether the constraint relation can be formalized without probabilistic or metric language (Question 1).",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0040"
+  ],
+  "relations": [],
+  "concepts": [
+   "St"
+  ],
+  "composition": [
+   "St"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 5,
+    "section": "5.4",
+    "type_word": "Forward pointer"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0043",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ (Σn, Σn+1) ∈ 𝒰, (Σn+1, Σn+2) ∈ 𝒰 [...] ▪ retained ra ⇒ Δ𝒫(rb | ℛ)",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0015",
+   "EE-C-0026",
+   "EE-C-0040"
+  ],
+  "relations": [],
+  "concepts": [
+   "St",
+   "Pr"
+  ],
+  "composition": [
+   "Ds",
+   "Pr",
+   "Rc",
+   "St"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.5",
+    "label": "5.6",
+    "type_word": "Proposition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0044",
+  "kind": "proposition",
+  "use": "representational",
+  "status": null,
+  "text": "Constraint propagation allows a retained distinction to persist through consequences rather than through literal preservation of its original carrier.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0043"
+  ],
+  "relations": [],
+  "concepts": [
+   "St",
+   "Rd"
+  ],
+  "composition": [
+   "Pr",
+   "St"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.5",
+    "label": "5.7",
+    "type_word": "Proposition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0045",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Suppose an identity-relevant criterion F of the relational organization remains satisfied across a declared organization-level diagnostic family 𝔗R, a specialization of Boundary's diagnostic transformation family rather than an additional internal update law. Then: ▪ F(T(Σ)) = F(Σ) for every T ∈ 𝔗R [...] ▪ state persistence ≠ structural persistence",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0046",
+   "ch05.M5.6a"
+  ],
+  "dependencies": [
+   "EE-C-0028"
+  ],
+  "relations": [
+   {
+    "type": "specializes",
+    "claim": "EE-C-0020"
+   }
+  ],
+  "concepts": [
+   "Sy",
+   "Dg"
+  ],
+  "composition": [
+   "Id"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.6",
+    "label": "5.8",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 5,
+    "section": "5.6",
+    "cites": "5.8"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 5,
+    "section": "5.18",
+    "cites": "5.8"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0047",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Open",
+  "text": "What the weakest sufficient criterion is, and which later physical dynamics, if any, select a privileged realized transformation regime rather than leaving 𝔗R purely diagnostic.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0045"
+  ],
+  "relations": [],
+  "concepts": [
+   "Sy",
+   "Dg"
+  ],
+  "composition": [
+   "Dg",
+   "Sy"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 5,
+    "section": "5.6",
+    "type_word": "Forward pointer"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0048",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ H ↦ D ↦ M ↦ P, with H ≠ D ≠ M ≠ P and H ~F D ~F M ~F P [...] Relational re-instantiation is the production of a new state or realization whose organization preserves selected relational invariants of an earlier structured state.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0028"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ri"
+  ],
+  "composition": [
+   "Id"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.7",
+    "label": "5.9",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0049",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Persistence of organization does not require persistence of carrier.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0048"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ri"
+  ],
+  "composition": [
+   "Ri"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.7",
+    "label": "5.10",
+    "type_word": "Proposition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0050",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Open",
+  "text": "Whether re-instantiation supplies a generalizable invariant criterion or remains an analogy (Question 3; 5.19, item 4).",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0048"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ri"
+  ],
+  "composition": [
+   "Ri"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 5,
+    "section": "5.7",
+    "type_word": "Forward pointer"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0051",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ underlying non-identity ≠ identity equivalence ~F ≠ frame equivalence ~W [...] ▪ Xa ~W Xb does not imply Xa ~F Xb",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0022",
+   "EE-C-0028"
+  ],
+  "relations": [],
+  "concepts": [
+   "Id",
+   "Rf"
+  ],
+  "composition": [
+   "Id",
+   "Rf"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.8",
+    "label": "5.11",
+    "type_word": "Ledger"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 5,
+    "section": "5.12",
+    "cites": "5.11"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 5,
+    "section": "5.18",
+    "cites": "5.11"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0052",
+  "kind": "proposition",
+  "use": "representational",
+  "status": null,
+  "text": "Sameness at an emergent level may consist in preservation of identity-relevant organization under F even while a resolving frame W continues to discriminate lower-order differences.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0051"
+  ],
+  "relations": [],
+  "concepts": [
+   "Id",
+   "Rf"
+  ],
+  "composition": [
+   "Id",
+   "Rf"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.8",
+    "label": "5.12",
+    "type_word": "Proposition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0053",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "An object-like identity is then, provisionally, an equivalence class: ▪ O = [Σ]~F [...] Object-like persistence is preserving identity-relevant relational organization across admissible transformation.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0029",
+   "EE-C-0045"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ob"
+  ],
+  "composition": [
+   "Dg",
+   "Id",
+   "Sy"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.9",
+    "label": "5.13",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.12",
+    "cites": "5.13"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0054",
+  "kind": "criterion",
+  "use": "diagnostic",
+  "status": null,
+  "text": "▪ ∃ r ∈ C such that removing r changes F(C), while not every r′ ∉ C does",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0053"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ob"
+  ],
+  "composition": [
+   "Ob"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.9",
+    "label": "5.14",
+    "type_word": "Criterion"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0055",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Speculative",
+  "text": "This is a candidate route from relation to objecthood. It has not shown that all physical objects are equivalence classes of relational configurations, and it earns nothing if any grouping can be made persistent by choosing F after the fact (5.19, item 5).",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0053"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ob"
+  ],
+  "composition": [
+   "Ob"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 5,
+    "section": "5.9",
+    "type_word": "Forward pointer"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0056",
+  "kind": "criterion",
+  "use": "constitutive",
+  "status": null,
+  "text": "Higher-order discernibility requires at least: ▪ λW(OA) ≠ λW(OB)",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0057",
+   "ch05.M5.10a"
+  ],
+  "dependencies": [
+   "EE-C-0038",
+   "EE-C-0053"
+  ],
+  "relations": [],
+  "concepts": [
+   "Hd"
+  ],
+  "composition": [
+   "Ob",
+   "Pf"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.10",
+    "label": "5.15",
+    "type_word": "Criterion"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 5,
+    "section": "5.10",
+    "cites": "5.15"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 5,
+    "section": "5.18",
+    "cites": "5.15"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0058",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Open",
+  "text": "What minimum reference structure suffices to break exchange symmetry (Question 6).",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Hd",
+   "Es"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 5,
+    "section": "5.10",
+    "type_word": "Forward pointer"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0059",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ pA = λW(OA), pB = λW(OB), pA ≠ pB [...] Relational position is the distinctive relational profile an organization occupies within a larger resolving domain.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0056"
+  ],
+  "relations": [],
+  "concepts": [
+   "Po"
+  ],
+  "composition": [
+   "Hd"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.11",
+    "label": "5.16",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0061",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ Mℛ(r) ⟺ 𝒫(r | ℛ) ≠ 𝒫(r)",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0040"
+  ],
+  "relations": [],
+  "concepts": [
+   "Mb"
+  ],
+  "composition": [
+   "St"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.12",
+    "label": "5.17",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0062",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "No independent aggregation primitive is required to state higher-order membership under one shared structural criterion. Membership is participation in mutual constraint; quantification over members remains metalanguage.",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0063",
+   "ch05.M5.12a",
+   "EE-C-0082",
+   "ch06.M6.9a"
+  ],
+  "dependencies": [
+   "EE-C-0061"
+  ],
+  "relations": [],
+  "concepts": [
+   "Mb"
+  ],
+  "composition": [
+   "Mb"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.12",
+    "label": "5.18",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 5,
+    "section": "5.12",
+    "cites": "5.18"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.9",
+    "cites": "5.18"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.19",
+    "cites": "5.18"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0064",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Open",
+  "text": "Cardinal, weighted, and threshold membership remain deferred until the required magnitude or valuation structure is earned.",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0083",
+   "ch06.M6.9b"
+  ],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Mb"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 5,
+    "section": "5.12",
+    "type_word": "Forward pointer"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.9"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.20"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.19"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0065",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ Σa ≺ Σb when retained contribution from Σa changes the admissibility of Σb [...] ▪ boundary stability ≠ boundary rigidity",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0066",
+   "ch05.M5.13a"
+  ],
+  "dependencies": [
+   "EE-C-0026"
+  ],
+  "relations": [],
+  "concepts": [
+   "Pd",
+   "Pr"
+  ],
+  "composition": [
+   "Pr"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.13",
+    "label": "5.19",
+    "type_word": "Ledger"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 5,
+    "section": "5.13",
+    "cites": "5.19"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0067",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "Retained-dependency path dependence is a structural precursor to stronger notions of history and memory without yet supplying physical time.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0065"
+  ],
+  "relations": [],
+  "concepts": [
+   "Pd"
+  ],
+  "composition": [
+   "Pd",
+   "Pr"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.13",
+    "label": "5.20",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.19",
+    "cites": "5.20"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.22",
+    "cites": "5.20"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0068",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Open",
+  "text": "How should relational independence be defined before vector-space structure is available, and do stable relational dynamics generate persistent approximately decoupled modes without dimensionality being written into the update rules?",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Ix"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 5,
+    "section": "5.14",
+    "type_word": "Forward pointer"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0069",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Open",
+  "text": "Can internal sufficiency, identity preservation, dependency structure, or representative-independent higher-order addressability make a reference role endogenous rather than stipulated?",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "An"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 5,
+    "section": "5.15",
+    "type_word": "Forward pointer"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0070",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "A relational domain ℛ is structurally closed with respect to F when every dependency constitutively required to maintain F is supplied within ℛ, except for inputs explicitly classified as non-constitutive conditions rather than parts of F itself.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0040",
+   "EE-C-0045"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cl"
+  ],
+  "composition": [
+   "Dg",
+   "St",
+   "Sy"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 6,
+    "section": "6.2",
+    "label": "6.1",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0071",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ closure with respect to F ≠ isolation from all external relation",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0070"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cl"
+  ],
+  "composition": [
+   "Cl"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 6,
+    "section": "6.2",
+    "label": "6.2",
+    "type_word": "Ledger"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.5",
+    "cites": "6.2"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.19",
+    "cites": "6.2"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0072",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ ClosedF(ℛ) = true or false [...] ▪ (Σn, Σn+1) ∈ 𝒰 [...] ▪ admissible succession under 𝒰 ≠ logical verdict ≠ closure predicate",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0070",
+   "EE-C-0015"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cl"
+  ],
+  "composition": [
+   "Cl",
+   "Ds",
+   "Rc"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 6,
+    "section": "6.3",
+    "label": "6.3",
+    "type_word": "Ledger"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.19",
+    "cites": "6.3"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.21",
+    "cites": "6.3"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0073",
+  "kind": "criterion",
+  "use": "constitutive",
+  "status": null,
+  "text": "Internal sufficiency. Every dependency constitutively required to maintain F is supplied within the candidate domain, or else the domain is not closed with respect to F. Constraint participation. The relations classified as constitutive of F must actually participate in the organization that maintains F. [...] Consistent realizability. The mutually constraining requirements must admit at least one relational configuration. [...] ▪ ClosedF(ℛ) ⇒ SufficiencyF ∧ ParticipationF ∧ RealizabilityF",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0072"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cl",
+   "Cn"
+  ],
+  "composition": [
+   "Cl"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 6,
+    "section": "6.4",
+    "label": "6.4",
+    "type_word": "Criterion"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.18",
+    "cites": "6.4"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.19",
+    "cites": "6.4"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0074",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Connectivity and circularity are insufficient for closure.",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0076",
+   "ch06.D6.6a"
+  ],
+  "dependencies": [
+   "EE-C-0073"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cl"
+  ],
+  "composition": [
+   "Cl",
+   "Cn"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 6,
+    "section": "6.4",
+    "label": "6.5",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.6",
+    "cites": "6.5"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0075",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Open",
+  "text": "Whether the three-part test can be reduced further, and whether each clause can be expressed using one common formal object in Formalism.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0073"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cl",
+   "Fm"
+  ],
+  "composition": [
+   "Cl",
+   "Cn"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 6,
+    "section": "6.4",
+    "type_word": "Forward pointer"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0077",
+  "kind": "criterion",
+  "use": "constitutive",
+  "status": null,
+  "text": "Let 𝒮F(ℛ) denote the set of configurations of ℛ that satisfy the constraints constitutive of F. A necessary realizability condition is simply: ▪ 𝒮F(ℛ) ≠ ∅",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0073"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cl"
+  ],
+  "composition": [
+   "Cl",
+   "Cn"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 6,
+    "section": "6.6",
+    "label": "6.6",
+    "type_word": "Criterion"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0078",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ Σn ∈ ℭF and (Σn, Σn+1) ∈ 𝒰 ⇒? Σn+1 ∈ ℭF [...] Structural closure is internal sufficiency of an identity-relevant organization at a relational state. Dynamic closure is the preservation or recurrent recovery of that sufficiency under the system's endogenous state-to-state updates. ▪ structural closure + preservation under 𝒰 ⇝ dynamic closure",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0079",
+   "ch06.M6.7a"
+  ],
+  "dependencies": [
+   "EE-C-0073",
+   "EE-C-0015"
+  ],
+  "relations": [],
+  "concepts": [
+   "Dc"
+  ],
+  "composition": [
+   "Cl",
+   "Cn",
+   "Ds",
+   "Rc"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 6,
+    "section": "6.7",
+    "label": "6.7",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.7",
+    "cites": "6.7"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "6.7"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.18",
+    "cites": "6.7"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0080",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Open",
+  "text": "Whether dynamically persistent closures arise generically under admissible update rules or only under rules designed to produce them.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0078"
+  ],
+  "relations": [],
+  "concepts": [
+   "Dc"
+  ],
+  "composition": [
+   "Dc"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 6,
+    "section": "6.7",
+    "type_word": "Forward pointer"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0081",
+  "kind": "criterion",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Type preservation. The transformation maps admissible relational configurations to admissible relational configurations. It does not add coordinates, metric, physical time or other later structure. Nontriviality. 𝔗C contains at least one transformation other than identity or pure relabeling. Pre-specification. The class is stated before the closure result is inspected, preventing F and 𝔗C from being tuned after the fact to protect any desired grouping. Relevance. The transformations challenge relations that plausibly matter to the candidate organization rather than only changing inert labels.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "tests",
+    "claim": "EE-C-0020"
+   },
+   {
+    "type": "tests",
+    "claim": "EE-C-0045"
+   }
+  ],
+  "concepts": [
+   "Dg",
+   "Dc"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 6,
+    "section": "6.8",
+    "label": "6.8",
+    "type_word": "Criterion"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0084",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ insideF = participation in the F-maintaining closure ▪ outsideF = non-participation in that closure",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0073",
+   "EE-C-0061"
+  ],
+  "relations": [],
+  "concepts": [
+   "Io"
+  ],
+  "composition": [
+   "Cl",
+   "Cn",
+   "Mb"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 6,
+    "section": "6.10",
+    "label": "6.9",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0085",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ ri ∈ ℛA and ri ∈ ℛB provided the two closures are defined by different but compatible relational organizations FA and FB. Nothing in the pre-geometric ontology requires ℛA ∩ ℛB = ∅.",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0086",
+   "ch06.M6.11a"
+  ],
+  "dependencies": [
+   "EE-C-0070"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cl",
+   "Io"
+  ],
+  "composition": [
+   "Cl"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 6,
+    "section": "6.11",
+    "label": "6.10",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.11",
+    "cites": "6.10"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.19",
+    "cites": "6.10"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0087",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Open",
+  "text": "What formal conditions permit compatible overlap, and what happens when two candidate closures impose contradictory constraints on a shared relation.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0085"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cl"
+  ],
+  "composition": [
+   "Cl",
+   "Io"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 6,
+    "section": "6.11",
+    "type_word": "Forward pointer"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0088",
+  "kind": "criterion",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ OF = [Σ]~F [...] if ▪ Σa ~F Σb then the higher-order action is well-defined when ▪ E(Σa) ~F′ E(Σb) [...] ▪ Ē([Σ]~F) = [E(Σ)]~F′ [...] ▪ many lower-order realizations ⇝ one stable higher-order relational address",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0053"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ad"
+  ],
+  "composition": [
+   "Ob"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 6,
+    "section": "6.12",
+    "label": "6.11",
+    "type_word": "Criterion"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "6.11"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.18",
+    "cites": "6.11"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.19",
+    "cites": "6.11"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0089",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ ClosedF(ℛ) + dynamic persistence + representative-independent addressability ⇝ endogenous reference. Definition — organizational anchor. Write AF for a closed identity OF when it is functioning in this earned reference role: subsequent higher-order distinctions can be specified relative to OF without selecting an arbitrary lower-order representative. AF is therefore not an additional entity and not a privileged internal member. It names a role of the already-earned closed equivalence class.",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0091",
+   "ch06.M6.13a"
+  ],
+  "dependencies": [
+   "EE-C-0072",
+   "EE-C-0078",
+   "EE-C-0088"
+  ],
+  "relations": [],
+  "concepts": [
+   "An"
+  ],
+  "composition": [
+   "Ad",
+   "Cl",
+   "Dc"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 6,
+    "section": "6.13",
+    "label": "6.12",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.13",
+    "cites": "6.12"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.19",
+    "cites": "6.12"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.22",
+    "cites": "6.12"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0090",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "ℛ^(n) ⇝ OF^(n+1) ≡ AF^(n+1) ⇝ ℛ^(n+1). The superscripts mark organizational level, not spatial scale or elapsed time.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0089"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ho",
+   "Rv"
+  ],
+  "composition": [
+   "An"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 6,
+    "section": "6.13",
+    "label": "6.13",
+    "type_word": "Ledger"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 9,
+    "section": "9.17",
+    "cites": "6.13"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "cites": "6.13"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0092",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Open",
+  "text": "Whether every closed organization yields a unique anchor, and what additional conditions localize or distribute that reference architecture, remains a problem for later formal development.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0089"
+  ],
+  "relations": [],
+  "concepts": [
+   "An"
+  ],
+  "composition": [
+   "An"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 6,
+    "section": "6.13",
+    "type_word": "Forward pointer"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0093",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ Fobs need not equal Fdyn [...] ▪ ontic closure ≠ frame-mediated identification of closure",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0021"
+  ],
+  "relations": [],
+  "concepts": [
+   "Oc"
+  ],
+  "composition": [
+   "Rf"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 6,
+    "section": "6.14",
+    "label": "6.14",
+    "type_word": "Ledger"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.19",
+    "cites": "6.14"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 6,
+    "section": "6.22",
+    "cites": "6.14"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0094",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Speculative",
+  "text": "▪ WS(ℛS) ↦ σS [...] ▪ self-maintenance ≠ self-discrimination ≠ self-model ≠ recursive self-consciousness",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "refines",
+    "claim": "EE-C-0093"
+   }
+  ],
+  "concepts": [
+   "Oc",
+   "Rf"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 6,
+    "section": "6.15",
+    "type_word": "Forward pointer"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0095",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Open",
+  "text": "Closure can exist before it is represented. Its identification is initially external to the closed domain; reflexive cognition begins only when the domain can internally represent and evaluate conditions of its own persistence. Whether that is sufficient for phenomenal self-consciousness remains open.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "refines",
+    "claim": "EE-C-0094"
+   }
+  ],
+  "concepts": [
+   "Oc",
+   "Sm",
+   "Cc"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 6,
+    "section": "6.15",
+    "type_word": "Forward pointer"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0096",
+  "kind": "criterion",
+  "use": "constitutive",
+  "status": null,
+  "text": "Let VF denote the set of admissible variations that preserve F. A dynamically useful closure requires: ▪ VF ≠ ∅ and should include at least one non-identity transformation.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0078"
+  ],
+  "relations": [],
+  "concepts": [
+   "Dc"
+  ],
+  "composition": [
+   "Dc"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 6,
+    "section": "6.16",
+    "label": "6.15",
+    "type_word": "Criterion"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0097",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Four diagnostics: Dependency leakage (number or fraction of F-maintaining dependencies that terminate outside the candidate domain; tests internal sufficiency); Constraint participation (ablation sensitivity of candidate constitutive relations compared with non-constitutive controls); Closure robustness (fraction of preregistered perturbations in 𝔗C after which ClosedF remains true); Higher-order addressability (agreement of macro-outcomes across distinct microstates in the same F-equivalence class under the same external coupling). A fifth diagnostic can compare candidate closures against matched random, merely connected, or equally dense control subgraphs.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "tests",
+    "claim": "EE-C-0073"
+   },
+   {
+    "type": "tests",
+    "claim": "EE-C-0081"
+   },
+   {
+    "type": "tests",
+    "claim": "EE-C-0088"
+   }
+  ],
+  "concepts": [
+   "Cl",
+   "Dc",
+   "Ad"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 6,
+    "section": "6.17",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0098",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "A relational domain is oriented wherever its internal dependency structure contains persistent, consequential non-equivalence between otherwise exchangeable relational roles.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0025",
+   "EE-C-0024"
+  ],
+  "relations": [],
+  "concepts": [
+   "Or"
+  ],
+  "composition": [
+   "Ps",
+   "Rd"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 7,
+    "section": "7.2",
+    "label": "7.1",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "7.1"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 7,
+    "section": "7.4",
+    "cites": "7.1"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 7,
+    "section": "7.21",
+    "cites": "7.1"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0099",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "AF is not an orientation. It supplies an earned reference identity; orientation is the persistent consequential non-equivalence of dependency roles relative to that identity and the organization that maintains it.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0089",
+   "EE-C-0098"
+  ],
+  "relations": [],
+  "concepts": [
+   "An",
+   "Or"
+  ],
+  "composition": [
+   "An",
+   "Or"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 7,
+    "section": "7.6",
+    "label": "7.2",
+    "type_word": "Proposition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0100",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Relational irreversibility appears when reversing the orientational dependency conditions destroys, changes, or redirects re-entry into the identity class referenced by AF.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0089"
+  ],
+  "relations": [
+   {
+    "type": "foreshadows",
+    "claim": "EE-C-0102"
+   }
+  ],
+  "concepts": [
+   "Ir"
+  ],
+  "composition": [
+   "An"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 7,
+    "section": "7.8",
+    "label": "7.3",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 7,
+    "section": "7.10",
+    "cites": "7.3"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 7,
+    "section": "7.16",
+    "cites": "7.3"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 8,
+    "section": "8.16",
+    "cites": "7.3"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 8,
+    "section": "8.24",
+    "cites": "7.3"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0101",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "If stable orientation appears only when the admissible transition structure, the initial resolved state, the organizational anchor AF, or a target topology already encodes the eventual direction, the derivation has failed. If every apparent asymmetry vanishes under role exchange once labels are removed, orientation has not been earned.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Or"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 7,
+    "section": "7.15",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0102",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Ret(AF; Σk) = 1 iff Σk ∈ OF after genuine departure",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0028",
+   "EE-C-0089"
+  ],
+  "relations": [],
+  "concepts": [
+   "Rt"
+  ],
+  "composition": [
+   "An",
+   "Id"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 8,
+    "section": "8.3",
+    "label": "8.1",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 7,
+    "section": "7.8",
+    "cites": "8.1"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0103",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "departure: the relata F concerns persist, but the organization does not satisfy F; the criterion is applicable and false / dissolution: the relata or roles F concerns are themselves unavailable, so the criterion has no subject and is inapplicable rather than false",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0028"
+  ],
+  "relations": [],
+  "concepts": [
+   "Dr"
+  ],
+  "composition": [
+   "Id"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 8,
+    "section": "8.4",
+    "label": "8.2",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 8,
+    "section": "8.5",
+    "cites": "8.2"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0104",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Anchor identity: an independently constrained identity class OF exists and functions in the Closure-earned reference role AF. Oriented transformation: admissible orientational dependencies generate a nontrivial sequence from a realization of OF. Departure: at least one intermediate configuration lies outside OF while F remains applicable to it (8.4). Re-entry: a resultant configuration ΣR again lies inside OF. ▪ Ret(AF; ·) = departure from OF ∧ oriented transformation ∧ re-entry into OF",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0102",
+   "EE-C-0103",
+   "EE-C-0089",
+   "EE-C-0098"
+  ],
+  "relations": [],
+  "concepts": [
+   "Rt",
+   "Dr"
+  ],
+  "composition": [
+   "An",
+   "Dr",
+   "Or",
+   "Rt"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 8,
+    "section": "8.5",
+    "label": "8.3",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 8,
+    "section": "8.26",
+    "cites": "8.3"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0105",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "DomF = OF = {Σ : Σ ~F ΣA}",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0028",
+   "EE-C-0089"
+  ],
+  "relations": [],
+  "concepts": [
+   "Dm"
+  ],
+  "composition": [
+   "An",
+   "Id"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 8,
+    "section": "8.18",
+    "label": "8.5",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0106",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "If return occurs only because the admissible transition structure explicitly contains the target cycle or a privileged instruction to restore OF, return has not been derived.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Rt"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 8,
+    "section": "8.23",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0107",
+  "kind": "rule",
+  "use": "constitutive",
+  "status": null,
+  "text": "A symbol, operator, relation or construction may perform ontological work only when its content is inherited from earlier chapters or definable from inherited structure. Richer mathematics may be used externally for proof, simulation or bookkeeping, but its additional structure must not be silently read back into the modeled world.",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0108",
+   "ch09.FR9.2"
+  ],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Fa"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.3",
+    "label": "9.2",
+    "type_word": "Rule"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 9,
+    "section": "9.2",
+    "cites": "9.2"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "9.2"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 9,
+    "section": "9.29",
+    "cites": "9.2"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0109",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "𝔊 = (𝒞, ℜ, 𝒰) [...] 𝒰 ⊆ 𝒞 × 𝒞, where Σ 𝒰 Σ′ means that Σ′ is an admissible successor configuration of Σ",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0012"
+  ],
+  "relations": [],
+  "concepts": [
+   "Fm",
+   "Ut",
+   "Cf"
+  ],
+  "composition": [
+   "Cf",
+   "Ut"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.4",
+    "label": "9.3",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 10,
+    "section": "10.1",
+    "cites": "9.3"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0110",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "𝒰[Σ] = { Σ′ ∈ 𝒞 : Σ 𝒰 Σ′ }",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0109"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ss"
+  ],
+  "composition": [
+   "Cf",
+   "Fm",
+   "Ut"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.5",
+    "label": "9.4",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0111",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Σ (𝒰 ∘ 𝒰) Σ″ ⟺ there exists Σ′ such that Σ 𝒰 Σ′ and Σ′ 𝒰 Σ″",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0109"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ut",
+   "Ic"
+  ],
+  "composition": [
+   "Cf",
+   "Fm",
+   "Ut"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.7",
+    "label": "9.6",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0112",
+  "kind": "criterion",
+  "use": "constitutive",
+  "status": null,
+  "text": "Σa ~F Σb ⇒ QF(𝒰[Σa]) = QF(𝒰[Σb])",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0028",
+   "EE-C-0110"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cg"
+  ],
+  "composition": [
+   "Id",
+   "Ss"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.9",
+    "label": "9.8",
+    "type_word": "Criterion"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0113",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "quotient-compatible dynamics ⇒ higher-order formal autonomy [...] The chapter adopts the middle claim: quotient-compatible dynamics is sufficient for a form of higher-order autonomy. Is not asserted to be necessary for every emergent phenomenon.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0112",
+   "EE-C-0089"
+  ],
+  "relations": [],
+  "concepts": [
+   "Qd",
+   "Cg"
+  ],
+  "composition": [
+   "An",
+   "Cg"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.10",
+    "label": "9.10",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 9,
+    "section": "9.33",
+    "cites": "9.10"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0114",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "[T(Σ)]F = [Σ]~F, equivalently T̄([Σ]~F) = [Σ]~F",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0028"
+  ],
+  "relations": [],
+  "concepts": [
+   "Fp"
+  ],
+  "composition": [
+   "Id"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.15",
+    "label": "9.11",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0115",
+  "kind": "definition",
+  "use": "representational",
+  "status": "Speculative",
+  "text": "Only if a suitable finite independence structure is earned may the framework introduce a rank-like count as a candidate pre-metric relational dimensionality: dR := rank(IndR). This is the first legitimate introduction of dR in the derivation.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Dd",
+   "Ix"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.22",
+    "label": "9.16",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "cites": "9.16"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0116",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "The results so far support a deliberately weak core, 𝔊 = (𝒞, ℜ, 𝒰), with: 𝒞, admissible relational configurations, with no assumed metric, topology, vector structure or probability measure. ℜ, the family of earned relations, not restricted in advance to one arity. 𝒰 ⊆ 𝒞 × 𝒞, the admissible transition relation. ~F, inherited structural equivalence induced by declared identity criteria. 𝔗, declared transformation and test classes used to state invariants. [...]",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0109"
+  ],
+  "relations": [],
+  "concepts": [
+   "Fm"
+  ],
+  "composition": [
+   "Cf",
+   "Fm",
+   "Ut"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.26",
+    "label": "9.19",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0117",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "If a formal result depends on structure that exists only because the chosen representation inserted it, whether coordinates, metric, directed edges, linear combinations, probabilities or target cycles, the formalism has exposed an unearned assumption rather than derived an ontological property.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "tests",
+    "claim": "EE-C-0107"
+   }
+  ],
+  "concepts": [
+   "Fm",
+   "Fa"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 9,
+    "section": "9.28",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0118",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "organizational level ≠ magnitude; scale ≠ distance",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sc"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.2",
+    "label": "10.2",
+    "type_word": "Ledger"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "10.2"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 10,
+    "section": "10.26",
+    "cites": "10.2"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0119",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Formalism’s core supports comparison of kind while supplying nothing about amount.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Fm",
+   "Sc"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.1",
+    "label": "10.1",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 9,
+    "section": "9.33",
+    "cites": "10.1"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0120",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "If every member of A matches exactly one member of B and every member of B is matched, the pairing is a bijection. ▪ f : A ↔ B [...] ▪ A ~# B. Read plainly, A and B are the same size in the cardinal sense. [...] ▪ A ~# A; A ~# B ⇒ B ~# A; A ~# B ∧ B ~# C ⇒ A ~# C",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0121",
+   "ch10.V10.4"
+  ],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Cm"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.4",
+    "label": "10.3",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 10,
+    "section": "10.4",
+    "cites": "10.3"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 10,
+    "section": "10.24",
+    "cites": "10.3"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0122",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ f : A ↪ B. For finite organizations this says A is no larger than B. If A injects into B while B does not inject into A, B has the greater cardinal magnitude. [...] ▪ A ↪ B ∧ B ↪ A ⇒ A ~# B",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0120"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cm"
+  ],
+  "composition": [
+   "Cm"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.5",
+    "label": "10.4",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 10,
+    "section": "10.24",
+    "cites": "10.4"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0123",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "If ~# is equinumerosity, the magnitude class of A is: ▪ [A]~# [...] ▪ object identity [Σ]~F; cardinal identity [A]~#",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0120"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cm",
+   "Id"
+  ],
+  "composition": [
+   "Cm"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.6",
+    "label": "10.5",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0124",
+  "kind": "representation",
+  "use": "representational",
+  "status": null,
+  "text": "▪ correspondence ⇝ equinumerosity class ⇝ cardinal label. For a finite organization A, writing mag(A) = n now reads as compression. A belongs to the finite magnitude class conventionally labelled n. The numeral did not create the magnitude.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "represents",
+    "claim": "EE-C-0123"
+   }
+  ],
+  "concepts": [
+   "Cm"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.7",
+    "label": "10.6",
+    "type_word": "Representation"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 10,
+    "section": "10.3",
+    "cites": "10.6"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 10,
+    "section": "10.30",
+    "cites": "10.6"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0125",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ AP = { r ∈ ℜ : P(r) } [...] The threshold condition is relationally expressible as an injection: ▪ K ↪ AP. Once cardinal labels exist, the same condition compresses to mag(AP) ≥ k.",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0126",
+   "ch10.V10.8"
+  ],
+  "dependencies": [
+   "EE-C-0122"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cm",
+   "Rl"
+  ],
+  "composition": [
+   "Cm"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.8",
+    "label": "10.7",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 10,
+    "section": "10.8",
+    "cites": "10.7"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0127",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ Cmp(W, A) ≐ Cmp(A, B) ⟺ W × B ↔ A × A. This is cross-multiplication, written as the bijection it always was.",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0128",
+   "ch10.V10.10"
+  ],
+  "dependencies": [
+   "EE-C-0120"
+  ],
+  "relations": [],
+  "concepts": [
+   "Pn"
+  ],
+  "composition": [
+   "Cm"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.10",
+    "label": "10.8",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 10,
+    "section": "10.10",
+    "cites": "10.8"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0129",
+  "kind": "representation",
+  "use": "representational",
+  "status": null,
+  "text": "▪ Cmp(X, Y) ↦ mag(X)/mag(Y) [...] ▪ mag(W)/mag(A) = mag(A)/mag(B). [...] The ratio represents a comparative relation that 10.10 established by correspondence. It does not create that relation by being written.",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0130",
+   "ch10.V10.11"
+  ],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "represents",
+    "claim": "EE-C-0127"
+   },
+   {
+    "type": "represents",
+    "claim": "EE-C-0124"
+   }
+  ],
+  "concepts": [
+   "Pn"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.11",
+    "label": "10.9",
+    "type_word": "Representation"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 10,
+    "section": "10.11",
+    "cites": "10.9"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0131",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Write the successive comparative ratios as magn+1/magn. If they approach a stable value λ*, ▪ magn+1/magn → λ* then λ* functions as a stable scale factor for that recursive regime. [...] Scale is not defined here as convergence.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0127"
+  ],
+  "relations": [
+   {
+    "type": "derives_from",
+    "claim": "EE-C-0129"
+   }
+  ],
+  "concepts": [
+   "Sf"
+  ],
+  "composition": [
+   "Pn"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.13",
+    "label": "10.10",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "10.10"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 10,
+    "section": "10.15",
+    "cites": "10.10"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 10,
+    "section": "10.30",
+    "cites": "10.10"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0132",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "recursion depth ≠ scale",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sf",
+   "Rv"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.13",
+    "label": "10.11",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0133",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Rejected",
+  "text": "▪ magn+1 = a·magn + b·magn-1, with characteristic relation λ² = aλ + b [...] ▪ stable recursive scaling ⇏ φ",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0131"
+  ],
+  "relations": [],
+  "concepts": [
+   "Sf"
+  ],
+  "composition": [
+   "Sf"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.16",
+    "label": "10.12",
+    "type_word": "Proposition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0134",
+  "kind": "representation",
+  "use": "representational",
+  "status": null,
+  "text": "Let R be a map on comparative ratios, taken in the analyst’s metalanguage rather than as a relation of the modelled world. [...] rn+1 = R(rn). A stable scale factor is then a fixed point: ▪ R(λ) = λ",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "represents",
+    "claim": "EE-C-0131"
+   }
+  ],
+  "concepts": [
+   "Sf"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.17",
+    "label": "10.13",
+    "type_word": "Representation"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0135",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "If the same comparative relation can be reconstructed each time, it becomes an endogenous standard: ▪ Cmp(On+1, On) ≈ Cmp* whenever the identity recurs",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0136",
+   "ch10.V10.18"
+  ],
+  "dependencies": [
+   "EE-C-0088",
+   "EE-C-0089"
+  ],
+  "relations": [],
+  "concepts": [
+   "Sd"
+  ],
+  "composition": [
+   "Ad",
+   "An"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.18",
+    "label": "10.14",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 10,
+    "section": "10.18",
+    "cites": "10.14"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 8,
+    "section": "8.22",
+    "cites": "10.14"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0137",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "higher-order ≠ larger; resolution ≠ scale",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sc",
+   "Cs"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.19",
+    "label": "10.15",
+    "type_word": "Ledger"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 10,
+    "section": "10.2",
+    "cites": "10.15"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 10,
+    "section": "10.26",
+    "cites": "10.15"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0138",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Let ≈s group configurations whose differences fall within a declared comparative standard s. A coarse-graining map is then written: ▪ CGs : 𝒞 ↦ 𝒞 / ≈s",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0135"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cs"
+  ],
+  "composition": [
+   "Sd"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.20",
+    "label": "10.16",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 7,
+    "section": "7.4",
+    "cites": "10.16"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 10,
+    "section": "10.27",
+    "cites": "10.16"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0139",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "Scale invariance means that some identified organization is preserved when the scale relation is applied. [...] ▪ scale invariance ≠ geometric self-similarity",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0138"
+  ],
+  "relations": [],
+  "concepts": [
+   "Sc"
+  ],
+  "composition": [
+   "Cs"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.21",
+    "label": "10.17",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0140",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "relational bound ≠ geometric boundary",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0122"
+  ],
+  "relations": [],
+  "concepts": [
+   "Sc",
+   "Bd"
+  ],
+  "composition": [
+   "Cm"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 10,
+    "section": "10.22",
+    "label": "10.18",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0141",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Establish equal magnitude and magnitude order by bijections and injections before any integer label is assigned.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Cm"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 10,
+    "section": "10.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0142",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Change every identifier in the representation; comparative magnitude must be unchanged.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Cm"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 10,
+    "section": "10.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0143",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Reconstruct the Relation threshold condition from a standard collection K before replacing it with numeral shorthand.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Cm",
+   "Rl"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 10,
+    "section": "10.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0144",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Build a higher-order quotient with fewer representatives, showing that a higher level need not be a greater magnitude.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sc",
+   "Cs"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 10,
+    "section": "10.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0145",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Generate organizations under several recurrence rules and record their earned magnitudes.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sf",
+   "Rv"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 10,
+    "section": "10.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0146",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Determine whether successive comparative ratios stabilize, cycle, stay bounded or diverge.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sf"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 10,
+    "section": "10.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0147",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Change the coefficients and verify that φ is not generically selected.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sf"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 10,
+    "section": "10.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0148",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Determine when a stable ratio is robust to admissible changes in starting magnitude classes.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sf"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 10,
+    "section": "10.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0149",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Compare a recursively self-similar model against a non-self-similar one that still supports magnitude comparison.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sc"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 10,
+    "section": "10.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0150",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Permit a scale-indexed quotient only after the standard defining it has been independently earned.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Cs",
+   "Sd"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 10,
+    "section": "10.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0151",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "If the scale can be recovered only once the analyst supplies a numeral, a unit, a coordinate magnitude, a metric or an iteration count, then nothing was earned: the magnitude was in the notation.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sc"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 10,
+    "section": "10.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0152",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ A ≠ B ⇏ d(A,B) [...] Call their pre-metric separation ρ(A,B). At this stage ρ is not a number. [...] ▪ relational separation ≠ metric distance",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Rs"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.2",
+    "label": "11.1",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0153",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "mediation between loci ≠ transition between configurations",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0109"
+  ],
+  "relations": [],
+  "concepts": [
+   "Rn"
+  ],
+  "composition": [
+   "Cf",
+   "Fm",
+   "Ut"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.3",
+    "label": "11.2",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0154",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ κAB = (A, X₁, …, Xₙ, B) such that each neighboring pair participates in a relation admitted by the organization under the declared criterion.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0153"
+  ],
+  "relations": [],
+  "concepts": [
+   "Rn"
+  ],
+  "composition": [
+   "Rn"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.3",
+    "label": "11.3",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0155",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Let u denote that reusable relational standard [...] For a chain containing n such relations: ▪ Lu(κ) = n u",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0154",
+   "EE-C-0135"
+  ],
+  "relations": [],
+  "concepts": [
+   "Rn",
+   "Sd"
+  ],
+  "composition": [
+   "Rn",
+   "Sd"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.4",
+    "label": "11.5",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0156",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ du(A,B) = minκ ∈ K(A,B) Lu(κ) [...] Distance is the smallest magnitude of relational mediation sufficient to connect two relational positions under the declared organization and scale standard.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0155"
+  ],
+  "relations": [],
+  "concepts": [
+   "Dt"
+  ],
+  "composition": [
+   "Rn",
+   "Sd"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.5",
+    "label": "11.6",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 11,
+    "section": "11.1",
+    "cites": "11.6"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 11,
+    "section": "11.25",
+    "cites": "11.6"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 11,
+    "section": "11.22",
+    "cites": "11.6"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0157",
+  "kind": "representation",
+  "use": "representational",
+  "status": null,
+  "text": "Relational work is the comparative burden of relational structure required to connect one admissible position to another. ▪ distance = minimum relational work of connection",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "represents",
+    "claim": "EE-C-0156"
+   }
+  ],
+  "concepts": [
+   "Dt",
+   "Rn"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.6",
+    "label": "11.7",
+    "type_word": "Representation"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 11,
+    "section": "11.22",
+    "cites": "11.7"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0158",
+  "kind": "representation",
+  "use": "representational",
+  "status": "Provisional",
+  "text": "▪ L(κ) = Σr ∈ κ w(r) [...] ▪ d(A,B) = minκ ∈ K(A,B) Σr ∈ κ w(r). [...] The weighted construction therefore remains Provisional until its weights can be derived from independently justified relational magnitude.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "represents",
+    "claim": "EE-C-0156"
+   }
+  ],
+  "concepts": [
+   "Dt",
+   "Rn"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.7",
+    "label": "11.8",
+    "type_word": "Representation"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0159",
+  "kind": "criterion",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ L(π₁ ∘ π₂) = L(π₁) + L(π₂) [...] Metric distance requires a compositional magnitude law for relational mediation. Addition is one candidate law. It is not primitive merely because familiar geometry uses it.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "diagnoses",
+    "claim": "EE-C-0158"
+   }
+  ],
+  "concepts": [
+   "Rn",
+   "Tr"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.8",
+    "label": "11.9",
+    "type_word": "Criterion"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 11,
+    "section": "11.22",
+    "cites": "11.9"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0160",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ A ~₀ B iff d(A,B)=0 [...] [A]~₀ [...] Metric identity may emerge by quotienting distinctions that carry no relational separation.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0156"
+  ],
+  "relations": [],
+  "concepts": [
+   "Zs"
+  ],
+  "composition": [
+   "Dt"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.9",
+    "label": "11.10",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0161",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "▪ d(A,C) ≤ d(A,B) + d(B,C). The triangle inequality is not inserted as a geometric axiom. It follows from: chain composition + additive magnitude + minimality [...] the triangle inequality inherits that Provisional status.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0156",
+   "EE-C-0159"
+  ],
+  "relations": [],
+  "concepts": [
+   "Tr"
+  ],
+  "composition": [
+   "Dt",
+   "Rn",
+   "Tr"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.10",
+    "label": "11.11",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 11,
+    "section": "11.8",
+    "cites": "11.11"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0162",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ d(A,B) ≠ d(B,A) [...] If every relevant mediating relation is reversibly equivalent under the distance criterion, and every admissible chain has a reverse chain of equal magnitude, symmetry follows. ▪ relational distance ⇝ directed metric-like structure ⇝ symmetric metric under reversible equivalence",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0156"
+  ],
+  "relations": [],
+  "concepts": [
+   "Dx"
+  ],
+  "composition": [
+   "Dt"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.11",
+    "label": "11.12",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 11,
+    "section": "11.22",
+    "cites": "11.12"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0163",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "On the relevant quotient domain, require non-negativity, zero-distance identity, and the triangle inequality. If reversible equivalence additionally yields symmetry, the quotient domain supports an ordinary metric. ▪ relational organization ⇝ metric axioms as consequences",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0160",
+   "EE-C-0161",
+   "EE-C-0162"
+  ],
+  "relations": [],
+  "concepts": [
+   "Dt",
+   "Tr",
+   "Zs",
+   "Dx"
+  ],
+  "composition": [
+   "Dx",
+   "Tr",
+   "Zs"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.12",
+    "label": "11.13",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 11,
+    "section": "11.25",
+    "cites": "11.13"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0164",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "metric relation ≠ coordinate representation; intrinsic distance ≠ embedding distance; local metric structure ⇏ global geometry",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Dt"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.13",
+    "label": "11.14",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0165",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Distance may be scale-relative while still being structurally objective within a declared scale regime. This is a candidate proposition, not yet a result.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0156",
+   "EE-C-0138"
+  ],
+  "relations": [],
+  "concepts": [
+   "Dt",
+   "Sc"
+  ],
+  "composition": [
+   "Cs",
+   "Dt"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.16",
+    "label": "11.17",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 11,
+    "section": "11.17",
+    "cites": "11.17"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0166",
+  "kind": "criterion",
+  "use": "constitutive",
+  "status": null,
+  "text": "A relational distance is admissible only when its loci, mediating relations, admissible chains, and scale standard are independently constrained. This may be the most important falsifiability condition in Distance.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0156"
+  ],
+  "relations": [],
+  "concepts": [
+   "Dt",
+   "Rn"
+  ],
+  "composition": [
+   "Dt"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.17",
+    "label": "11.18",
+    "type_word": "Criterion"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 11,
+    "section": "11.22",
+    "cites": "11.18"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 11,
+    "section": "11.24",
+    "cites": "11.18"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0167",
+  "kind": "definition",
+  "use": "representational",
+  "status": null,
+  "text": "▪ near/far = comparative metric relations ▪ relational near/far ≠ physical spatial near/far",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0156"
+  ],
+  "relations": [],
+  "concepts": [
+   "Dt"
+  ],
+  "composition": [
+   "Dt"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.19",
+    "label": "11.20",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0168",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "metric separation ≠ geometry",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Dt",
+   "Gm"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.20",
+    "label": "11.21",
+    "type_word": "Ledger"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 12,
+    "section": "12.1",
+    "cites": "11.21"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0169",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Renaming lower-order components must not change the distance.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Dt"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 11,
+    "section": "11.21",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0170",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Faithful graph, hypergraph, matrix, or equivalent encodings should preserve the metric relations that matter.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Dt"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 11,
+    "section": "11.21",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0171",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Small changes in arbitrary descriptive partition should not radically alter distance unless those changes correspond to genuine changes in the organization.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Dt",
+   "Rn"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 11,
+    "section": "11.21",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0172",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "If several nearly equivalent chains exist, perturbing one should not destroy the metric globally.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Rn",
+   "Dt"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 11,
+    "section": "11.21",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0173",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Zero-separated states or higher-order equivalent states should support well-defined distances on the quotient.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Zs"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 11,
+    "section": "11.21",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0174",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Coarse-grained distances should preserve declared higher-order relations where the coarse-graining is claimed to be valid.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Dt",
+   "Cs"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 11,
+    "section": "11.21",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0175",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Where symmetry is claimed, reversing admissible relational chains must preserve their magnitude.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Dx"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 11,
+    "section": "11.21",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0176",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Distances constructed from admissible chain composition should satisfy the triangle inequality when additivity is claimed.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Tr"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 11,
+    "section": "11.21",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0177",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "The implementation must not encode coordinates, geometric neighborhoods, target dimensionality, or an embedding into the update rules.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Dt"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 11,
+    "section": "11.21",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0178",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Candidate relational structures should be compared with matched random organizations to test whether coherent metric structure is genuinely selected rather than trivially present in every arbitrary network.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Dt"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 11,
+    "section": "11.21",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0180",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "For a locus A and an internally available scale ε, consider the family of loci whose relational distance from A lies below that scale. In conventional notation one might write N_ε(A) = {X : d(A,X) < ε}.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0156",
+   "EE-C-0135"
+  ],
+  "relations": [],
+  "concepts": [
+   "Nb"
+  ],
+  "composition": [
+   "Dt",
+   "Sd"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.2",
+    "label": "12.1",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 12,
+    "section": "12.4",
+    "cites": "12.1"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0181",
+  "kind": "criterion",
+  "use": "constitutive",
+  "status": null,
+  "text": "We can therefore state a first candidate condition: local geometric coherence is the persistence of neighborhood relations under admissible transformation. ▪ local geometric coherence = stable neighborhood relations under admissible transformation",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0180"
+  ],
+  "relations": [],
+  "concepts": [
+   "Nb"
+  ],
+  "composition": [
+   "Nb"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.2",
+    "label": "12.2",
+    "type_word": "Criterion"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0182",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "A geometry requires that members of D are not freely assignable independently of one another. [...] distance : relation between loci; geometry : relation among systems of distances",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0179",
+   "ch12.P12.1"
+  ],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Gm",
+   "Dt"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.3",
+    "label": "12.3",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 12,
+    "section": "12.1",
+    "cites": "12.3"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 11,
+    "section": "11.25",
+    "cites": "12.3"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "12.3"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 12,
+    "section": "12.33",
+    "cites": "12.3"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0183",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Call such a family a metric-relational layer. A layer is not a sheet, a hidden spatial surface, or a field already defined over a manifold. It is a distributed family of relational constraints whose members support internally comparable separation. [...] 𝔏α = (Xα, dα, Kα) [...] ▪ 𝔏 = { 𝔏α , Kαβ }",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0156"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ly"
+  ],
+  "composition": [
+   "Dt"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.5",
+    "label": "12.4",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0184",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ number of relational layers ≠ number of geometric dimensions",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0183"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ly",
+   "Ed"
+  ],
+  "composition": [
+   "Ly"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.6",
+    "label": "12.5",
+    "type_word": "Ledger"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 12,
+    "section": "12.8",
+    "cites": "12.5"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 12,
+    "section": "12.29",
+    "cites": "12.5"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0185",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "If a change available through one mode cannot be reproduced, under the declared equivalence criterion, by admissible combinations of the others, then that mode contributes an independent degree of variation. [...] ▪ dR := rank(IndR), evaluated here on the stable independent relational modes that survive the declared geometric regime",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "specializes",
+    "claim": "EE-C-0115"
+   }
+  ],
+  "concepts": [
+   "Ed",
+   "Dd",
+   "Ix"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.6",
+    "label": "12.6",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0186",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ independent variation ⇝ basis-like structure ⇝ comparison among modes ⇝ angle ⇝ orthogonality [...] a relational organization can require multiple irreducible ways of changing before any meaningful relation of ninety degrees exists among them.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0185"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ix",
+   "Ed"
+  ],
+  "composition": [
+   "Dd",
+   "Ed",
+   "Ix"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.7",
+    "label": "12.7",
+    "type_word": "Ledger"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 12,
+    "section": "12.19",
+    "cites": "12.7"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0187",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ variation ⇝ cross-layer constraint ⇝ selection ⇝ retention ⇝ stable collective modes [...] ▪ deff ≪ dmicro (candidate possibility)",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0183",
+   "EE-C-0185"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ly",
+   "Ed"
+  ],
+  "composition": [
+   "Dd",
+   "Ed",
+   "Ix",
+   "Ly"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.9",
+    "label": "12.8",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 12,
+    "section": "12.29",
+    "cites": "12.8"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0188",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": null,
+  "text": "A coordinate tuple x ↦ (x^1, …, x^n) is then a compressed label for relational position relative to those modes. [...] ▪ coordinate representation ≠ geometric ontology",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Ed",
+   "Po"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.10",
+    "label": "12.9",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0189",
+  "kind": "representation",
+  "use": "representational",
+  "status": null,
+  "text": "A mature differential-geometric representation might write ds^2 = gij(x) dx^i dx^j. [...] ▪ gij ~ effective local relation among variation modes and separation",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "represents",
+    "claim": "EE-C-0188"
+   },
+   {
+    "type": "represents",
+    "claim": "EE-C-0185"
+   }
+  ],
+  "concepts": [
+   "Gm",
+   "Ed"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.11",
+    "label": "12.10",
+    "type_word": "Representation"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0190",
+  "kind": "representation",
+  "use": "representational",
+  "status": null,
+  "text": "▪ 𝔏^(σ) ≈ 𝔏smooth over a declared scale regime [...] ▪ local smoothness ≠ global smoothness ▪ effective continuity ≠ fundamental continuity",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "represents",
+    "claim": "EE-C-0138"
+   }
+  ],
+  "concepts": [
+   "Gm",
+   "Cs"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.12",
+    "label": "12.11",
+    "type_word": "Representation"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 12,
+    "section": "12.29",
+    "cites": "12.11"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0191",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Let the richer relational substrate be 𝔏. Let ΠF denote the resolution map associated with a bounded frame F. [...] ▪ ΠF(𝔏) = 𝔏F [...] ▪ 𝔏a ≠ 𝔏b while ΠF(𝔏a) = ΠF(𝔏b) [...] ▪ predictive adequacy ≠ ontological completeness",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0183"
+  ],
+  "relations": [],
+  "concepts": [
+   "Pj",
+   "Sb"
+  ],
+  "composition": [
+   "Ly"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.13",
+    "label": "12.14",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 12,
+    "section": "12.14",
+    "cites": "12.14"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 12,
+    "section": "12.33",
+    "cites": "12.14"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0192",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Write IF for the interaction induced by frame F. [...] ▪ (𝔏,F) –IF–> G′ –ΠF–> OF [...] ▪ OF = ΠF( IF(𝔏) )",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0191"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ms"
+  ],
+  "composition": [
+   "Pj",
+   "Sb"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.15",
+    "label": "12.16",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0193",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ measurement = relation between bounded subsystems of one relational organization",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0192"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ms"
+  ],
+  "composition": [
+   "Ms"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.16",
+    "label": "12.17",
+    "type_word": "Proposition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0194",
+  "kind": "criterion",
+  "use": "constitutive",
+  "status": null,
+  "text": "We may therefore define effective geometric objectivity as invariance across a sufficiently broad family of admissible probes. ▪ effective objectivity = cross-frame stability of declared invariants",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0192"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ms"
+  ],
+  "composition": [
+   "Ms"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.17",
+    "label": "12.18",
+    "type_word": "Criterion"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 12,
+    "section": "12.16",
+    "cites": "12.18"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 12,
+    "section": "12.27",
+    "cites": "12.18"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 12,
+    "section": "12.29",
+    "cites": "12.18"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0195",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ dprobe = minimum number of independent parameters required to preserve the declared geometric invariants [...] The two need not coincide. [...] ▪ projected dimension ≠ fundamental dimensional complexity",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0185",
+   "EE-C-0194"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ed"
+  ],
+  "composition": [
+   "Dd",
+   "Ed",
+   "Ix",
+   "Ms"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.18",
+    "label": "12.19",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0196",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ curvature-like structure = persistent failure of local geometric standards to remain globally compatible",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0181",
+   "EE-C-0135"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cu"
+  ],
+  "composition": [
+   "Nb",
+   "Sd"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.20",
+    "label": "12.21",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 12,
+    "section": "12.21",
+    "cites": "12.21"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 12,
+    "section": "12.29",
+    "cites": "12.21"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0197",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ variation in cross-layer coupling ⇝ variation in effective metric relations (candidate). This is one of the chapter’s most speculative proposals.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0183",
+   "EE-C-0196"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cu",
+   "Ly"
+  ],
+  "composition": [
+   "Cu",
+   "Ly"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.22",
+    "label": "12.22",
+    "type_word": "Proposition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0198",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ ΠF(𝔏) ↦ 𝔏F^(3) while the underlying 𝔏 may remain structurally richer [...] The weaker and more defensible proposition is therefore: ▪ observed dimensionality = dimensionality of stable resolvable geometric variation",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0191",
+   "EE-C-0195"
+  ],
+  "relations": [],
+  "concepts": [
+   "Pj",
+   "Ed"
+  ],
+  "composition": [
+   "Ed",
+   "Pj",
+   "Sb"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.23",
+    "label": "12.23",
+    "type_word": "Proposition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0199",
+  "kind": "criterion",
+  "use": "diagnostic",
+  "status": null,
+  "text": "A legitimate projection model must independently constrain three things: the candidate substrate 𝔏, the interaction IF, and the resolution map ΠF. These cannot all be chosen after seeing the output that the model is supposed to explain.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "tests",
+    "claim": "EE-C-0191"
+   },
+   {
+    "type": "tests",
+    "claim": "EE-C-0192"
+   }
+  ],
+  "concepts": [
+   "Pj",
+   "Ms",
+   "Sb"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.24",
+    "label": "12.24",
+    "type_word": "Criterion"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 12,
+    "section": "12.29",
+    "cites": "12.24"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0200",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "if independently constrained relational layers generate stable low-dimensional metric organization whose invariants survive scale change and heterogeneous probing, then effective geometry can be explained without assuming its familiar dimensional form at the foundation.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0183"
+  ],
+  "relations": [
+   {
+    "type": "tests",
+    "claim": "EE-C-0199"
+   }
+  ],
+  "concepts": [
+   "Gm",
+   "Ly"
+  ],
+  "composition": [
+   "Ly"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.28",
+    "label": "12.25",
+    "type_word": "Proposition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0201",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Speculative",
+  "text": "stable multidimensional geometry may be an invariant effective projection of a relational substrate richer than the geometry resolved by any one bounded frame",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0191",
+   "EE-C-0194",
+   "EE-C-0198"
+  ],
+  "relations": [],
+  "concepts": [
+   "Pj",
+   "Gm",
+   "Sb"
+  ],
+  "composition": [
+   "Ed",
+   "Ms",
+   "Pj",
+   "Sb"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.30",
+    "label": "12.26",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "12.26"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 12,
+    "section": "12.33",
+    "cites": "12.26"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0202",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Renaming lower-order elements must not change the effective geometry.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Gm",
+   "Nb"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 12,
+    "section": "12.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0203",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Equivalent graph, hypergraph, matrix, tensor-network, or other faithful encodings should preserve the declared geometric invariants.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Gm"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 12,
+    "section": "12.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0204",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Small arbitrary changes in descriptive partition should not radically alter the effective geometry unless they correspond to genuine changes in the organization.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Gm"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 12,
+    "section": "12.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0205",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "No coordinate tuple, target dimensionality, Euclidean neighborhood, or embedding may be encoded in the generative rules if dimensionality is the quantity being tested.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Ed"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 12,
+    "section": "12.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0206",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "The number of stable independent modes should be measured from the generated organization rather than stipulated.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Ed"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 12,
+    "section": "12.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0207",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Heterogeneous admissible probes should recover the same higher-order geometric invariants over the regime in which effective objectivity is claimed.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Ms"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 12,
+    "section": "12.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0208",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Coarse-graining may change lower-order distances, but it should preserve the declared higher-order relations when the effective geometry is claimed to survive.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Cs",
+   "Gm"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 12,
+    "section": "12.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0209",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Route-dependent failure of relational standards to return equivalently should be distinguished from artifacts introduced by coordinate representation or probe asymmetry.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Cu"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 12,
+    "section": "12.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0210",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Candidate multilayer systems should be compared with matched random organizations to test whether low-dimensional coherence is selected rather than ubiquitous.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Ly",
+   "Ed"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 12,
+    "section": "12.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0211",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "If no stable rank, neighborhood structure, or cross-frame invariant emerges, the result should count against the candidate mechanism rather than being redescribed as a different hidden geometry.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Ed",
+   "Nb",
+   "Ms"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 12,
+    "section": "12.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0212",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Let Joint(A,B) mean that A and B are recoverable as distinct loci within the same effective geometry Geo. ▪ Joint(A,B) ≠ A and B exist at the same time",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Jr"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.4",
+    "label": "13.4",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "13.4"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 13,
+    "section": "13.23",
+    "cites": "13.4"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 13,
+    "section": "13.24",
+    "cites": "13.4"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0213",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Let λGeo(A) denote the geometric relational profile through which A is situated within Geo. Then define a candidate localization class: ▪ Loc(A) = [λGeo(A)]~Sp where ~Sp identifies lower-order realizations that preserve the geometric profile through which A is situated.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0212"
+  ],
+  "relations": [],
+  "concepts": [
+   "Lc"
+  ],
+  "composition": [
+   "Jr"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.5",
+    "label": "13.5",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 13,
+    "section": "13.23",
+    "cites": "13.5"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0214",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "A spatial position participates in coordinated localization such that its geometric relations constrain the organization of the surrounding domain. ▪ spatial position = stable localization role within coordinated geometry. Coordinates may later represent this role. They do not generate it.",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0060",
+   "ch05.M5.11"
+  ],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Lc",
+   "Po"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.7",
+    "label": "13.8",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 5,
+    "section": "5.11",
+    "cites": "13.8"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0215",
+  "kind": "criterion",
+  "use": "constitutive",
+  "status": null,
+  "text": "A narrower criterion is available: a geometric distinction becomes physically consequential when changing it changes the admissible relational organization of other instantiated structures rather than merely changing an investigator’s description. Let Adm(A,B | Geo) denote the set of couplings admissible between A and B under geometric organization Geo. If Geo ≠ Geo’ and this difference produces Adm(A,B | Geo) ≠ Adm(A,B | Geo’), then the geometric distinction has consequences for relational organization. ▪ physical spatiality = geometry with constitutive relational consequences ▪ physical ≠ material",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Ph"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.8",
+    "label": "13.9",
+    "type_word": "Criterion"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 13,
+    "section": "13.23",
+    "cites": "13.9"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 13,
+    "section": "13.24",
+    "cites": "13.9"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0216",
+  "kind": "criterion",
+  "use": "diagnostic",
+  "status": null,
+  "text": "A candidate adjacency relation should survive relevant coarse-graining, coordinate removal, heterogeneous probing, perturbations that do not destroy the higher-order regime, and independent tests of relational accessibility. Otherwise spatiality may have been encoded in the representation rather than generated by the system.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Lo"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.10",
+    "label": "13.13",
+    "type_word": "Criterion"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0217",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Suppose collapsing the two classes, L(A), L(B) ↦ L, destroys at least one declared spatial invariant H, so that H(Geo) ≠ H(Geo/L). Their distinction is then structurally irreducible at that scale. ▪ extension = non-collapsible plurality of coordinated localization",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Ex"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.11",
+    "label": "13.14",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "13.14"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 13,
+    "section": "13.23",
+    "cites": "13.14"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 13,
+    "section": "13.24",
+    "cites": "13.14"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0218",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Spatial distance is not a wholly new metric. It is an already-earned metric relation interpreted within coordinated physical localization. ▪ dS(A,B) = dG( L(A), L(B) )",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sa"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.12",
+    "label": "13.16",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0219",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "A geometric mode becomes a spatial dimension when variation along that mode changes localization within the coordinated physical domain. ▪ geometric independent mode + localization consequence ⇝ spatial dimension ▪ drelational ≠ dgeometric ≠ dspatial",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sn"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.13",
+    "label": "13.17",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 13,
+    "section": "13.24",
+    "cites": "13.17"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0220",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ Φ ↦ ΔGeoₑff ↦ ΔΦ′ relational transformation ↔ spatial coordination. This is a candidate proposition, not yet a derived dynamical law. It does not establish gravity. It does not establish quantum dynamics.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sp",
+   "Lc"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.16",
+    "label": "13.20",
+    "type_word": "Proposition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 13,
+    "section": "13.24",
+    "cites": "13.20"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 13,
+    "section": "13.31",
+    "cites": "13.20"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0221",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "We need not require SpF1 = SpF2 at the level of raw representation. What matters is whether declared spatial invariants agree across admissible heterogeneous probes. H(SpF1) ~ H(SpF2) ~ … ▪ spatial objectivity = cross-frame stability of coordinated localization invariants",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sp",
+   "Ms"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.22",
+    "label": "13.25",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 13,
+    "section": "13.23",
+    "cites": "13.25"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0222",
+  "kind": "criterion",
+  "use": "constitutive",
+  "status": null,
+  "text": "Let an effective geometric organization be Geo = (X, d, N, K), where X is a family of recoverable loci, d represents inherited metric organization, N represents effective neighborhoods, and K represents admissible relational couplings. A candidate spatial regime S is present when the following conditions jointly hold: 1. Joint resolvability: There exist distinct loci A and B recoverable within one effective geometric configuration. 2. Stable localization: Loc(A) and Loc(B) remain recoverable under admissible variation. 3. Mutual coordination: Changing L(A) changes at least part of the surrounding localization relation structure. 4. Non-collapsible extension: L(A) ≠ L(B), and collapsing them destroys a declared spatial invariant. 5. Consequential locality: Geometric neighborhood constrains independently specified admissible coupling. 6. Cross-frame robustness: Declared spatial invariants remain approximately stable across admissible heterogeneous probes. ▪ Sp = a physically consequential coordinated localization structure. This remains a candidate definition until explicit generative models establish that these properties can arise without spatial locality being inserted into the lower-order rules.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0212",
+   "EE-C-0213",
+   "EE-C-0217",
+   "EE-C-0215",
+   "EE-C-0221"
+  ],
+  "relations": [],
+  "concepts": [
+   "Sp"
+  ],
+  "composition": [
+   "Ex",
+   "Jr",
+   "Lc",
+   "Ms",
+   "Ph",
+   "Sp"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.23",
+    "label": "13.26",
+    "type_word": "Criterion"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 13,
+    "section": "13.25",
+    "cites": "13.26"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0223",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Strip coordinate labels, embeddings, drawing positions, and target spatial metadata. Attempt to recover the same localization relations intrinsically. If Space disappears when the coordinates disappear, Space was encoded.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Lc",
+   "Sp"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 13,
+    "section": "13.26",
+    "type_word": "Test"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 13,
+    "section": "13.25"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 13,
+    "section": "13.29"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0224",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Generate geometry without specifying spatial adjacency as a target. Test afterward whether recovered geometric neighborhood predicts independently specified coupling accessibility better than randomized controls.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Lo"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 13,
+    "section": "13.26",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0225",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Change one recovered localization and measure whether the surrounding localization relations change systematically rather than arbitrarily.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Lc"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 13,
+    "section": "13.26",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0226",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Apply substantially different resolution maps and determine whether candidate spatial invariants survive.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sp",
+   "Pj"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 13,
+    "section": "13.26",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0227",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Coarse-grain repeatedly and measure whether localization, adjacency, and dimensional rank remain stable over a finite regime.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Cs",
+   "Lc",
+   "Sn"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 13,
+    "section": "13.26",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0228",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Search for scales or regions in which a smooth approximation ceases to fit while higher-order localization remains recoverable.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Lc",
+   "Gm"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 13,
+    "section": "13.26",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0229",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Permit lower-order relational transformations to perturb the substrate without explicitly changing geometric variables. Ask whether the recovered effective geometry changes as a consequence.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Gm",
+   "Sb"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 13,
+    "section": "13.26",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0231",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "Write ≺⁺ for non-empty reachability through one or more ≺ links. Define mutual dependency by: ▪ eᵢ ≈ eⱼ iff eᵢ ≺⁺ eⱼ and eⱼ ≺⁺ eᵢ",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0026"
+  ],
+  "relations": [],
+  "concepts": [
+   "Md"
+  ],
+  "composition": [
+   "Pr"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 14,
+    "section": "14.5",
+    "label": "14.1",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 14,
+    "section": "14.31",
+    "cites": "14.1"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0232",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "On the quotient 𝓔/≈ , define a strict candidate temporal precedence relation ≺ₜ by: ▪ [eᵢ] ≺ₜ [eⱼ] iff eᵢ ≺⁺ eⱼ and not(eⱼ ≺⁺ eᵢ). This quotient construction does not assume that the original dependency graph is acyclic. [...] The transitive reachability relation then supplies strict partial-order structure on the quotient [...] A temporal interpretation is still not automatic. ≺ₜ is a structural order candidate.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0231",
+   "EE-C-0026"
+  ],
+  "relations": [],
+  "concepts": [
+   "Eo",
+   "Md"
+  ],
+  "composition": [
+   "Md",
+   "Pr"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 14,
+    "section": "14.5",
+    "label": "14.2",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 14,
+    "section": "14.2",
+    "cites": "14.2"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 14,
+    "section": "14.7",
+    "cites": "14.2"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 14,
+    "section": "14.26",
+    "cites": "14.2"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 14,
+    "section": "14.27",
+    "cites": "14.2"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 14,
+    "section": "14.31",
+    "cites": "14.2"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0233",
+  "kind": "rule",
+  "use": "constitutive",
+  "status": null,
+  "text": "The methodological rule is therefore strict: latent integration may carry dependency structure before it carries duration.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0012"
+  ],
+  "relations": [],
+  "concepts": [
+   "Li"
+  ],
+  "composition": [
+   "Cf",
+   "Ut"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 14,
+    "section": "14.6",
+    "label": "14.3",
+    "type_word": "Rule"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 14,
+    "section": "14.26",
+    "cites": "14.3"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0234",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "A temporal order is a stable, recursively recoverable strict ordering of relational transformations derived from retained dependency, such that the ordering constrains admissible histories without requiring an external time parameter. Raw ≺ is the inherited dependency relation; ≺ₜ denotes the stronger order earned only after cycle reduction and the additional coherence conditions stated here.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0232",
+   "EE-C-0026"
+  ],
+  "relations": [],
+  "concepts": [
+   "Tm",
+   "Eo"
+  ],
+  "composition": [
+   "Eo",
+   "Md",
+   "Pr"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 14,
+    "section": "14.7",
+    "label": "14.4",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 14,
+    "section": "14.26",
+    "cites": "14.4"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0236",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "A temporal chain is a set of mutually comparable quotient events under ≺ₜ. [...] A branch occurs when one event constrains more than one admissible successor. A merge occurs when one event depends on retained consequences from more than one predecessor.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0232"
+  ],
+  "relations": [],
+  "concepts": [
+   "Eo"
+  ],
+  "composition": [
+   "Eo",
+   "Md"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 14,
+    "section": "14.9",
+    "label": "14.5",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 14,
+    "section": "14.27",
+    "cites": "14.5"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0237",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ NC(eₐ,eᵦ) = number of retained update steps along chain C. But N is not automatically duration. [...] Counting provides a candidate precursor of duration only when the counted unit is itself stable, reproducible, and relationally accessible.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0236"
+  ],
+  "relations": [],
+  "concepts": [
+   "Uc"
+  ],
+  "composition": [
+   "Eo"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 14,
+    "section": "14.11",
+    "label": "14.6",
+    "type_word": "Definition"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 14,
+    "section": "14.22",
+    "cites": "14.6"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0238",
+  "kind": "definition",
+  "use": "constitutive",
+  "status": null,
+  "text": "▪ K₀ ↦ K₁ ↦ … ↦ Km ≈ K₀ [...] ▪ τK(A,B) = nK(A,B) · uK. Here nK is the number of stable K-cycles occurring across the dependency interval between A and B, and uK is the conventional unit assigned to one cycle. The formula is not yet a claim that τK equals proper time.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Tq"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 14,
+    "section": "14.12",
+    "label": "14.7",
+    "type_word": "Definition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0239",
+  "kind": "criterion",
+  "use": "constitutive",
+  "status": null,
+  "text": "A candidate clock K should satisfy at least four conditions: recurrence: the system repeatedly returns to a comparison-equivalent state; countability: cycles or phases can be distinguished and retained; stability: the relevant cycle structure remains sufficiently invariant across the domain of use; couplability: other processes can be compared with the clock without the comparison relation itself silently defining the desired temporal result.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0238"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ck"
+  ],
+  "composition": [
+   "Tq"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 14,
+    "section": "14.13",
+    "label": "14.8",
+    "type_word": "Criterion"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 3,
+    "section": "3.10",
+    "cites": "14.8"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 14,
+    "section": "14.26",
+    "cites": "14.8"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0240",
+  "kind": "representation",
+  "use": "representational",
+  "status": null,
+  "text": "▪ 𝒯 = (𝓔/≈ , ≺ₜ, Rec, Cyc) where: 𝓔/≈ is the quotient of resolvable relational events by mutual dependency reachability; ≺ₜ is the strict partial-order candidate induced by one-way dependency reachability between those quotient classes; Rec is the family of retained records or constraints by which precedence can be recovered, lettered to stay clear of the relation set ℜ of Formalism; Cyc is an optional family of recurrent comparison processes, lettered to stay clear of the configuration set 𝒞 of Formalism, that can support endogenous metric standards when they satisfy stability conditions.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0231",
+   "EE-C-0232",
+   "EE-C-0239"
+  ],
+  "relations": [],
+  "concepts": [
+   "Tm"
+  ],
+  "composition": [
+   "Ck",
+   "Eo",
+   "Md"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 14,
+    "section": "14.23",
+    "label": "14.10",
+    "type_word": "Representation"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0241",
+  "kind": "criterion",
+  "use": "diagnostic",
+  "status": null,
+  "text": "A metric temporal quantity becomes defensible only if at least the following conditions can be satisfied: ordered comparability: the relevant states admit stable precedence relations; repeatable standard: a recurrent process provides distinguishable, countable cycles or phases; cross-standard calibration: independently realized recurrent processes exhibit stable comparative ratios over a regime; resolution robustness: the inferred temporal measure is not an artifact of one arbitrary decomposition into update steps; frame coherence: overlapping local frames agree on precedence where dependency is shared, even if their quantitative clock readings later differ; non-circularity: no external time variable or target relativistic behavior is built into the update rules that supposedly derive the measure. These conditions do not prove that metric time must emerge.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0232",
+   "EE-C-0239",
+   "EE-C-0238"
+  ],
+  "relations": [],
+  "concepts": [
+   "Tq",
+   "Ck"
+  ],
+  "composition": [
+   "Ck",
+   "Eo",
+   "Md",
+   "Tq"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 14,
+    "section": "14.24",
+    "label": "14.11",
+    "type_word": "Criterion"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0242",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Remove all external iteration counters, timestamps, and manuscript-order labels. Determine whether the precedence relation can still be reconstructed from retained relational structure.",
+  "version": "v1",
+  "aliases": [
+   "EE-C-0235",
+   "ch14.T14.8"
+  ],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Eo",
+   "Pr"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 14,
+    "section": "14.25",
+    "type_word": "Test"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 14,
+    "section": "14.8"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 14,
+    "section": "14.29"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0243",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Delete or perturb a purported predecessor and test whether the admissibility or structure of the claimed successor changes in the predicted way.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Pr"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 14,
+    "section": "14.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0244",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Construct at least two independently organized recurrent subsystems and test whether their comparative cycle ratios stabilize without one clock being defined from the other.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Ck",
+   "Tq"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 14,
+    "section": "14.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0245",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Change temporal resolution and determine whether precedence and any proposed metric ratios remain stable over a finite regime.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Eo",
+   "Tq",
+   "Cs"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 14,
+    "section": "14.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0246",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Introduce incomparable or branching update structures and verify that the formalism does not force an artificial global total order.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Eo"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 14,
+    "section": "14.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0247",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Give neighboring local frames partial access to the same dependency network and test whether they recover compatible orderings on the shared portion.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Eo",
+   "Rf"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 14,
+    "section": "14.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0248",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Use transformation laws that are microscopically reversible and determine whether the framework incorrectly manufactures thermodynamic irreversibility from dependency notation alone.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Re",
+   "Ir"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 14,
+    "section": "14.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0249",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Verify that no propagation speed, Lorentzian signature, null relation, or invariant c is required to make the temporal construction work.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Tm",
+   "Sx"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "statement",
+    "chapter": 14,
+    "section": "14.25",
+    "type_word": "Test"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0250",
+  "kind": "criterion",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "The organization of jointly resolvable loci becomes spatially coordinated when the localization of one cannot be varied freely without changing the relational localization structure around it: spatial localizations are not independently assignable. Schematically: ΔL(A) ↦ Δ{d(A,B), d(A,C), N(A), …}.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0213",
+   "EE-C-0212"
+  ],
+  "relations": [],
+  "concepts": [
+   "Lc",
+   "Sp"
+  ],
+  "composition": [
+   "Jr",
+   "Lc"
+  ],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.6",
+    "label": "13.7",
+    "type_word": "Criterion"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "cites": "13.7"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 13,
+    "section": "13.2",
+    "cites": "13.7"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "foreshadowing",
+    "chapter": 13,
+    "section": "13.3",
+    "cites": "13.7"
+   },
+   {
+    "edition": "book-1/beta",
+    "role": "restatement",
+    "chapter": 13,
+    "section": "13.23",
+    "cites": "13.7"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0251",
+  "kind": "representation",
+  "use": "representational",
+  "status": "Provisional",
+  "text": "Once localization classes that distinguish membership in a domain D are spatially coordinated, a relational membership boundary may be represented geometrically as ∂D: relational boundary ⇝ geometric boundary ⇝ spatial boundary. Only then do inside, outside, region, enclosure and surface acquire literal spatial interpretation.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "represents",
+    "claim": "EE-C-0027"
+   },
+   {
+    "type": "represents",
+    "claim": "EE-C-0084"
+   },
+   {
+    "type": "represents",
+    "claim": "EE-C-0250"
+   }
+  ],
+  "concepts": [
+   "Bd",
+   "Io",
+   "Lc"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.19",
+    "label": "13.23",
+    "type_word": "Representation"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0252",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "Ω ≠ (x, y, z, t)",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Om"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 1,
+    "section": "1.6",
+    "label": "1.5",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0253",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "Ω ≠ ∅",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Om"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 1,
+    "section": "1.7",
+    "label": "1.6",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0254",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "phenomenological deconstruction suggests a dependency ≠ derivational proof of that dependency",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Dp"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 1,
+    "section": "1.8",
+    "label": "1.9",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0255",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "state invariance ≠ retained distinction",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Rd"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 4,
+    "section": "4.2",
+    "label": "4.1",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0256",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "relation count ≠ independence structure ≠ physical dimension",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Ix",
+   "Dd"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 5,
+    "section": "5.14",
+    "label": "5.21",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0257",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "orientational independence ≠ vector-space dimension ≠ spatial dimension",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Or",
+   "Dd"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 7,
+    "section": "7.11",
+    "label": "7.4",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0258",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "observer coarse-graining ≠ ontic higher-order equivalence, though the former may model the latter",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Oc"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 7,
+    "section": "7.14",
+    "label": "7.5",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0259",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "retention ≠ path dependence ≠ memory",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Pc",
+   "Pd"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 8,
+    "section": "8.14",
+    "label": "8.4",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0260",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "joint return ≠ synchronous return",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Rt"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 8,
+    "section": "8.20",
+    "label": "8.6",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0261",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "stable identity + repeatable return ⇝ reusable relational reference",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Rt",
+   "An"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 8,
+    "section": "8.22",
+    "label": "8.7",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0262",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "representation of X ≠ ontological identity of X",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Fm",
+   "Fa"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.2",
+    "label": "9.1",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0263",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "effective branching ≠ fundamental randomness",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Ss"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.5",
+    "label": "9.5",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0264",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "algebraic invertibility ≠ identity-class return ≠ physical reversibility",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Ir",
+   "Rt"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.8",
+    "label": "9.7",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0265",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "equivalence ⇝ transformation-compatible equivalence ⇝ quotient-level dynamics",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Cg",
+   "Qd"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.9",
+    "label": "9.9",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0266",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "binary convenience ≠ binary ontological sufficiency",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Fa",
+   "Rb"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.18",
+    "label": "9.12",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0267",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "matrix notation ≠ vector-space ontology",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Fa",
+   "Do"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.19",
+    "label": "9.13",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0268",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "earned closure ⇝ simplicial realization may be useful",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Fa",
+   "Cl"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.20",
+    "label": "9.14",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0269",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "first-order state update ≠ historical amnesia",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Fm",
+   "Pd"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.21",
+    "label": "9.15",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0270",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "external cardinal bookkeeping ≠ endogenous magnitude",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Cm",
+   "Fa"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.23",
+    "label": "9.17",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0271",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "formal carrier ≠ material medium beneath relation",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sb"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 9,
+    "section": "9.24",
+    "label": "9.18",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0272",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "relational mediation + earned magnitude ⇝ comparable separation",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Rn",
+   "Dt"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.3",
+    "label": "11.4",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0273",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "intrinsic distance ≠ embedding distance",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Dt"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.14",
+    "label": "11.15",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0274",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "local metric structure ⇏ global geometry",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Dt",
+   "Gm"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.15",
+    "label": "11.16",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0275",
+  "kind": "ledger",
+  "use": "representational",
+  "status": "Provisional",
+  "text": "fewest mediators ≠ least ground covered",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Rn"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 11,
+    "section": "11.18",
+    "label": "11.19",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0276",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "local smoothness ≠ global smoothness",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Gm"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.12",
+    "label": "12.12",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0277",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "effective continuity ≠ fundamental continuity",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Gm",
+   "Pj"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.12",
+    "label": "12.13",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0278",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "predictive adequacy ≠ ontological completeness",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Ms",
+   "Pj"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.13",
+    "label": "12.15",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0279",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "projected dimension ≠ fundamental dimensional complexity",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Ed",
+   "Pj"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 12,
+    "section": "12.18",
+    "label": "12.20",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0280",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "geometric locus ≠ spatial location",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Lc"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.1",
+    "label": "13.1",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0281",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "coordination ≠ coordinates",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Lc"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.2",
+    "label": "13.2",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0282",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "geometric coherence ≠ spatial coordination",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Lc"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.3",
+    "label": "13.3",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0283",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "A′ ≠ A, while Loc(A′) ~ Loc(A)",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Lc"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.5",
+    "label": "13.6",
+    "type_word": "Proposition"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0284",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "geometric neighborhood + consequential accessibility ⇝ physical locality",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Lo",
+   "Nb"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.9",
+    "label": "13.10",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0285",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "edge ≠ spatial adjacency",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Lo"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.10",
+    "label": "13.11",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0286",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "incidence ⇝ metric neighborhood ⇝ stable coordination ⇝ consequential locality ⇝ spatial adjacency",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Lo",
+   "Nb"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.10",
+    "label": "13.12",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0287",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "relational distance ≠ spatial distance",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sa"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.12",
+    "label": "13.15",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0288",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "detecting non-smoothness ≠ resolving fundamental structure",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sp",
+   "Cq"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.15",
+    "label": "13.18",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0289",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "fine relational distinctions ⇝ local geometric microstructure ⇝ mesoscopic irregularity ⇝ smooth effective space",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sp",
+   "Cq"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.15",
+    "label": "13.19",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0290",
+  "kind": "ledger",
+  "use": "diagnostic",
+  "status": "Provisional",
+  "text": "irregular geometric response ≠ derived turbulence",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Sp"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.17",
+    "label": "13.21",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0291",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "persistence of localization ≠ persistence of global metric separation",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Lc",
+   "Sa"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.18",
+    "label": "13.22",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0292",
+  "kind": "ledger",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "closure ≠ enclosure",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Cl",
+   "Io"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 13,
+    "section": "13.20",
+    "label": "13.24",
+    "type_word": "Ledger"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0293",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "Record_B(A) ≠ ∅ while Record_A(B) = ∅ for the realized dependency chain",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Re"
+  ],
+  "composition": [],
+  "appearances": [
+   {
+    "edition": "book-1/beta",
+    "role": "derivation",
+    "chapter": 14,
+    "section": "14.18",
+    "label": "14.9",
+    "type_word": "Proposition"
+   }
+  ]
+ }
+]

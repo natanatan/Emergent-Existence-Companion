@@ -1,0 +1,46 @@
+{
+ "schema": "emergent-existence-exports/1",
+ "editions": [
+  "book-1/beta"
+ ],
+ "counts": {
+  "claims": 270,
+  "hypotheses": 135,
+  "elements": 154,
+  "stages": 34,
+  "companion_backlog": 43,
+  "merged_ids": 23
+ },
+ "merged_ids": {
+  "EE-C-0034": "EE-C-0024",
+  "EE-C-0036": "EE-C-0032",
+  "EE-C-0041": "EE-C-0040",
+  "EE-C-0046": "EE-C-0045",
+  "EE-C-0057": "EE-C-0056",
+  "EE-C-0060": "EE-C-0214",
+  "EE-C-0063": "EE-C-0062",
+  "EE-C-0066": "EE-C-0065",
+  "EE-C-0076": "EE-C-0074",
+  "EE-C-0079": "EE-C-0078",
+  "EE-C-0082": "EE-C-0062",
+  "EE-C-0083": "EE-C-0064",
+  "EE-C-0086": "EE-C-0085",
+  "EE-C-0091": "EE-C-0089",
+  "EE-C-0108": "EE-C-0107",
+  "EE-C-0121": "EE-C-0120",
+  "EE-C-0126": "EE-C-0125",
+  "EE-C-0128": "EE-C-0127",
+  "EE-C-0130": "EE-C-0129",
+  "EE-C-0136": "EE-C-0135",
+  "EE-C-0179": "EE-C-0182",
+  "EE-C-0230": "EE-C-0026",
+  "EE-C-0235": "EE-C-0242"
+ },
+ "files": [
+  "claims.json",
+  "hypotheses.json",
+  "elements.json",
+  "ladder.json",
+  "companion-backlog.json"
+ ]
+}

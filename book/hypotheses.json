@@ -1,0 +1,1622 @@
+[
+ {
+  "id": "EE-H-0001",
+  "aliases": [
+   "H-1"
+  ],
+  "hypothesis": "The relational substrate is intrinsically oscillatory (waveform) at the foundational level",
+  "status": "Deferred",
+  "status_text": "Deferred",
+  "resolve_by": "Coherent phase dynamics cannot emerge without an oscillatory primitive, or a prediction requires one",
+  "revisited_in": "Matter (scoped section); App B, D",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0002",
+  "aliases": [
+   "H-2"
+  ],
+  "hypothesis": "The substrate follows diffusion dynamics, wave dynamics, or separate regimes of one deeper evolution",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "A formal statement of substrate dynamics that assigns each regime",
+  "revisited_in": "Distance; App D",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0003",
+  "aliases": [
+   "H-3"
+  ],
+  "hypothesis": "A discrete relational spectrum is sufficient for quantum behavior",
+  "status": "Rejected",
+  "status_text": "Rejected",
+  "resolve_by": "A derivation of phase-carrying dynamics and superposition from the relational formalism",
+  "revisited_in": "Matter",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0004",
+  "aliases": [
+   "H-4"
+  ],
+  "hypothesis": "“Information is fundamental” (strong form)",
+  "status": "Rejected",
+  "status_text": "Rejected",
+  "resolve_by": "None planned",
+  "revisited_in": "Boundary, 10",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0005",
+  "aliases": [
+   "H-5"
+  ],
+  "hypothesis": "The substrate is a medium beneath relations, or the evolving relational structure itself",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "A result that requires a medium, or shows the structure alone suffices",
+  "revisited_in": "Formalism",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0006",
+  "aliases": [
+   "H-6"
+  ],
+  "hypothesis": "Conventional information theory is a coarse-grained special case of relational distinction",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "A derivation of Shannon entropy from the relational formalism",
+  "revisited_in": "Boundary, 9; App B",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0007",
+  "aliases": [
+   "H-7"
+  ],
+  "hypothesis": "The physical universe is literally a mathematical empty set",
+  "status": "Rejected",
+  "status_text": "Rejected",
+  "resolve_by": "None planned",
+  "revisited_in": "Origin",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0008",
+  "aliases": [
+   "H-8"
+  ],
+  "hypothesis": "Hopf-fibration structure derives particle spin",
+  "status": "Deferred",
+  "status_text": "Deferred",
+  "resolve_by": "A construction recovering spinor structure from the relational formalism",
+  "revisited_in": "Orientation to Return",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0009",
+  "aliases": [
+   "H-9"
+  ],
+  "hypothesis": "The torus is dynamically selected rather than assumed",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "A toy model in which closed circulation emerges as an attractor",
+  "revisited_in": "Return",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0010",
+  "aliases": [
+   "H-10"
+  ],
+  "hypothesis": "The Riemann zeta function is a physical foundation",
+  "status": "Deferred",
+  "status_text": "Deferred",
+  "resolve_by": "A derivation linking relational structure to zeta-type analytic structure",
+  "revisited_in": "App C (analogy note)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0011",
+  "aliases": [
+   "H-11"
+  ],
+  "hypothesis": "Nature universally prefers the golden ratio",
+  "status": "Rejected",
+  "status_text": "Rejected in universal form; Retained in conditional form",
+  "resolve_by": "None planned for the universal form",
+  "revisited_in": "Formalism; App C",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0012",
+  "aliases": [
+   "H-12"
+  ],
+  "hypothesis": "Dimension and 3+1 Lorentzian geometry emerge from simple recursive relational rules",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "Computational toy-model results",
+  "revisited_in": "Closure, 9, 13; App E",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0013",
+  "aliases": [
+   "H-13"
+  ],
+  "hypothesis": "Lorentzian signature (-,+,+,+) can be recovered",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "A causal-order construction that yields the signature",
+  "revisited_in": "Space; App E",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0014",
+  "aliases": [
+   "H-14"
+  ],
+  "hypothesis": "General relativity is the laminar regime of relational dynamics",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "A derivation of Einstein-like behavior in the continuum limit",
+  "revisited_in": "Gravity",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0015",
+  "aliases": [
+   "H-15"
+  ],
+  "hypothesis": "The singularity is an evolving compressed relational state",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "A model of how infalling information updates the compressed state",
+  "revisited_in": "Black Holes to Recursive Cosmogenesis",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0016",
+  "aliases": [
+   "H-16"
+  ],
+  "hypothesis": "Our universe is simply inside a black hole",
+  "status": "Rejected",
+  "status_text": "Rejected",
+  "resolve_by": "None planned",
+  "revisited_in": "Recursive Cosmogenesis",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0017",
+  "aliases": [
+   "H-17"
+  ],
+  "hypothesis": "Black-hole formation and cosmological origin are opposite reference-frame descriptions of a deeper spacetime transition",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "A model of horizon crossing into a new expanding domain",
+  "revisited_in": "Recursive Cosmogenesis",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0018",
+  "aliases": [
+   "H-18"
+  ],
+  "hypothesis": "The cosmic web is literally a global T³ cosmology",
+  "status": "Rejected",
+  "status_text": "Rejected",
+  "resolve_by": "None planned",
+  "revisited_in": "Complexity",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0019",
+  "aliases": [
+   "H-19"
+  ],
+  "hypothesis": "Cosmic voids and filaments carry signatures of scale-recursive circulation",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "A testable signature that distinguishes it from standard structure formation",
+  "revisited_in": "Complexity",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0020",
+  "aliases": [
+   "H-20"
+  ],
+  "hypothesis": "Sacred-geometry claims are evidence",
+  "status": "Rejected",
+  "status_text": "Rejected",
+  "resolve_by": "None planned",
+  "revisited_in": "Lineage note",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0021",
+  "aliases": [
+   "H-21"
+  ],
+  "hypothesis": "An external creator is the first explanatory primitive",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "Not resolvable by the framework alone",
+  "revisited_in": "Vol III",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0022",
+  "aliases": [
+   "H-22"
+  ],
+  "hypothesis": "Any observable physical reality containing persistent states requires retained distinction (Proposition 1A)",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned",
+  "revisited_in": "Preface; Distinction; Boundary",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0023",
+  "aliases": [
+   "H-23"
+  ],
+  "hypothesis": "Distinction is the primitive operation from which relational physical structure ultimately emerges (former Proposition 1B)",
+  "status": "Superseded",
+  "status_text": "Superseded",
+  "resolve_by": "None planned",
+  "revisited_in": "Preface; Difference (2.2)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0024",
+  "aliases": [
+   "H-24"
+  ],
+  "hypothesis": "Two distinguishable states, one of which is the origin Ω itself, are the minimum scaffold for relational existence",
+  "status": "Superseded",
+  "status_text": "Superseded",
+  "resolve_by": "None planned",
+  "revisited_in": "Difference (2.3, 2.9)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0025",
+  "aliases": [
+   "H-25"
+  ],
+  "hypothesis": "Designating one pole of the primitive dyad as Ω is a stated cost, paid in Distinction",
+  "status": "Superseded",
+  "status_text": "Superseded",
+  "resolve_by": "None planned",
+  "revisited_in": "Distinction; Boundary (4.18); Closure",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0026",
+  "aliases": [
+   "H-26"
+  ],
+  "hypothesis": "The primitive dyad could be reconstructed from a recursive rule whose only prior reference role is Ω, so that Origin’s recursive self-relation would generate Difference",
+  "status": "Speculative",
+  "status_text": "Speculative",
+  "resolve_by": "Such a rule would make Difference derived rather than primitive and move this entry toward Provisional",
+  "revisited_in": "Difference (2.12); Closure, 10",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0027",
+  "aliases": [
+   "H-27"
+  ],
+  "hypothesis": "Recursion at the foundation presupposes physical time",
+  "status": "Rejected",
+  "status_text": "Rejected",
+  "resolve_by": "None planned",
+  "revisited_in": "Time",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0028",
+  "aliases": [
+   "H-28"
+  ],
+  "hypothesis": "The poles of the primitive dyad are weakly discernible only via ≬; telling them apart from within needs a structural resolver, an Ω designation, or an oriented relation",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Tested in Distinction, Orientation and Geometry",
+  "revisited_in": "Difference (2.5); Distinction; Orientation, 12",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0029",
+  "aliases": [
+   "H-29"
+  ],
+  "hypothesis": "An oriented relation makes order a consequence of direction rather than a further, independent cost",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned",
+  "revisited_in": "Distinction (3.6); Orientation, 12",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0030",
+  "aliases": [
+   "H-30"
+  ],
+  "hypothesis": "First-order recursion does not exclude finite-order retained history, since a finite-order recurrence is first-order on an enlarged state",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned",
+  "revisited_in": "Formalism, 20",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0031",
+  "aliases": [
+   "H-31"
+  ],
+  "hypothesis": "A designation marking one pole as Ω could eventually be replaced by content-based distinction",
+  "status": "Superseded",
+  "status_text": "Superseded",
+  "resolve_by": "None planned",
+  "revisited_in": "Closure (6.13)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0032",
+  "aliases": [
+   "H-32"
+  ],
+  "hypothesis": "Retention is the survival of the reciprocal distinction under admissible transformation, the images of a and b remaining non-equivalent as resolved by a frame W, not the invariance of the transformed state itself",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned",
+  "revisited_in": "Boundary (4.6, 4.8, 4.9)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0033",
+  "aliases": [
+   "H-33"
+  ],
+  "hypothesis": "Loss of retention is collapse, not return to Ω: a transformation after which no admissible frame recovers the distinction between a and b",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned",
+  "revisited_in": "Boundary (4.7)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0034",
+  "aliases": [
+   "H-34"
+  ],
+  "hypothesis": "Information is retained relational distinguishability that remains resolvable by at least one frame and constrains later relational possibilities",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Derivation of conventional information measures as special or coarse-grained cases would move it toward Retained",
+  "revisited_in": "Boundary (4.10); Formalism",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0035",
+  "aliases": [
+   "H-35"
+  ],
+  "hypothesis": "At the minimal domain the anchor is Ω",
+  "status": "Superseded",
+  "status_text": "Superseded",
+  "resolve_by": "None planned",
+  "revisited_in": "Boundary (4.18); Relation (5.15); Closure (6.13)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0036",
+  "aliases": [
+   "H-36"
+  ],
+  "hypothesis": "Whether the anchor stays fixed at Ω, relocates, or distributes once a domain grows past the primitive pair",
+  "status": "Superseded",
+  "status_text": "Superseded",
+  "resolve_by": "None planned",
+  "revisited_in": "Relation (5.15); Closure (6.13)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0037",
+  "aliases": [
+   "H-37"
+  ],
+  "hypothesis": "Retained dependency order (Σ_a ≺ Σ_b) is a candidate precursor of causal order, possibly the same asymmetry as orientation or derivation order seen a third way",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "A construction recovering relativistic causal cones from dependency order alone would move it to Provisional; Chapter 12 is where the three candidate asymmetries are to be reconciled",
+  "revisited_in": "Boundary (4.9); Time",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0038",
+  "aliases": [
+   "H-38"
+  ],
+  "hypothesis": "A primitive boundary is a relational criterion of separability, not a spatial surface",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned",
+  "revisited_in": "Boundary (4.7); Relation to Closure",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0039",
+  "aliases": [
+   "H-39"
+  ],
+  "hypothesis": "A frame’s failure to resolve two states does not entail their ontological identity",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned",
+  "revisited_in": "Difference (2.5, 2.8); Boundary",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0040",
+  "aliases": [
+   "H-40"
+  ],
+  "hypothesis": "Measurement in this chapter means structural resolvability, not observer-mediated interaction",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned",
+  "revisited_in": "Boundary (4.2, 4.13 Obj. 4)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0041",
+  "aliases": [
+   "H-41"
+  ],
+  "hypothesis": "𝒫 names the admissible-possibility set generated by 𝒰 and adds no primitive beyond the two foundational commitments",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned",
+  "revisited_in": "Boundary (4.10, 4.11); Relation; notation table",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0042",
+  "aliases": [
+   "H-42"
+  ],
+  "hypothesis": "The capacity and saturation formalism drafted for Chapter 4 (resolving capacity, relational density, effective dimensionality) is archived pending a chapter with more than one relation",
+  "status": "Deferred",
+  "status_text": "Deferred",
+  "resolve_by": "Placement decided once the relevant chapter is drafted (Blueprint Reminder 3)",
+  "revisited_in": "Boundary (archived); Scale",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0043",
+  "aliases": [
+   "H-43"
+  ],
+  "hypothesis": "Independence of relational variation requires more than one retained distinction, and Relation earns an independence problem rather than a numerical dimension",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned",
+  "revisited_in": "Relation (5.14); Formalism; Scale",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0044",
+  "aliases": [
+   "H-44"
+  ],
+  "hypothesis": "The “informational black hole” is a scoped analogy for representational saturation, not a claim about gravitational black holes",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "A nontrivial physical prediction connecting the two would move it to Provisional",
+  "revisited_in": "Boundary; Book II",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0045",
+  "aliases": [
+   "H-45"
+  ],
+  "hypothesis": "Volume I divides into Book I (Formal Existence, Chapters 1-9) and Book II (Physical Existence, Chapters 10-21), split where the argument turns from combinatorial/topological structure to metric structure",
+  "status": "Superseded",
+  "status_text": "Superseded",
+  "resolve_by": "None planned",
+  "revisited_in": "Superseded by H-134",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0046",
+  "aliases": [
+   "H-46"
+  ],
+  "hypothesis": "Existential and universal boundary aggregation over a multi-relation domain need no new primitive: judged by one shared predicate P (the constraint test of 5.4), they are quantification over P, and 𝒜 survives only as a notational convention. Distinct from frame reconciliation, which combines verdicts not judged by a shared predicate",
+  "status": "Derived",
+  "status_text": "Derived",
+  "resolve_by": "A case in which ∃/∀ membership over a shared predicate still needed an operation beyond quantification would reopen it",
+  "revisited_in": "Boundary (4.2, 4.8); Relation (5.12)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0047",
+  "aliases": [
+   "H-47"
+  ],
+  "hypothesis": "Transitional membership cases are cases in which the constraint predicate P(r) has not yet stabilized; latent integration (4.9) settles the inputs and quantification then settles the verdict, so no further primitive is needed",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "A worked edge case in which P(r) stabilizes under Σ_n ↦ L_n ↦ Σ_n+1 and the quantified verdict follows",
+  "revisited_in": "Boundary (4.9); Relation (5.13)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0048",
+  "aliases": [
+   "H-48"
+  ],
+  "hypothesis": "Threshold boundary aggregation (membership when enough relations satisfy P, absolutely or proportionally)",
+  "status": "Deferred",
+  "status_text": "Deferred",
+  "resolve_by": "Chapter 10 (Scale), which earns relative magnitude and with it cardinality",
+  "revisited_in": "Relation (5.12); Scale",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0049",
+  "aliases": [
+   "H-49"
+  ],
+  "hypothesis": "A relational structure is a set of retained relations whose admissible states are mutually constrained by the organization of the set, 𝒫(r_ij | ℛ) ≠ 𝒫(r_ij)",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "A formalization of constraint free of probabilistic or metric language would move it toward Derived",
+  "revisited_in": "Relation (5.4); Formalism",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0050",
+  "aliases": [
+   "H-50"
+  ],
+  "hypothesis": "Structural persistence can preserve relational invariants without preserving particular states or carriers",
+  "status": "Retained",
+  "status_text": "Retained (logical form); Provisional (ontological extension)",
+  "resolve_by": "None planned for the logical form; a physical case for the extension",
+  "revisited_in": "Relation (5.6-5.7)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0051",
+  "aliases": [
+   "H-51"
+  ],
+  "hypothesis": "Object-like identity can be modeled as an equivalence class of configurations preserving identity-relevant organization, O = [Σ]_~F",
+  "status": "Speculative",
+  "status_text": "Speculative",
+  "resolve_by": "Nontrivial persistence criteria or a computational test that separates integrated clusters from arbitrary groupings",
+  "revisited_in": "Relation (5.9, 5.16); App G",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0052",
+  "aliases": [
+   "H-52"
+  ],
+  "hypothesis": "Two internally equivalent persistent objects require a higher-order relational difference, λ_F(O_A) ≠ λ_F(O_B), to remain observably distinguishable within one frame",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "A worked case identifying the minimum reference structure that breaks exchange symmetry",
+  "revisited_in": "Relation (5.10); Orientation",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0053",
+  "aliases": [
+   "H-53"
+  ],
+  "hypothesis": "Relational position precedes spatial position",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Chapters 7 and 11 must show that spatial order can be built on it",
+  "revisited_in": "Relation (5.11); Orientation, 11",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0054",
+  "aliases": [
+   "H-54"
+  ],
+  "hypothesis": "Independent relational degrees of variation d_R can later support dimensional geometry",
+  "status": "Deferred",
+  "status_text": "Deferred",
+  "resolve_by": "Geometry showing that stable, decoupled relational modes realize d_R",
+  "revisited_in": "Relation (5.14); Formalism (9.22); Geometry",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0055",
+  "aliases": [
+   "H-55"
+  ],
+  "hypothesis": "Stable dynamics can select effective orthogonality through decoupling rather than orthogonality being a capacity of the domain",
+  "status": "Deferred",
+  "status_text": "Deferred",
+  "resolve_by": "A model in which cross-coupling between collective modes decreases under coarse-graining",
+  "revisited_in": "Relation (5.14); Distance to Space",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0056",
+  "aliases": [
+   "H-56"
+  ],
+  "hypothesis": "Closure is simplicial completion: an origin plus three independent differentiations gives minimum three-dimensional closure, whose edge graph is K4",
+  "status": "Rejected",
+  "status_text": "Rejected",
+  "resolve_by": "None planned",
+  "revisited_in": "Closure (6.1); App A, G",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0057",
+  "aliases": [
+   "H-57"
+  ],
+  "hypothesis": "Simplicial completion (K4 and higher simplices) is one possible mathematical realization of closure, not its definition",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Chapters 9 and 11 showing that a simplicial realization satisfies the 6.4 test",
+  "revisited_in": "Closure (6.1); Formalism, 11; App G",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0058",
+  "aliases": [
+   "H-58"
+  ],
+  "hypothesis": "Structural closure is internal sufficiency, participation and joint realizability of the dependencies constitutive of an invariant F; dynamic closure adds persistence under 𝒰, and robust closure adds survival across a preregistered 𝔗",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "A necessary-and-sufficient formal criterion (Chapter 9)",
+  "revisited_in": "Closure (6.2-6.8)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0059",
+  "aliases": [
+   "H-59"
+  ],
+  "hypothesis": "Closure is a predicate, not an operator, and 𝒰 keeps its state-to-state type",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned",
+  "revisited_in": "Closure (6.3, 6.7)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0060",
+  "aliases": [
+   "H-60"
+  ],
+  "hypothesis": "A closed organization is relationally addressable, and can serve as a new higher-order origin, exactly when external relations descend to its equivalence class (the quotient, or lumpability, condition)",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The addressability diagnostic of 6.17 against matched controls (App G, module 5)",
+  "revisited_in": "Closure (6.12, 6.13, 6.17)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0061",
+  "aliases": [
+   "H-61"
+  ],
+  "hypothesis": "Closure does not require exclusive membership; one relation can belong to several compatible closures",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None for compatible overlap; incompatible overlap needs a resolution rule",
+  "revisited_in": "Closure (6.11)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0062",
+  "aliases": [
+   "H-62"
+  ],
+  "hypothesis": "The invariant F that individuates an object can be constrained by dynamics and perturbation (F_dyn) rather than chosen after the fact by a frame (F_obs)",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "Preregistered perturbation and ablation tests showing F_dyn is recoverable",
+  "revisited_in": "Closure (6.14; 6.19, Objection 4)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0063",
+  "aliases": [
+   "H-63"
+  ],
+  "hypothesis": "Relational independence is not embedding dimension: a system can have many non-redundant relational modes without each becoming a spatial axis",
+  "status": "Retained",
+  "status_text": "Retained (distinction); comparison of d_R with d_P Deferred",
+  "resolve_by": "Earning d_R (see H-54) and d_P (Book II)",
+  "revisited_in": "Relation (5.14); Book II",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0064",
+  "aliases": [
+   "H-64"
+  ],
+  "hypothesis": "Retention, dependency order and path dependence are foundational and are not yet memory; memory requires a self-maintaining system for which retained change is internally consequential, and does not require a self-model or self-awareness",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned; the later chapters on Life, Memory and Knowing must respect the thresholds",
+  "revisited_in": "Boundary to Closure, 19-21",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0065",
+  "aliases": [
+   "H-65"
+  ],
+  "hypothesis": "Volume I architecture: Memory placed at Chapter 20 between Life and Knowing; 21 chapters kept; Book I/II seam at 9/10; pre-life “memory” titles renamed to record",
+  "status": "Superseded",
+  "status_text": "Superseded",
+  "resolve_by": "None planned",
+  "revisited_in": "Superseded by H-134 and H-135",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0066",
+  "aliases": [
+   "H-66"
+  ],
+  "hypothesis": "Recursion can yield relative magnitude, a comparison of the size of organizations across recursive levels, before metric distance; relative magnitude is not distance",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "A construction of comparative size from recursion alone, checked against Chapter 11’s distance for independence",
+  "revisited_in": "Scale, 11",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0067",
+  "aliases": [
+   "H-67"
+  ],
+  "hypothesis": "Scale must be derived as a stable relation among relational changes, not introduced as an external ruler",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned; a Chapter 10 draft that assumes a unit or numeral before earning it fails the constraint",
+  "revisited_in": "Scale",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0068",
+  "aliases": [
+   "H-68"
+  ],
+  "hypothesis": "Sameness and comparison of size can be earned relationally before any numeral: two collections are the same size when their members pair one-to-one (Hume’s principle), and one is no larger than another when it maps one-to-one into it (made well-behaved by the Cantor–Schröder–Bernstein theorem)",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "A Chapter 10 construction deriving the correspondences between recursive levels from relational structure alone",
+  "revisited_in": "Scale; Relation (5.12, threshold aggregation)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0069",
+  "aliases": [
+   "H-69"
+  ],
+  "hypothesis": "Ω is the minimally resolved reference condition: the condition from which no operative distinction is available within the framework’s initial relational frame; undifferentiated at that resolution, not defined as the absolute ontological absence of distinction",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned",
+  "revisited_in": "Origin (1.3); Distinction (3.1, 3.2); App A",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0070",
+  "aliases": [
+   "H-70"
+  ],
+  "hypothesis": "Whether any difference exists in Ω below the framework’s initial resolution, and whether a richer frame could resolve it",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "A construction in which a richer frame resolves structure in Ω without reintroducing an external marker",
+  "revisited_in": "Origin (1.3, 1.7); Difference (2.1, 2.14); Distinction",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0071",
+  "aliases": [
+   "H-71"
+  ],
+  "hypothesis": "Orientation is derived, not primitive: it is persistent, consequential non-equivalence among relational dependency roles (K_ij ≁ K_ji), and an arrow is notation applied after that non-equivalence is established",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The role-exchange and reversal tests of 7.15 under rules that encode no direction (App G, module 6)",
+  "revisited_in": "Orientation (7.2, 7.5); App G",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0072",
+  "aliases": [
+   "H-72"
+  ],
+  "hypothesis": "A lower-order non-equivalence becomes effective at a higher level when it survives that level’s identity and resolution criterion and alters its admissible transformations",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "A worked case in which unresolved variation crosses a higher-order threshold",
+  "revisited_in": "Orientation (7.4)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0073",
+  "aliases": [
+   "H-73"
+  ],
+  "hypothesis": "An orientational asymmetry need persist only long enough to alter the conditions or state of anchor-relative return; this uses 6.12’s identity criterion and nothing from Chapter 8",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Resolved 22 September 2026: Chapter 8 (8.5) defines the return condition as re-satisfaction of F after genuine departure, and the 7.7 threshold is unchanged. Now a cross-reference, not a forward dependency",
+  "revisited_in": "Orientation (7.7); Return",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0074",
+  "aliases": [
+   "H-74"
+  ],
+  "hypothesis": "An oriented recursive organization is anchor-relatively irreversible when reversing its orientational conditions fails to recover the same identity anchor",
+  "status": "Speculative",
+  "status_text": "Speculative",
+  "resolve_by": "Later chapters showing physical irreversibility as a realization of it, or showing it cannot be",
+  "revisited_in": "Orientation (7.8); Time",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0075",
+  "aliases": [
+   "H-75"
+  ],
+  "hypothesis": "Structural selection: among accessible asymmetric configurations, compatibility with recursive closure and anchor-relative return can differentially stabilize some orientations without a primitive preferred direction",
+  "status": "Speculative",
+  "status_text": "Speculative",
+  "resolve_by": "Simulations in which symmetric rules yield branch-specific persistence without programmer-supplied direction",
+  "revisited_in": "Orientation (7.9, 7.10); App G",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0076",
+  "aliases": [
+   "H-76"
+  ],
+  "hypothesis": "A relational domain may support multiple independent orientational modes (d_O); orientation implies no single global axis, and is weaker than partial order, so directed cycles remain admissible",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned for the claim itself; d_O needs a definition before linear algebra is earned",
+  "revisited_in": "Orientation (7.11, 7.12); Formalism, 10",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0077",
+  "aliases": [
+   "H-77"
+  ],
+  "hypothesis": "Return is departure from an independently specified identity class, oriented transformation, and re-entry into that class; Ret(A_F; ·) is a predicate over earned relations, not a new primitive",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The ten diagnostics of 8.23 under rules containing no cycle template (App G, module 7)",
+  "revisited_in": "Return (8.3, 8.5); Orientation (7.8); App G",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0078",
+  "aliases": [
+   "H-78"
+  ],
+  "hypothesis": "Return of higher-order identity does not require exact repetition of lower-order state, so difference can accumulate within an equivalence class",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned",
+  "revisited_in": "Return (8.6, 8.13)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0079",
+  "aliases": [
+   "H-79"
+  ],
+  "hypothesis": "Persistence without departure is not return; recurrence requires at least one configuration that fails the tested identity criterion",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned",
+  "revisited_in": "Return (8.4)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0080",
+  "aliases": [
+   "H-80"
+  ],
+  "hypothesis": "Identity-class recurrence can occur through distinct state tokens, so it need not violate acyclic dependency order",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned; relevant when causal order is derived",
+  "revisited_in": "Return (8.7); Time to Space",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0081",
+  "aliases": [
+   "H-81"
+  ],
+  "hypothesis": "A returned identity may carry traversal-dependent internal difference (χ) without that difference yet constituting memory",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned",
+  "revisited_in": "Return (8.14); Memory",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0082",
+  "aliases": [
+   "H-82"
+  ],
+  "hypothesis": "Robust recurrence can make a relational identity reusable as a comparison standard, a prerequisite for later Scale and Time",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Chapter 10 deriving endogenous standards from recurring structures",
+  "revisited_in": "Return (8.22); Scale, 12",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0083",
+  "aliases": [
+   "H-83"
+  ],
+  "hypothesis": "Return-compatible organizations may be differentially retained or re-instantiated under recursive dynamics, without reproduction, fitness or a preferred direction",
+  "status": "Speculative",
+  "status_text": "Speculative",
+  "resolve_by": "Simulations showing differential retention with no return reward encoded",
+  "revisited_in": "Return (8.17); App G",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0084",
+  "aliases": [
+   "H-84"
+  ],
+  "hypothesis": "Non-identical recurrence supplies a structural precursor to phase: the same identity invariant with a different internal condition",
+  "status": "Speculative",
+  "status_text": "Speculative",
+  "resolve_by": "Chapter 9 earning the algebra, and Chapter 12 the metric, that would turn a count into winding or phase",
+  "revisited_in": "Return (8.21); Formalism, 12",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0085",
+  "aliases": [
+   "H-85"
+  ],
+  "hypothesis": "Departure is not dissolution: return requires an identity criterion that stays applicable while unsatisfied. Whether an identity whose criterion ceased to apply can later be reconstructed, and whether that re-instantiation is a stronger form of return or a different relation, is unresolved",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "An account of reconstruction after dissolution that does not rely on an external record of the lost criterion",
+  "revisited_in": "Return (8.4, 8.5); Black Holes, 19, 20",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0086",
+  "aliases": [
+   "H-86"
+  ],
+  "hypothesis": "Whether 𝒰 is genuinely a single-valued function on relational states, or shorthand for an admissible-transition relation that may permit more than one successor",
+  "status": "Superseded",
+  "status_text": "Superseded",
+  "resolve_by": "None planned",
+  "revisited_in": "Distinction (3.3); Formalism (9.5)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0087",
+  "aliases": [
+   "H-87"
+  ],
+  "hypothesis": "The earned ontology can be carried by one weak formal signature, 𝔊 = (𝒞, ℜ, 𝒰), with closure, orientation and return as predicates over it rather than components of it",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Whether a weaker adequate carrier exists, or 𝒰 reduces to a dependency already in ℜ (Question 1)",
+  "revisited_in": "Formalism (9.4, 9.26)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0088",
+  "aliases": [
+   "H-88"
+  ],
+  "hypothesis": "Determinism is a property of a transition relation, the case of exactly one admissible successor, not a feature of the update notation",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None; the diagnostics of 9.28 test typing case by case",
+  "revisited_in": "Formalism (9.5); Distinction (3.7); Orientation (7.9, 7.10)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0089",
+  "aliases": [
+   "H-89"
+  ],
+  "hypothesis": "Quotient-compatible dynamics is sufficient for higher-order formal autonomy: an independently constrained equivalence compatible with admissible transformation yields dynamics independent of the lower-order representative",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Conditions for branching transitions (Question 2), and whether exact congruence is too strong for real systems (Question 10)",
+  "revisited_in": "Formalism (9.9, 9.10, 9.27); Closure (6.12)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0090",
+  "aliases": [
+   "H-90"
+  ],
+  "hypothesis": "An ontological result must survive faithful changes of representation; one that exists in a single encoding is a representational artifact",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "Diagnostic 1 of 9.28, applied to the results of Chapters 5 to 8 (Question 5)",
+  "revisited_in": "Formalism (9.26, 9.30); Relation (5.2)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0091",
+  "aliases": [
+   "H-91"
+  ],
+  "hypothesis": "Finite historical dependence is first-order update on a sufficiently specified state, so retained dependence needs no primitive memory",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "Diagnostic 10 of 9.28",
+  "revisited_in": "Formalism (9.21); Distinction (3.7); Memory",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0092",
+  "aliases": [
+   "H-92"
+  ],
+  "hypothesis": "No medium is required beneath the relations: the formal carrier is the relational organization itself, and “substrate”, if retained, names that structure rather than a substance",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None; a later chapter needing a medium would reopen it",
+  "revisited_in": "Formalism (9.24)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0093",
+  "aliases": [
+   "H-93"
+  ],
+  "hypothesis": "Whether binary relations are expressively sufficient for every higher-order constraint, or genuine n-ary relations are required",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "Diagnostic 7 of 9.28, comparing binary and hypergraph encodings for changed invariants (Question 6)",
+  "revisited_in": "Formalism (9.18); Relation (5.2); Orientation (7.2)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0094",
+  "aliases": [
+   "H-94"
+  ],
+  "hypothesis": "A matroid-like independence system may give d_R a pre-metric definition, formalizing independence before orthogonality",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Diagnostic 11 of 9.28 (Questions 13 and 14)",
+  "revisited_in": "Formalism (9.22); Relation (5.14)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0095",
+  "aliases": [
+   "H-95"
+  ],
+  "hypothesis": "Magnitude is earned by correspondence before any numeral: bijection gives sameness of amount, injection gives order, and a numeral labels a class the correspondence established",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "The ten diagnostics of 10.25, in particular the correspondence-first and relabeling tests (App G, module 9)",
+  "revisited_in": "Scale (10.4, 10.5, 10.7); Relation (5.12)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0096",
+  "aliases": [
+   "H-96"
+  ],
+  "hypothesis": "Threshold aggregation, deferred at 5.12, is expressible as an injection from a standard collection and needs no primitive beyond comparative magnitude",
+  "status": "Derived",
+  "status_text": "Derived",
+  "resolve_by": "Diagnostic 3 of 10.25, which reconstructs the condition from a standard collection before using numeral shorthand",
+  "revisited_in": "Scale (10.8); Relation (5.12); Closure (6.9)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0097",
+  "aliases": [
+   "H-97"
+  ],
+  "hypothesis": "Recursive composition can produce a stable comparative ratio, and the stability belongs to the relation rather than to any level’s magnitude; φ is one such ratio among many",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Diagnostics 6 to 8 of 10.25: ratio convergence, recurrence perturbation and robustness to initial conditions",
+  "revisited_in": "Scale (10.13 to 10.17); Distinction (3.7)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0098",
+  "aliases": [
+   "H-98"
+  ],
+  "hypothesis": "Whether the membership and decomposition criteria that fix an organization’s magnitude can be constrained independently, or whether magnitude is an artifact of how the analyst divides the structure",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "An independent constraint on decomposition, of the kind F_dyn would supply for identity",
+  "revisited_in": "Scale (10.27); Closure (6.14); Return (8.3)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0099",
+  "aliases": [
+   "H-99"
+  ],
+  "hypothesis": "Sameness of comparative form is definable by correspondence alone: W stands to A as A stands to B exactly when W × B pairs one to one with A × A",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "Whether the construction extends beyond finite organizations, where the product and the correspondences are unproblematic",
+  "revisited_in": "Scale (10.10, 10.11)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0100",
+  "aliases": [
+   "H-100"
+  ],
+  "hypothesis": "A scale-indexed coarse-graining operator CG_s is admissible once its comparison standard is earned relationally, and remains pre-geometric",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Diagnostic 10 of 10.25, admitting the quotient only after its standard is independently earned",
+  "revisited_in": "Scale (10.20); Orientation (7.4)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0101",
+  "aliases": [
+   "H-101"
+  ],
+  "hypothesis": "Distance is the least magnitude of relational mediation sufficient to connect two loci: d_u(A,B) = min over admissible chains of L_u(κ)",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Whether minimum mediation is the weakest adequate definition, and whether pairwise invariants could generate metric structure without chains (Questions 1 and 2)",
+  "revisited_in": "Distance (11.5); Scale (10.5)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0102",
+  "aliases": [
+   "H-102"
+  ],
+  "hypothesis": "The triangle inequality is derived, not assumed: chain composition plus additive magnitude plus minimality yields d(A,C) ≤ d(A,B) + d(B,C)",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Diagnostics 8 and the additivity condition of 11.8 (Questions 3 and 4)",
+  "revisited_in": "Distance (11.8, 11.10)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0103",
+  "aliases": [
+   "H-103"
+  ],
+  "hypothesis": "Mediation between loci is not the transition relation 𝒰 between configurations",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None; the distinction is definitional and is tested by diagnostic 9, the hidden-geometry control",
+  "revisited_in": "Distance (11.3); Formalism (9.5)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0104",
+  "aliases": [
+   "H-104"
+  ],
+  "hypothesis": "Metric symmetry is not primitive: orientation permits d(A,B) ≠ d(B,A), so a directed metric-like structure appears first",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "Diagnostic 7 of 11.21, reversing admissible chains and comparing magnitudes (Question 5)",
+  "revisited_in": "Distance (11.11); Orientation (7.2)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0105",
+  "aliases": [
+   "H-105"
+  ],
+  "hypothesis": "The decomposition vulnerability inherited from Scale is amplified in Distance: loci, mediating relations, chain admissibility and the scale standard must all be independently constrained",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "Diagnostics 3 and 10 of 11.21: decomposition perturbation, and comparison against matched random organizations (Question 7)",
+  "revisited_in": "Distance (11.17); Scale (10.27)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0106",
+  "aliases": [
+   "H-106"
+  ],
+  "hypothesis": "Geometry begins where metric relations cease to be pairwise and become mutually constraining: stable neighborhoods under admissible transformation, with overlap as the first collective constraint",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Diagnostics 1 to 3 of 12.25: relabeling and representation invariance, and decomposition perturbation",
+  "revisited_in": "Geometry (12.2, 12.3); Distance",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0107",
+  "aliases": [
+   "H-107"
+  ],
+  "hypothesis": "A layer is not a dimension: the number of metric-relational layers is independent of the number of geometric dimensions",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "Diagnostic 5 of 12.25, measuring rank from the generated organization rather than stipulating it",
+  "revisited_in": "Geometry (12.6); Formalism (9.22)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0108",
+  "aliases": [
+   "H-108"
+  ],
+  "hypothesis": "Whether the structural and operational senses of effective dimension agree: d_R, the rank of stable independent modes, and d_probe, the fewest parameters preserving declared invariants across probes",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "Diagnostics 5 and 6 of 12.25 run together: measure rank from the organization, then measure it again across heterogeneous probes",
+  "revisited_in": "Geometry (12.6, 12.18)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0109",
+  "aliases": [
+   "H-109"
+  ],
+  "hypothesis": "Measurement is an interaction within the organization, not a look at it from outside: O_F = Π_F(I_F(𝔏)), separating resolution loss from back-action",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Diagnostic 6 of 12.25 and the projection-stability programme of 12.27, requiring heterogeneous probes that could have disagreed",
+  "revisited_in": "Geometry (12.15 to 12.17); Closure (6.14)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0110",
+  "aliases": [
+   "H-110"
+  ],
+  "hypothesis": "Variation in cross-layer coupling may produce variation in effective metric relations, a candidate route to curvature-like structure",
+  "status": "Speculative",
+  "status_text": "Speculative",
+  "resolve_by": "Diagnostic 8 of 12.25, distinguishing route-dependent failure from coordinate artifacts, and the modelling programme of 12.26",
+  "revisited_in": "Geometry (12.20, 12.22)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0111",
+  "aliases": [
+   "H-111"
+  ],
+  "hypothesis": "Whether a relational substrate with no target dimensionality in its rules converges on a stable low-dimensional effective rank",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "Diagnostics 4, 5, 9 and 10 of 12.25 together: no hidden dimension in the rules, rank recovered rather than stipulated, comparison against matched random organizations, and failure reported",
+  "revisited_in": "Geometry (12.26); App G",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0112",
+  "aliases": [
+   "H-112"
+  ],
+  "hypothesis": "Space becomes available when localizations constrain localizations: distinct loci in an effective geometry become mutually coordinated, so that no position can be varied independently of the others",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The coordinate-removal and perturbation-coordination tests of 13.26",
+  "revisited_in": "Space (13.6, 13.23); Geometry; Relation (5.9)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0113",
+  "aliases": [
+   "H-113"
+  ],
+  "hypothesis": "Physical does not mean material: a geometric distinction is physically consequential when changing it changes the admissible relational organization of other instantiated structures",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "The locality-prediction test of 13.26, against randomized baselines",
+  "revisited_in": "Space (13.8)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0114",
+  "aliases": [
+   "H-114"
+  ],
+  "hypothesis": "Detecting a failure of smoothness is not resolving fundamental structure: a probe may reach an intermediate organizational regime and no further",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "The smoothness-failure test of 13.26, which must distinguish loss of continuity from loss of localization",
+  "revisited_in": "Space (13.14, 13.15)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0115",
+  "aliases": [
+   "H-115"
+  ],
+  "hypothesis": "Spatial coordination may be responsive: a distributed relational transformation can alter couplings, hence separations, hence the effective geometry, which then constrains subsequent transformation",
+  "status": "Speculative",
+  "status_text": "Speculative",
+  "resolve_by": "The responsive-geometry test of 13.26, perturbing the substrate without changing geometric variables explicitly",
+  "revisited_in": "Space (13.16, 13.17); Geometry (12.22)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0116",
+  "aliases": [
+   "H-116"
+  ],
+  "hypothesis": "Local neighborhoods can persist while global metric separations change, so localization survives what separation does not",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The scale test of 13.26, repeated coarse-graining with localization and adjacency measured separately from global separation",
+  "revisited_in": "Space (13.18); Scale (10.20)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0117",
+  "aliases": [
+   "H-117"
+  ],
+  "hypothesis": "Space is intrinsic before it is embedded: an embedding ι may be useful representationally and cannot be inferred from its convenience",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "The coordinate-removal test of 13.26, stripping embeddings and drawing positions before recovery is attempted",
+  "revisited_in": "Space (13.20, 13.21)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0118",
+  "aliases": [
+   "H-118"
+  ],
+  "hypothesis": "Whether spatial coordination emerges from relational organization, or spatial locality has been reintroduced through the admissible-coupling rule",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "An independent criterion for admissible coupling, fixed before locality is tested; without one the chapter has not earned Space",
+  "revisited_in": "Space (13.29); Scale (10.27); Distance (11.17)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0119",
+  "aliases": [
+   "H-119"
+  ],
+  "hypothesis": "Retained consequence defines intrinsic dependency precedence, Σₐ ≺ Σᵦ, without physical time as a primitive: Σᵦ contains consequences whose removal would change Σᵦ or its admissibility",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The index-removal and counterfactual-dependency tests of 14.25, which are the chapter’s T-1 condition",
+  "revisited_in": "Time (14.3, 14.4); Boundary (4.4)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0120",
+  "aliases": [
+   "H-120"
+  ],
+  "hypothesis": "Temporal order is a partial order, not a total sequence: dependency-incomparable events are admitted rather than forced onto one line",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "The branching test of 14.25: introduce incomparable update structures and verify no artificial global order is forced",
+  "revisited_in": "Time (14.5, 14.10)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0121",
+  "aliases": [
+   "H-121"
+  ],
+  "hypothesis": "Derivation order is not physical time: an ordering that vanishes when counters, equation labels and manuscript sequence are removed was never derived",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "The index-removal test of 14.25, run before any other temporal claim is assessed",
+  "revisited_in": "Time (14.8); App G",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0122",
+  "aliases": [
+   "H-122"
+  ],
+  "hypothesis": "Counting retained updates is not measuring duration: N_C(eₐ,eᵦ) is a structural quantity, and becomes a temporal measure only where the counted unit is stable and reproducible",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The coarse-graining test of 14.25: change temporal resolution and check that precedence and any metric ratios survive",
+  "revisited_in": "Time (14.11, 14.22); Distance (11.18)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0123",
+  "aliases": [
+   "H-123"
+  ],
+  "hypothesis": "Clockhood is a relational role, not a property: a subsystem functions as a clock when it satisfies recurrence, countability, stability and couplability",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The cycle-calibration test of 14.25, with two independently organized recurrences and neither defined through the other",
+  "revisited_in": "Time (14.12, 14.13)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0124",
+  "aliases": [
+   "H-124"
+  ],
+  "hypothesis": "Metric time may be recoverable from cross-clock invariance, τ_K(A,B) / τ_J(A,B) approximately constant over a regime, without any primitive universal clock",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "The six minimal conditions of 14.24: ordered comparability, repeatable standard, cross-standard calibration, resolution robustness, frame coherence and non-circularity",
+  "revisited_in": "Time (14.14, 14.24)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0125",
+  "aliases": [
+   "H-125"
+  ],
+  "hypothesis": "Propagation is not earned in Book I: speed as spatial separation over temporal duration is unavailable, since numerator and denominator have not been shown to participate in one invariant structure",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "The spacetime-withholding test of 14.25: verify that no propagation speed, Lorentzian signature, null relation or invariant c is required for the temporal construction to work",
+  "revisited_in": "Time (14.16, 14.28, 14.31)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0126",
+  "aliases": [
+   "H-126"
+  ],
+  "hypothesis": "Record asymmetry makes dependency orientation internally recoverable: Record_B(A) non-empty while Record_A(B) is empty along the realized chain",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "The reverse-rule test of 14.25: use microscopically reversible laws and check that irreversibility is not manufactured",
+  "revisited_in": "Time (14.17, 14.18)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0127",
+  "aliases": [
+   "H-127"
+  ],
+  "hypothesis": "Whether temporal order emerges from retained dependency inside the organization, or physical time has been reintroduced through the update rule used to generate the sequence",
+  "status": "Open",
+  "status_text": "Open",
+  "resolve_by": "An update rule specified without reference to an external time variable, then the index-removal and counterfactual tests run against it",
+  "revisited_in": "Time (14.29); Space (13.29)",
+  "companion_testable": true
+ },
+ {
+  "id": "EE-H-0128",
+  "aliases": [
+   "H-128"
+  ],
+  "hypothesis": "Relational physical structure can be reconstructed from two foundational commitments so far: primitive Difference, the minimum symmetric, irreflexive dyad whose poles are co-constituted with it (Proposition 1B; stated formally as Proposition 2A), and admissible transformation 𝒰 (H-131)",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "A cheaper primitive, an incoherent account of co-constitution, or a later need for absolute or relative discernibility from the start would count against it (2.16)",
+  "revisited_in": "Difference; Distinction; Boundary; Parts II-III",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0129",
+  "aliases": [
+   "H-129"
+  ],
+  "hypothesis": "Distinction is difference made operative in admissible succession: the poles are promoted to a minimal configuration carrier 𝒞_𝔇, and a nontrivial transition relation 𝒰, covariant under Aut(𝔇), licenses succession between them, forcing reciprocal exchange without privileging either pole (Proposition 3A)",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Counts against it: 𝒰 cannot be specified without the Distinction it grounds, or no downstream consequence separates the role of 𝒰 from that of ≬ (3.18). Dependency precedence ≺ (4.11) is the first such consequence",
+  "revisited_in": "Distinction; Boundary",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0130",
+  "aliases": [
+   "H-130"
+  ],
+  "hypothesis": "Weak discernibility characterizes the primitive dyad’s minimal individuation but does not ground its numerical diversity, which Proposition 2A admits as an explicit primitive cost",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "A later chapter that needs the relation itself to ground numerical diversity, or needs absolute or relative discernibility from the start, would count against it (2.16)",
+  "revisited_in": "Difference (2.6, 2.15, 2.16)",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0131",
+  "aliases": [
+   "H-131"
+  ],
+  "hypothesis": "Admissible transformation 𝒰 is the second foundational commitment so far, not derived from Difference",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "A derivation of 𝒰 from Difference, or of both from a single weaker principle, would retire it (3.19)",
+  "revisited_in": "Distinction; Formalism",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0132",
+  "aliases": [
+   "H-132"
+  ],
+  "hypothesis": "Retention can be defined as counterfactual robustness under a declared diagnostic family 𝔗_test, without a third ontological commitment",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "A later need for a privileged, underived family of physically realized transformations would add a third commitment (4.25)",
+  "revisited_in": "Boundary",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0133",
+  "aliases": [
+   "H-133"
+  ],
+  "hypothesis": "A dynamically persistent closed identity O_F that is addressable independently of its lower-order representatives earns an organizational reference role, the anchor A_F, without privileging any primitive pole",
+  "status": "Provisional",
+  "status_text": "Provisional",
+  "resolve_by": "Whether every closed organization yields a unique anchor, and what localizes or distributes it, remains open (6.13)",
+  "revisited_in": "Closure (6.13); Orientation; Return",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0134",
+  "aliases": [
+   "H-134"
+  ],
+  "hypothesis": "Volume I, Book I, comprises Chapters 1 to 14 and ends with Time. Book II begins where the earned structures of Space and Time must be shown to support physical spacetime and subsequent physical dynamics",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned",
+  "revisited_in": "Volume I architecture; Time handoff; Book II opening",
+  "companion_testable": false
+ },
+ {
+  "id": "EE-H-0135",
+  "aliases": [
+   "H-135"
+  ],
+  "hypothesis": "Memory remains downstream of Life and upstream of Knowing; before Life, the book uses retention, record or path dependence rather than the stronger biological sense of memory. No fixed total chapter count is imposed in advance",
+  "status": "Retained",
+  "status_text": "Retained",
+  "resolve_by": "None planned",
+  "revisited_in": "Life, Memory and Knowing; Volume I architecture",
+  "companion_testable": false
+ }
+]
