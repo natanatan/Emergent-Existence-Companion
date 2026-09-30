@@ -1,6 +1,6 @@
 # Module 05 · closure-addressability · spec v1
 
-**Draft for review. Not frozen.** Review against Closure, 6.4, 6.6, 6.7, 6.12 and 6.17. When the review is done, commit and tag `05-closure-addressability/spec-v1`. Nothing in `model/`, `controls/` or `runs/` is written before that tag. Thresholds marked *proposed* are the reviewer's to confirm or change before the freeze, never after.
+Reviewed against Closure, 6.4, 6.6, 6.7, 6.12 and 6.17, and frozen by the tag `05-closure-addressability/spec-v1`. Nothing in `model/`, `controls/` or `runs/` was written before that tag. The decisions taken at review, and the feasibility pilot that informed them, are recorded at the end.
 
 ## Bears on
 
@@ -21,7 +21,7 @@ When a group of mutually constraining relations holds itself together, does the 
 
 **Relations.** N retained relations x₁ … x_N. Each has two resolvable values (retained distinctions, Boundary). They are written 0 and 1 in the implementation. Which value is called 0 carries no meaning (see representation check R2).
 
-**Constraints.** M constraints. Constraint j has a member set S_j of three relations, drawn uniformly without replacement and independently of every other constraint. It admits exactly the patterns on S_j that contain an even number of 1s, or, if its type b_j = 1, an odd number (b_j drawn uniformly). A constraint's admissible set is unchanged by any permutation of its members, so no member plays a distinct role. Nothing in the generator plants groups, modules or communities.
+**Constraints.** M constraints. Constraint j has a member set S_j of three relations, drawn uniformly without replacement and independently of every other constraint. A constraint is its table of admissible patterns on S_j: four of the eight patterns are admissible, and the other four are not. The tables are drawn from the family of patterns with an even number of 1s, or, if the constraint's type b_j = 1, an odd number (b_j drawn uniformly). "Even" and "odd" describe the table from outside; the model holds only the table, and nothing in it counts (R4 checks this). A constraint's admissible set is unchanged by any permutation of its members, so no member plays a distinct role. A constraint among three relations is a mutual constraint among retained relations, which Relation (5.4) earns: the admissible values of each depend on the others. Nothing in the generator plants groups, modules or communities.
 
 **Admissible succession 𝒰.** One succession step:
 
@@ -57,45 +57,53 @@ External readouts such as counts, fractions, rank over GF(2), distances between 
 
 ## Initial conditions
 
-- **Networks.** N = 60. The density M/N is 0.5, 0.7 or 0.9. There are 100 networks per density, with network seeds 1–300.
-- **Candidate detector.** The detector is external and uses no target. From each constraint as a seed, it grows V greedily: at each step it adds the member set of the boundary constraint that most reduces leakage (below), stopping at |V| = 16 or when no addition reduces leakage. It keeps every V with 6 ≤ |V| ≤ 16 that passes the closure test:
-  - **Sufficiency (6.4):** leakage L(V) ≤ λ. L(V) is the fraction of member–constraint incidences (i ∈ V, j ∋ i) whose constraint lies outside V. *Proposed λ = 0.2.*
+- **Networks.** N = 60. The density M/N is 0.5, 0.6 or 0.7. There are 40 networks per density, with network seeds 1–120.
+- **Candidate detector.** The detector is external and uses no target. From each constraint as a seed, it grows V greedily: at each step it adds the member set of the boundary constraint that most reduces leakage (below), with ties broken by a seeded random choice. It never makes an addition that would take |V| past 16, and it stops when no allowed addition reduces leakage. It keeps every V with 6 ≤ |V| ≤ 16 that passes the closure test:
+  - **Sufficiency (6.4):** leakage L(V) ≤ λ. L(V) is the fraction of member–constraint incidences (i ∈ V, j ∋ i) whose constraint lies outside V. λ = 0.3. The leakage limit is a detector setting, not a definition of closure: whether the remaining outside incidences are constitutive is tested by the participation ablation.
   - **Participation (6.4):** every internal constraint is non-redundant, so removing it enlarges 𝒮F(V). Equivalently, the rows of I(V) are independent over GF(2).
   - **Realizability (6.6):** 𝒮F(V) ≠ ∅. Addressability also needs at least two microstates, so |𝒮F(V)| ≥ 2. That is a requirement of this test, not of closure.
 
-  Duplicates are removed. Up to 5 candidates per network are selected at random (seeded).
-- **Microstates.** Pairs Σa ≠ Σb are drawn uniformly from 𝒮F(V), by sampling uniformly from the solutions of the internal parity system. The state of every relation outside V is drawn uniformly once per pair and is shared by a and b.
+  Duplicates are removed. Up to 3 candidates per network are selected at random (seeded).
+- **Microstates.** States of V are drawn uniformly from 𝒮F(V), by sampling uniformly from the solutions of the internal parity system. How pairs are drawn is set out under Diagnostic.
 
 ## Control
 
-The fifth diagnostic of 6.17 has three matched controls. Each is drawn from the same network with the same |V|, and each is required to have |𝒮F(V)| ≥ 2:
+The fifth diagnostic of 6.17 has three matched controls. Each is drawn from the same network with the same |V|, and each is required to have |𝒮F(V)| ≥ 2. A candidate with no available C3 is compared with C1 and C2 only, and the count of such candidates is reported.
 
 | Control | Matched on | Differs by |
 | --- | --- | --- |
 | C1 random | Size | V drawn uniformly |
 | C2 merely connected | Size, and connected through shared constraints | Fails the closure test |
-| C3 equally dense | Size and number of internal constraints | Fails the closure test |
+| C3 equally dense | Size and number of internal constraints (within one, if no exact match is found in 2,000 draws; the match is recorded) | Fails the closure test |
 
-These are the fair comparison because they separate closure from its look-alikes: size, connectedness and internal density. Chapter 6 argues that none of these is closure (6.4, 6.18).
+These are the fair comparison because they separate closure from its look-alikes: size, connectedness and internal density. Chapter 6 argues that none of these is closure (6.4, 6.18). The controls bear on the fifth diagnostic of 6.17 (EE-C-0097). EE-H-0060 is a claim about closed organizations, so its verdict is computed on closed candidates only; the same predictions on the controls are reported alongside.
 
 ## Diagnostic
 
-**External couplings E.** Each coupling adds constraints that link a subset W ⊆ V (1 ≤ |W| ≤ 3) to one or two fresh external relations Y. There are three kinds:
+### Couplings
 
-- **Descending:** W is chosen so that its parity is constant on 𝒮F(V), meaning its indicator lies in the row space of I(V) over GF(2). Then E(Σa) and E(Σb) see the same thing for every Σa ~F Σb. This is the descent condition of 6.12.
-- **Non-descending:** W is chosen so that its parity varies on 𝒮F(V).
-- **Natural:** the candidate's own boundary constraints B(V), with the relations they reach outside V as Y. No coupling is added.
+EE-H-0060 is about the external relations of a closed organization as a whole, so every arm states which external relations the organization has.
 
-Whether a coupling descends is computed by linear algebra, before any run.
+- **Coupling arms.** The candidate's own boundary constraints B(V) are removed from the rule for the whole run, so the only external relation is one added coupling. The coupling is a single constraint on W ∪ {y}, with W ⊆ V, 1 ≤ |W| ≤ 3, and y one fresh external relation. Its table is the even or odd parity family on |W| + 1 members, with its type drawn uniformly. The coupling reads W only through that table.
+  - **Descending:** the parity of W is constant on 𝒮F(V). For a consistent parity system this holds exactly when W's indicator lies in the row space of I(V) over GF(2). Then E(Σa) and E(Σb) are the same for every Σa ~F Σb (6.12).
+  - **Non-descending:** the parity of W varies on 𝒮F(V).
+  - **Sampling W.** The eligible descending sets are the nonzero row-space vectors of weight 1 to 3. Five are drawn uniformly without replacement; if fewer than five exist, all are used and the count is reported, and a candidate with none contributes no descending case. Non-descending sets are drawn by choosing |W| uniformly from 1 to 3, then W uniformly among the non-descending sets of that size, without replacement, until five are drawn.
+- **Natural arm.** No coupling is added, and B(V) stays in the rule. The external relations are B(V), and y is every relation outside V that B(V) reaches. B(V) descends when every boundary constraint's part inside V, S_j ∩ V, has an indicator in the row space of I(V). This is computed for every case. Natural cases enter the accuracy with the prediction their computed descent gives.
 
-**Run length.** Every run lasts T = 50·|V ∪ Y| succession steps. T is an external readout; the rule never reads it.
+Whether a coupling or a boundary descends is computed by linear algebra, before any run.
 
-**Addressability gap.** From R = 200 runs per microstate, estimate the distributions P_a and P_b of a readout (defined under Readout resolution). Then:
+### Runs, pairs and batches
 
-- D_ab = total-variation distance between P_a and P_b.
-- The noise floor D_aa is the same distance between two independent batches of R runs from Σa.
-- For a candidate and coupling, the gap is G = mean over 20 pairs of (D_ab − D_aa).
-- The gap **registers** when G > γ, where γ is calibrated from the null (below).
+- **Run length.** Every run lasts 20 sweeps, T = 20·(number of relations in the network, including y) succession steps. T is an external readout; the rule never reads it.
+- **Pairs.** Σa ≠ Σb are drawn uniformly from 𝒮F(V). For a non-descending coupling, and for the positive control, pairs are drawn uniformly among those on which W's parity differs, so the tested difference is present in every pair. Every relation outside V, y included, is drawn uniformly once per pair and is shared by all batches of that pair.
+- **Batches.** For each pair there are four batches of R = 100 runs: from Σa, from Σb, and two more from Σa, written Σa′ and Σa″.
+
+### The addressability gap
+
+For each component of a readout (F holding, and each relation in the readout), estimate from a batch the probability that it takes the value 1. D(x, z) is the largest difference over components between batches x and z. Comparing components one at a time keeps the readout resolvable when there are many components; a distance over joint states would need far more runs than there are.
+
+- G = mean over pairs of D(a, b) − D(a, a′): the difference between the microstates, above run-to-run noise.
+- G₀ = mean over pairs of D(a, a″) − D(a, a′): the same statistic when there is no difference in microstate. This is the null.
 
 ## Readout resolution
 
@@ -110,73 +118,74 @@ Only "absent" counts as evidence that a relation does not participate, or that t
 ### The addressability gap
 
 - **Readout levels.**
-  - **L1, the coupled readout:** o = (whether F holds on V, the state of Y). This is the readout the verdict uses.
-  - **L2, other relations:** the state of every relation outside V ∪ Y.
+  - **L1, the coupled readout:** F on V, and the relations y. This is the readout the verdict uses.
+  - **L2, other relations:** every relation outside V that is not in y.
 
-  The microstate of V itself is never a readout. Σa and Σb differ there by construction, and 6.12 says that lower-order multiplicity does not disappear; it becomes irrelevant to the coupling.
-- **Resolution, the noise floor.** γ is calibrated from the null before any verdict is computed. For each candidate and coupling, the null gap G₀ is the same statistic as G, computed with three independent batches of R runs all started from the same Σa. γ is the 95th percentile of G₀ over all cases at that density. A gap at or below γ cannot be told apart from run-to-run noise.
-- **Positive control.** Each candidate, and each control, gets one known non-descending coupling: W = {w}, a single member of V that is not constant on 𝒮F(V). Its 20 pairs are drawn so that Σa and Σb differ at w. Its gap must exceed γ at L1. If it does not, every gap for that candidate is **Unresolved**. The positive-control coupling is not counted among the 10 non-descending couplings.
-- **Outcomes.** For each case:
-  - **Registers:** G > γ at L1.
-  - **Absent:** G ≤ γ at L1, and the positive control registered.
-  - **Derived:** G ≤ γ at L1, but the gap computed on L2 exceeds γ.
-  - **Unresolved:** the candidate's positive control did not register.
+  The microstate of V itself is never a readout. Σa and Σb differ there by construction, and 6.12 says that lower-order multiplicity does not disappear; it becomes irrelevant to the coupling. In the coupling arms B(V) is removed, so nothing but the coupling joins V to the rest; L2 can differ only through y.
+- **Resolution, the noise floor.** γ is the 95th percentile of G₀, calibrated separately for each combination of density, η, arm (candidate, C1, C2, C3), coupling kind (descending, non-descending, positive control, natural) and readout level. In the natural arm, where the number of components varies, cases are further grouped by component count (2–4, 5–8, 9–16, more than 16). All γ values are computed and recorded before any G is compared with them. A gap at or below γ cannot be told apart from run-to-run noise.
+- **Positive control.** Each candidate and each control gets one coupling-arm case with W = {w}, a single member of V that is not constant on 𝒮F(V), with pairs that differ at w. It is non-descending by construction, and it is not among the five non-descending couplings. Its gap must exceed γ at L1. If it does not, every gap for that candidate or control is Unresolved.
+- **Outcomes, in order of precedence.** A case takes the first that applies:
+  1. **Unresolved:** the positive control did not register.
+  2. **Registers:** G > γ at L1.
+  3. **Derived:** G ≤ γ at L1, but G > γ at L2.
+  4. **Absent:** otherwise.
 
   A case is **addressable** only if it is Absent.
 
 ### The participation ablation
 
-This is a secondary readout, the second diagnostic of 6.17.
+This is a secondary readout, the second diagnostic of 6.17, run in the natural arm at η = 0.01.
 
-- **Readout.** F-persistence is the fraction of runs, at η = 0.01, in which F holds on V at T. To ablate a constraint, it is removed from the rule's C(i) for every member, while F is still judged on the full I(V).
-- **Resolution.** The change in F-persistence must exceed the 95th percentile of the change between two unablated batches.
-- **Positive control.** One internal constraint of V is ablated. It is constitutive of F by definition, so its ablation must register a drop in F-persistence. If it does not, the ablation readout for that candidate is **Unresolved**.
-- **Tested cases.** Each boundary constraint in B(V) is ablated in turn. These are the relations the closure test classes as non-constitutive.
-  - **Absent:** the boundary constraint does not participate.
-  - **Registers:** it participates. That is a constitutive dependency outside V, and it is reported against sufficiency (6.4).
-  - **Derived:** it registers only through another relation, that is, only on L2.
+- **Readout.** F-persistence is the fraction of runs in which F holds on V at T. To ablate a constraint, it is removed from the rule for every member, while F is still judged on the full I(V).
+- **Resolution.** The absolute change in F-persistence must exceed the 95th percentile of the absolute change between two unablated batches. The sign of every change is reported.
+- **Positive control.** One internal constraint of V, chosen at random, is ablated. It is constitutive of F by definition, so its ablation must register. If it does not, the ablation readout for that candidate is Unresolved.
+- **Tested cases.** Each boundary constraint in B(V) is ablated in turn. These are the relations the closure test classes as non-constitutive. The outcomes follow the same order of precedence: Unresolved; Registers (it participates: a constitutive dependency outside V, reported against sufficiency, 6.4); Derived (it registers only on L2); Absent (it does not participate).
 
 ## Predictions and verdict
 
-Accuracy and P3 are computed on resolved cases only. The rates of Unresolved and Derived cases are reported for every arm and density.
+### EE-H-0060 (the verdict)
 
-- **P1 (if):** descending couplings are Absent.
-- **P2 (only if):** non-descending couplings Register.
-- **Accuracy** is the fraction of cases, among those that are Absent or Register, in which descent predicts the outcome. There are 10 descending and 10 non-descending couplings per candidate.
-- **P3 (nontrivial class):** under natural couplings, closed candidates are addressable (Absent) more often than each control. This is measured as the difference in the fraction addressable, with a network-level bootstrap 95% interval (10,000 resamples).
+Computed on closed candidates, in the coupling arms and the natural arm together.
 
-**Success:** all of the following hold at η = 0 and η = 0.01. *Proposed thresholds.*
+- **P1 (if):** cases whose external relations descend are Absent.
+- **P2 (only if):** cases whose external relations do not descend Register.
+- **Accuracy** is the fraction of cases, among those that are Absent or Register, in which descent predicts the outcome. It is pooled over densities, for each η separately, and also reported per density.
+- **Resolution** is the fraction of cases that are Absent or Register, in the P1 set and in the P2 set, for each η. Unresolved and Derived cases are not resolved.
 
-- Accuracy is at least 0.95.
-- For each control, the P3 interval lies entirely above 0.
-- Unresolved and Derived cases together are no more than 20% of the cases in the P1 set, in the P2 set, and in each P3 arm.
+The verdict takes the first of these that applies:
 
-**Secondary readouts.** These are reported but do not decide the verdict: leakage; the participation ablation above; and closure robustness (the fraction of runs under 𝔗C in which F holds at T). These are the remaining three diagnostics of 6.17.
+1. **Inconclusive** if any representation check changes it (below).
+2. **Inconclusive** if resolution is below 80% in the P1 set or the P2 set at either η. The readout could not decide often enough for a verdict.
+3. **Fails** if accuracy is below 0.80 at either η, or below 0.80 at any single density. The RESULT reports which of P1 or P2 failed.
+4. **Supports** if accuracy is at least 0.95 at both η, and at least 0.90 at every density.
+5. **Inconclusive** otherwise, with the criterion that was missed and by how much.
 
-## Failure criterion
+### EE-C-0097, the fifth diagnostic (reported, not part of the verdict)
 
-Either of these counts against the hypothesis, provided the readout was resolved in at least 80% of cases:
+6.17 claims that the closure criterion identifies a nontrivial class whose higher-order addressability exceeds the look-alike controls. This is reported separately, because EE-H-0060 does not imply it.
 
-- Accuracy < 0.80 at either η. Descent then does not track addressability, in one direction or both. The RESULT reports which of P1 or P2 failed.
-- For any control, the P3 interval lies entirely below 0.05. The closure criterion then picks out nothing that the look-alike controls do not.
+- **P3a, analytic:** the fraction of natural boundaries that descend, closed candidates against each control. No runs are needed.
+- **P3b, measured:** the fraction of natural-arm cases that are addressable, closed candidates against each control. Only resolved cases are counted, and the resolution rate of each arm is reported.
 
-The verdict is **Inconclusive** in either of these cases, and the RESULT says which applied and by how much:
+Each is the difference between the candidate fraction and the control fraction, with a network-level bootstrap 95% interval (10,000 resamples, pooled over densities, each η separately). It bears in favour if the interval lies entirely above 0, against if it lies entirely below 0, and is inconclusive otherwise.
 
-- More than 20% of cases in any set are Unresolved or Derived. The readout could not decide often enough for a verdict.
-- The result lies between the success and failure criteria.
+### Secondary readouts
+
+These are reported but do not decide anything: leakage; the participation ablation; the P1 and P2 accuracy on the controls; and closure robustness (the fraction of natural-arm runs under 𝔗C in which F holds at T). Realizability is not reported as a diagnostic on this substrate. Rows independent over GF(2) are always consistent, so 𝒮F(V) ≠ ∅ holds by construction once participation passes, and |𝒮F(V)| = 2^(|V| − rank).
 
 ## Runs
 
-- 3 densities × 100 networks, with up to 5 candidates each, and for each candidate its three controls.
-- Per candidate or control: 1 positive-control coupling, 10 descending, 10 non-descending and 1 natural coupling; 20 microstate pairs per coupling; R = 200 runs per microstate; η ∈ {0, 0.01}.
-- Seeds are derived deterministically from (network seed, candidate index, coupling index, pair index, run index), so every run can be reproduced on its own.
-- Null gaps G₀ and the resulting γ per density are computed and recorded before any gap G is compared with them.
+- 3 densities × 40 networks, with up to 3 candidates each, and for each candidate its three controls.
+- Per candidate or control: 1 positive-control coupling, up to 5 descending couplings, 5 non-descending couplings and the natural arm; 10 pairs per case; 4 batches of R = 100 runs per pair; η ∈ {0, 0.01}.
+- The ablation: in the natural arm at η = 0.01, per candidate, 1 positive control and every boundary constraint, each with 2 batches of 100 runs from each of 10 states drawn from 𝒮F(V).
+- About 1.5 × 10⁸ runs in all. The implementation vectorizes over runs; the estimate is about a day on a four-core machine.
+- **Seeds.** Every random draw has its own stream, derived from the tuple (density, network seed, arm, candidate index, purpose, case index, pair index, batch, η, run index). The purpose is one of: detector, control, W, pair, initial state, batch, ablation. The batch is one of a, b, a′, a″. No two batches share a stream, and every run can be reproduced on its own.
 - Variation is reported as medians and interquartile ranges across networks, with bootstrap intervals at network level.
-- Accuracy is also reported separately by density, by |W| and by |V|, so a pooled pass cannot hide a failing regime.
+- Accuracy is also reported separately by density, by |W| and by |V|.
 
 ## Representation checks
 
-The verdict must be the same under each of these. Per-case addressability must also agree in at least 98% of cases, allowing for sampling noise.
+The verdict must be the same under each of these. For R1–R3, per-case outcomes must also agree in at least 98% of cases, allowing for sampling noise. R4 changes only the encoding, so its trajectories must be identical under the same seeds.
 
 | Check | Change | Why it should not matter |
 | --- | --- | --- |
@@ -189,6 +198,18 @@ If a check changes the verdict, the result is reported as Inconclusive with the 
 
 ## Freeze
 
-`05-closure-addressability/spec-v1`. Not yet tagged.
+`05-closure-addressability/spec-v1`.
 
 - **Book exports:** `natanatan/Emergent-Existence@fe713e6`
+
+## Decisions at review
+
+The author delegated the review of the open items to Claude on 30 September 2026, on the understanding that any change after v1 is a new specification version.
+
+- **Feasibility pilot, before the freeze.** `feasibility/yield.py` and `feasibility/controls_yield.py` measure only detector yield, control availability and the cost of one update step. They compute no diagnostic. At the drafted λ = 0.2, the detector found candidates in 17 of 20 networks at density 0.5, 2 of 20 at 0.7 and none at 0.9, so the drafted spec would have been inconclusive by construction. At λ = 0.3 it found candidates in 20, 20 and 19 of 20 networks at densities 0.5, 0.6 and 0.7. C1 and C2 were available for every candidate, and C3 with an exact match for 50–75% of them, hence the within-one rule.
+- **Thresholds.** λ = 0.3 and densities 0.5–0.7, from the pilot. γ is calibrated from the null, not fixed. The accuracy cut-offs (0.95 for success, 0.80 for failure) and the 80% resolution requirement stand as drafted: they are set by what would count as evidence, not by the pilot. Sample sizes were reduced to a feasible run, and the readout was changed from a distance over joint states to per-component differences, so that it can resolve differences at those sizes.
+- **Forbidden structure.** Reviewed; no smuggled structure found. Two clarifications were added: a constraint is a table of admissible patterns, and "even" and "odd" only describe that table; a three-member constraint is a mutual constraint among relations, which Relation earns.
+- **Substrate.** Parity tables are kept for v1, because they make descent exactly decidable before any run. A substrate without that property (general pattern tables, with descent decided by enumeration) belongs in a later module or version.
+- **Module number.** The register entry for EE-H-0060 cites "App G, module 5", and Book I Beta has no Appendix G. This module takes the number 5; the reference should read "Computational Companion, module 05" in the next edition.
+- **Derived cases** are neither addressable nor registering. They are left out of accuracy and count as unresolved.
+- **Independent review.** Before the freeze, a separate reviewer checked the draft against Closure and the guardrails. It confirmed the descent test and the positive-control guarantee, and found no smuggled structure. It raised sixteen items, all addressed in this version. The main ones: the candidate's own boundary constraints also couple it to the network, so descent is now judged on all of its external relations (coupling arms remove B(V); the natural arm computes the descent of B(V)); the fifth-diagnostic comparison with controls bears on EE-C-0097, not on EE-H-0060, and is reported separately; γ is calibrated per readout and arm; non-descending pairs are drawn so the tested difference is present; the seed streams are fully specified; and the verdict has a strict order.
