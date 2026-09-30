@@ -16,7 +16,7 @@ import urllib.request
 
 REPO = "natanatan/Emergent-Existence"
 SCHEMA = "emergent-existence-exports/1"
-FILES = ["manifest.json", "claims.json", "hypotheses.json", "elements.json", "companion-backlog.json"]
+FILES = ["manifest.json", "claims.json", "hypotheses.json", "sources.json", "elements.json", "companion-backlog.json"]
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 

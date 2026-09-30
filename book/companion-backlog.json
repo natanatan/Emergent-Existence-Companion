@@ -9,7 +9,8 @@
   "status_text": "Open",
   "resolve_by": "A formal statement of substrate dynamics that assigns each regime",
   "revisited_in": "Distance; App D",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0009",
@@ -21,7 +22,8 @@
   "status_text": "Open",
   "resolve_by": "A toy model in which closed circulation emerges as an attractor",
   "revisited_in": "Return",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0012",
@@ -33,7 +35,8 @@
   "status_text": "Open",
   "resolve_by": "Computational toy-model results",
   "revisited_in": "Closure, 9, 13; App E",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0051",
@@ -45,7 +48,8 @@
   "status_text": "Speculative",
   "resolve_by": "Nontrivial persistence criteria or a computational test that separates integrated clusters from arbitrary groupings",
   "revisited_in": "Relation (5.9, 5.16); App G",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0055",
@@ -57,7 +61,8 @@
   "status_text": "Deferred",
   "resolve_by": "A model in which cross-coupling between collective modes decreases under coarse-graining",
   "revisited_in": "Relation (5.14); Distance to Space",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0060",
@@ -69,7 +74,8 @@
   "status_text": "Provisional",
   "resolve_by": "The addressability diagnostic of 6.17 against matched controls (App G, module 5)",
   "revisited_in": "Closure (6.12, 6.13, 6.17)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0062",
@@ -81,7 +87,8 @@
   "status_text": "Open",
   "resolve_by": "Preregistered perturbation and ablation tests showing F_dyn is recoverable",
   "revisited_in": "Closure (6.14; 6.19, Objection 4)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0071",
@@ -93,7 +100,8 @@
   "status_text": "Provisional",
   "resolve_by": "The role-exchange and reversal tests of 7.15 under rules that encode no direction (App G, module 6)",
   "revisited_in": "Orientation (7.2, 7.5); App G",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0075",
@@ -105,7 +113,8 @@
   "status_text": "Speculative",
   "resolve_by": "Simulations in which symmetric rules yield branch-specific persistence without programmer-supplied direction",
   "revisited_in": "Orientation (7.9, 7.10); App G",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0077",
@@ -117,7 +126,8 @@
   "status_text": "Provisional",
   "resolve_by": "The ten diagnostics of 8.23 under rules containing no cycle template (App G, module 7)",
   "revisited_in": "Return (8.3, 8.5); Orientation (7.8); App G",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0083",
@@ -129,7 +139,8 @@
   "status_text": "Speculative",
   "resolve_by": "Simulations showing differential retention with no return reward encoded",
   "revisited_in": "Return (8.17); App G",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0090",
@@ -141,7 +152,8 @@
   "status_text": "Retained",
   "resolve_by": "Diagnostic 1 of 9.28, applied to the results of Chapters 5 to 8 (Question 5)",
   "revisited_in": "Formalism (9.26, 9.30); Relation (5.2)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0091",
@@ -153,7 +165,8 @@
   "status_text": "Retained",
   "resolve_by": "Diagnostic 10 of 9.28",
   "revisited_in": "Formalism (9.21); Distinction (3.7); Memory",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0093",
@@ -165,7 +178,8 @@
   "status_text": "Open",
   "resolve_by": "Diagnostic 7 of 9.28, comparing binary and hypergraph encodings for changed invariants (Question 6)",
   "revisited_in": "Formalism (9.18); Relation (5.2); Orientation (7.2)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0094",
@@ -177,7 +191,8 @@
   "status_text": "Provisional",
   "resolve_by": "Diagnostic 11 of 9.28 (Questions 13 and 14)",
   "revisited_in": "Formalism (9.22); Relation (5.14)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0095",
@@ -189,7 +204,8 @@
   "status_text": "Retained",
   "resolve_by": "The ten diagnostics of 10.25, in particular the correspondence-first and relabeling tests (App G, module 9)",
   "revisited_in": "Scale (10.4, 10.5, 10.7); Relation (5.12)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0096",
@@ -201,7 +217,8 @@
   "status_text": "Derived",
   "resolve_by": "Diagnostic 3 of 10.25, which reconstructs the condition from a standard collection before using numeral shorthand",
   "revisited_in": "Scale (10.8); Relation (5.12); Closure (6.9)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0097",
@@ -213,7 +230,8 @@
   "status_text": "Provisional",
   "resolve_by": "Diagnostics 6 to 8 of 10.25: ratio convergence, recurrence perturbation and robustness to initial conditions",
   "revisited_in": "Scale (10.13 to 10.17); Distinction (3.7)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0100",
@@ -225,7 +243,8 @@
   "status_text": "Provisional",
   "resolve_by": "Diagnostic 10 of 10.25, admitting the quotient only after its standard is independently earned",
   "revisited_in": "Scale (10.20); Orientation (7.4)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0102",
@@ -237,7 +256,8 @@
   "status_text": "Provisional",
   "resolve_by": "Diagnostics 8 and the additivity condition of 11.8 (Questions 3 and 4)",
   "revisited_in": "Distance (11.8, 11.10)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0104",
@@ -249,7 +269,8 @@
   "status_text": "Retained",
   "resolve_by": "Diagnostic 7 of 11.21, reversing admissible chains and comparing magnitudes (Question 5)",
   "revisited_in": "Distance (11.11); Orientation (7.2)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0105",
@@ -261,7 +282,8 @@
   "status_text": "Open",
   "resolve_by": "Diagnostics 3 and 10 of 11.21: decomposition perturbation, and comparison against matched random organizations (Question 7)",
   "revisited_in": "Distance (11.17); Scale (10.27)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0106",
@@ -273,7 +295,8 @@
   "status_text": "Provisional",
   "resolve_by": "Diagnostics 1 to 3 of 12.25: relabeling and representation invariance, and decomposition perturbation",
   "revisited_in": "Geometry (12.2, 12.3); Distance",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0107",
@@ -285,7 +308,8 @@
   "status_text": "Retained",
   "resolve_by": "Diagnostic 5 of 12.25, measuring rank from the generated organization rather than stipulating it",
   "revisited_in": "Geometry (12.6); Formalism (9.22)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0108",
@@ -297,7 +321,8 @@
   "status_text": "Open",
   "resolve_by": "Diagnostics 5 and 6 of 12.25 run together: measure rank from the organization, then measure it again across heterogeneous probes",
   "revisited_in": "Geometry (12.6, 12.18)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0109",
@@ -309,7 +334,8 @@
   "status_text": "Provisional",
   "resolve_by": "Diagnostic 6 of 12.25 and the projection-stability programme of 12.27, requiring heterogeneous probes that could have disagreed",
   "revisited_in": "Geometry (12.15 to 12.17); Closure (6.14)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0110",
@@ -321,7 +347,8 @@
   "status_text": "Speculative",
   "resolve_by": "Diagnostic 8 of 12.25, distinguishing route-dependent failure from coordinate artifacts, and the modelling programme of 12.26",
   "revisited_in": "Geometry (12.20, 12.22)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0111",
@@ -333,7 +360,8 @@
   "status_text": "Open",
   "resolve_by": "Diagnostics 4, 5, 9 and 10 of 12.25 together: no hidden dimension in the rules, rank recovered rather than stipulated, comparison against matched random organizations, and failure reported",
   "revisited_in": "Geometry (12.26); App G",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0112",
@@ -345,7 +373,8 @@
   "status_text": "Provisional",
   "resolve_by": "The coordinate-removal and perturbation-coordination tests of 13.26",
   "revisited_in": "Space (13.6, 13.23); Geometry; Relation (5.9)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0113",
@@ -357,7 +386,8 @@
   "status_text": "Retained",
   "resolve_by": "The locality-prediction test of 13.26, against randomized baselines",
   "revisited_in": "Space (13.8)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0114",
@@ -369,7 +399,8 @@
   "status_text": "Retained",
   "resolve_by": "The smoothness-failure test of 13.26, which must distinguish loss of continuity from loss of localization",
   "revisited_in": "Space (13.14, 13.15)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0115",
@@ -381,7 +412,8 @@
   "status_text": "Speculative",
   "resolve_by": "The responsive-geometry test of 13.26, perturbing the substrate without changing geometric variables explicitly",
   "revisited_in": "Space (13.16, 13.17); Geometry (12.22)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0116",
@@ -393,7 +425,8 @@
   "status_text": "Provisional",
   "resolve_by": "The scale test of 13.26, repeated coarse-graining with localization and adjacency measured separately from global separation",
   "revisited_in": "Space (13.18); Scale (10.20)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0117",
@@ -405,7 +438,8 @@
   "status_text": "Retained",
   "resolve_by": "The coordinate-removal test of 13.26, stripping embeddings and drawing positions before recovery is attempted",
   "revisited_in": "Space (13.20, 13.21)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0119",
@@ -417,7 +451,8 @@
   "status_text": "Provisional",
   "resolve_by": "The index-removal and counterfactual-dependency tests of 14.25, which are the chapter’s T-1 condition",
   "revisited_in": "Time (14.3, 14.4); Boundary (4.4)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0120",
@@ -429,7 +464,8 @@
   "status_text": "Retained",
   "resolve_by": "The branching test of 14.25: introduce incomparable update structures and verify no artificial global order is forced",
   "revisited_in": "Time (14.5, 14.10)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0121",
@@ -441,7 +477,8 @@
   "status_text": "Retained",
   "resolve_by": "The index-removal test of 14.25, run before any other temporal claim is assessed",
   "revisited_in": "Time (14.8); App G",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0122",
@@ -453,7 +490,8 @@
   "status_text": "Provisional",
   "resolve_by": "The coarse-graining test of 14.25: change temporal resolution and check that precedence and any metric ratios survive",
   "revisited_in": "Time (14.11, 14.22); Distance (11.18)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0123",
@@ -465,7 +503,8 @@
   "status_text": "Provisional",
   "resolve_by": "The cycle-calibration test of 14.25, with two independently organized recurrences and neither defined through the other",
   "revisited_in": "Time (14.12, 14.13)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0124",
@@ -477,7 +516,8 @@
   "status_text": "Open",
   "resolve_by": "The six minimal conditions of 14.24: ordered comparability, repeatable standard, cross-standard calibration, resolution robustness, frame coherence and non-circularity",
   "revisited_in": "Time (14.14, 14.24)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0125",
@@ -489,7 +529,8 @@
   "status_text": "Retained",
   "resolve_by": "The spacetime-withholding test of 14.25: verify that no propagation speed, Lorentzian signature, null relation or invariant c is required for the temporal construction to work",
   "revisited_in": "Time (14.16, 14.28, 14.31)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0126",
@@ -501,7 +542,8 @@
   "status_text": "Provisional",
   "resolve_by": "The reverse-rule test of 14.25: use microscopically reversible laws and check that irreversibility is not manufactured",
   "revisited_in": "Time (14.17, 14.18)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0127",
@@ -513,6 +555,7 @@
   "status_text": "Open",
   "resolve_by": "An update rule specified without reference to an external time variable, then the index-removal and counterfactual tests run against it",
   "revisited_in": "Time (14.29); Space (13.29)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  }
 ]

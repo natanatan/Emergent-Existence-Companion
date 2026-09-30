@@ -8,6 +8,7 @@
   "hypotheses": 135,
   "elements": 154,
   "stages": 34,
+  "sources": 0,
   "companion_backlog": 43,
   "merged_ids": 23
  },
@@ -39,6 +40,7 @@
  "files": [
   "claims.json",
   "hypotheses.json",
+  "sources.json",
   "elements.json",
   "ladder.json",
   "companion-backlog.json"

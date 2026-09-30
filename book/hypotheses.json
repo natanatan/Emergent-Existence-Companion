@@ -9,7 +9,8 @@
   "status_text": "Deferred",
   "resolve_by": "Coherent phase dynamics cannot emerge without an oscillatory primitive, or a prediction requires one",
   "revisited_in": "Matter (scoped section); App B, D",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0002",
@@ -21,7 +22,8 @@
   "status_text": "Open",
   "resolve_by": "A formal statement of substrate dynamics that assigns each regime",
   "revisited_in": "Distance; App D",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0003",
@@ -33,7 +35,8 @@
   "status_text": "Rejected",
   "resolve_by": "A derivation of phase-carrying dynamics and superposition from the relational formalism",
   "revisited_in": "Matter",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0004",
@@ -45,7 +48,8 @@
   "status_text": "Rejected",
   "resolve_by": "None planned",
   "revisited_in": "Boundary, 10",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0005",
@@ -57,7 +61,8 @@
   "status_text": "Open",
   "resolve_by": "A result that requires a medium, or shows the structure alone suffices",
   "revisited_in": "Formalism",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0006",
@@ -69,7 +74,8 @@
   "status_text": "Open",
   "resolve_by": "A derivation of Shannon entropy from the relational formalism",
   "revisited_in": "Boundary, 9; App B",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0007",
@@ -81,7 +87,8 @@
   "status_text": "Rejected",
   "resolve_by": "None planned",
   "revisited_in": "Origin",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0008",
@@ -93,7 +100,8 @@
   "status_text": "Deferred",
   "resolve_by": "A construction recovering spinor structure from the relational formalism",
   "revisited_in": "Orientation to Return",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0009",
@@ -105,7 +113,8 @@
   "status_text": "Open",
   "resolve_by": "A toy model in which closed circulation emerges as an attractor",
   "revisited_in": "Return",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0010",
@@ -117,7 +126,8 @@
   "status_text": "Deferred",
   "resolve_by": "A derivation linking relational structure to zeta-type analytic structure",
   "revisited_in": "App C (analogy note)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0011",
@@ -129,7 +139,8 @@
   "status_text": "Rejected in universal form; Retained in conditional form",
   "resolve_by": "None planned for the universal form",
   "revisited_in": "Formalism; App C",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0012",
@@ -141,7 +152,8 @@
   "status_text": "Open",
   "resolve_by": "Computational toy-model results",
   "revisited_in": "Closure, 9, 13; App E",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0013",
@@ -153,7 +165,8 @@
   "status_text": "Open",
   "resolve_by": "A causal-order construction that yields the signature",
   "revisited_in": "Space; App E",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0014",
@@ -165,7 +178,8 @@
   "status_text": "Open",
   "resolve_by": "A derivation of Einstein-like behavior in the continuum limit",
   "revisited_in": "Gravity",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0015",
@@ -177,7 +191,8 @@
   "status_text": "Open",
   "resolve_by": "A model of how infalling information updates the compressed state",
   "revisited_in": "Black Holes to Recursive Cosmogenesis",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0016",
@@ -189,7 +204,8 @@
   "status_text": "Rejected",
   "resolve_by": "None planned",
   "revisited_in": "Recursive Cosmogenesis",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0017",
@@ -201,7 +217,8 @@
   "status_text": "Open",
   "resolve_by": "A model of horizon crossing into a new expanding domain",
   "revisited_in": "Recursive Cosmogenesis",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0018",
@@ -213,7 +230,8 @@
   "status_text": "Rejected",
   "resolve_by": "None planned",
   "revisited_in": "Complexity",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0019",
@@ -225,7 +243,8 @@
   "status_text": "Open",
   "resolve_by": "A testable signature that distinguishes it from standard structure formation",
   "revisited_in": "Complexity",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0020",
@@ -237,7 +256,8 @@
   "status_text": "Rejected",
   "resolve_by": "None planned",
   "revisited_in": "Lineage note",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0021",
@@ -249,7 +269,8 @@
   "status_text": "Open",
   "resolve_by": "Not resolvable by the framework alone",
   "revisited_in": "Vol III",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0022",
@@ -261,7 +282,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned",
   "revisited_in": "Preface; Distinction; Boundary",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0023",
@@ -273,7 +295,8 @@
   "status_text": "Superseded",
   "resolve_by": "None planned",
   "revisited_in": "Preface; Difference (2.2)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0024",
@@ -285,7 +308,8 @@
   "status_text": "Superseded",
   "resolve_by": "None planned",
   "revisited_in": "Difference (2.3, 2.9)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0025",
@@ -297,7 +321,8 @@
   "status_text": "Superseded",
   "resolve_by": "None planned",
   "revisited_in": "Distinction; Boundary (4.18); Closure",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0026",
@@ -309,7 +334,8 @@
   "status_text": "Speculative",
   "resolve_by": "Such a rule would make Difference derived rather than primitive and move this entry toward Provisional",
   "revisited_in": "Difference (2.12); Closure, 10",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0027",
@@ -321,7 +347,8 @@
   "status_text": "Rejected",
   "resolve_by": "None planned",
   "revisited_in": "Time",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0028",
@@ -333,7 +360,8 @@
   "status_text": "Provisional",
   "resolve_by": "Tested in Distinction, Orientation and Geometry",
   "revisited_in": "Difference (2.5); Distinction; Orientation, 12",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0029",
@@ -345,7 +373,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned",
   "revisited_in": "Distinction (3.6); Orientation, 12",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0030",
@@ -357,7 +386,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned",
   "revisited_in": "Formalism, 20",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0031",
@@ -369,7 +399,8 @@
   "status_text": "Superseded",
   "resolve_by": "None planned",
   "revisited_in": "Closure (6.13)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0032",
@@ -381,7 +412,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned",
   "revisited_in": "Boundary (4.6, 4.8, 4.9)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0033",
@@ -393,7 +425,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned",
   "revisited_in": "Boundary (4.7)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0034",
@@ -405,7 +438,8 @@
   "status_text": "Provisional",
   "resolve_by": "Derivation of conventional information measures as special or coarse-grained cases would move it toward Retained",
   "revisited_in": "Boundary (4.10); Formalism",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0035",
@@ -417,7 +451,8 @@
   "status_text": "Superseded",
   "resolve_by": "None planned",
   "revisited_in": "Boundary (4.18); Relation (5.15); Closure (6.13)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0036",
@@ -429,7 +464,8 @@
   "status_text": "Superseded",
   "resolve_by": "None planned",
   "revisited_in": "Relation (5.15); Closure (6.13)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0037",
@@ -441,7 +477,8 @@
   "status_text": "Open",
   "resolve_by": "A construction recovering relativistic causal cones from dependency order alone would move it to Provisional; Chapter 12 is where the three candidate asymmetries are to be reconciled",
   "revisited_in": "Boundary (4.9); Time",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0038",
@@ -453,7 +490,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned",
   "revisited_in": "Boundary (4.7); Relation to Closure",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0039",
@@ -465,7 +503,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned",
   "revisited_in": "Difference (2.5, 2.8); Boundary",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0040",
@@ -477,7 +516,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned",
   "revisited_in": "Boundary (4.2, 4.13 Obj. 4)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0041",
@@ -489,7 +529,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned",
   "revisited_in": "Boundary (4.10, 4.11); Relation; notation table",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0042",
@@ -501,7 +542,8 @@
   "status_text": "Deferred",
   "resolve_by": "Placement decided once the relevant chapter is drafted (Blueprint Reminder 3)",
   "revisited_in": "Boundary (archived); Scale",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0043",
@@ -513,7 +555,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned",
   "revisited_in": "Relation (5.14); Formalism; Scale",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0044",
@@ -525,7 +568,8 @@
   "status_text": "Open",
   "resolve_by": "A nontrivial physical prediction connecting the two would move it to Provisional",
   "revisited_in": "Boundary; Book II",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0045",
@@ -537,7 +581,8 @@
   "status_text": "Superseded",
   "resolve_by": "None planned",
   "revisited_in": "Superseded by H-134",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0046",
@@ -549,7 +594,8 @@
   "status_text": "Derived",
   "resolve_by": "A case in which ∃/∀ membership over a shared predicate still needed an operation beyond quantification would reopen it",
   "revisited_in": "Boundary (4.2, 4.8); Relation (5.12)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0047",
@@ -561,7 +607,8 @@
   "status_text": "Provisional",
   "resolve_by": "A worked edge case in which P(r) stabilizes under Σ_n ↦ L_n ↦ Σ_n+1 and the quantified verdict follows",
   "revisited_in": "Boundary (4.9); Relation (5.13)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0048",
@@ -573,7 +620,8 @@
   "status_text": "Deferred",
   "resolve_by": "Chapter 10 (Scale), which earns relative magnitude and with it cardinality",
   "revisited_in": "Relation (5.12); Scale",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0049",
@@ -585,7 +633,8 @@
   "status_text": "Provisional",
   "resolve_by": "A formalization of constraint free of probabilistic or metric language would move it toward Derived",
   "revisited_in": "Relation (5.4); Formalism",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0050",
@@ -597,7 +646,8 @@
   "status_text": "Retained (logical form); Provisional (ontological extension)",
   "resolve_by": "None planned for the logical form; a physical case for the extension",
   "revisited_in": "Relation (5.6-5.7)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0051",
@@ -609,7 +659,8 @@
   "status_text": "Speculative",
   "resolve_by": "Nontrivial persistence criteria or a computational test that separates integrated clusters from arbitrary groupings",
   "revisited_in": "Relation (5.9, 5.16); App G",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0052",
@@ -621,7 +672,8 @@
   "status_text": "Provisional",
   "resolve_by": "A worked case identifying the minimum reference structure that breaks exchange symmetry",
   "revisited_in": "Relation (5.10); Orientation",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0053",
@@ -633,7 +685,8 @@
   "status_text": "Provisional",
   "resolve_by": "Chapters 7 and 11 must show that spatial order can be built on it",
   "revisited_in": "Relation (5.11); Orientation, 11",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0054",
@@ -645,7 +698,8 @@
   "status_text": "Deferred",
   "resolve_by": "Geometry showing that stable, decoupled relational modes realize d_R",
   "revisited_in": "Relation (5.14); Formalism (9.22); Geometry",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0055",
@@ -657,7 +711,8 @@
   "status_text": "Deferred",
   "resolve_by": "A model in which cross-coupling between collective modes decreases under coarse-graining",
   "revisited_in": "Relation (5.14); Distance to Space",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0056",
@@ -669,7 +724,8 @@
   "status_text": "Rejected",
   "resolve_by": "None planned",
   "revisited_in": "Closure (6.1); App A, G",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0057",
@@ -681,7 +737,8 @@
   "status_text": "Provisional",
   "resolve_by": "Chapters 9 and 11 showing that a simplicial realization satisfies the 6.4 test",
   "revisited_in": "Closure (6.1); Formalism, 11; App G",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0058",
@@ -693,7 +750,8 @@
   "status_text": "Provisional",
   "resolve_by": "A necessary-and-sufficient formal criterion (Chapter 9)",
   "revisited_in": "Closure (6.2-6.8)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0059",
@@ -705,7 +763,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned",
   "revisited_in": "Closure (6.3, 6.7)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0060",
@@ -717,7 +776,8 @@
   "status_text": "Provisional",
   "resolve_by": "The addressability diagnostic of 6.17 against matched controls (App G, module 5)",
   "revisited_in": "Closure (6.12, 6.13, 6.17)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0061",
@@ -729,7 +789,8 @@
   "status_text": "Retained",
   "resolve_by": "None for compatible overlap; incompatible overlap needs a resolution rule",
   "revisited_in": "Closure (6.11)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0062",
@@ -741,7 +802,8 @@
   "status_text": "Open",
   "resolve_by": "Preregistered perturbation and ablation tests showing F_dyn is recoverable",
   "revisited_in": "Closure (6.14; 6.19, Objection 4)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0063",
@@ -753,7 +815,8 @@
   "status_text": "Retained (distinction); comparison of d_R with d_P Deferred",
   "resolve_by": "Earning d_R (see H-54) and d_P (Book II)",
   "revisited_in": "Relation (5.14); Book II",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0064",
@@ -765,7 +828,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned; the later chapters on Life, Memory and Knowing must respect the thresholds",
   "revisited_in": "Boundary to Closure, 19-21",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0065",
@@ -777,7 +841,8 @@
   "status_text": "Superseded",
   "resolve_by": "None planned",
   "revisited_in": "Superseded by H-134 and H-135",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0066",
@@ -789,7 +854,8 @@
   "status_text": "Provisional",
   "resolve_by": "A construction of comparative size from recursion alone, checked against Chapter 11’s distance for independence",
   "revisited_in": "Scale, 11",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0067",
@@ -801,7 +867,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned; a Chapter 10 draft that assumes a unit or numeral before earning it fails the constraint",
   "revisited_in": "Scale",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0068",
@@ -813,7 +880,8 @@
   "status_text": "Provisional",
   "resolve_by": "A Chapter 10 construction deriving the correspondences between recursive levels from relational structure alone",
   "revisited_in": "Scale; Relation (5.12, threshold aggregation)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0069",
@@ -825,7 +893,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned",
   "revisited_in": "Origin (1.3); Distinction (3.1, 3.2); App A",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0070",
@@ -837,7 +906,8 @@
   "status_text": "Open",
   "resolve_by": "A construction in which a richer frame resolves structure in Ω without reintroducing an external marker",
   "revisited_in": "Origin (1.3, 1.7); Difference (2.1, 2.14); Distinction",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0071",
@@ -849,7 +919,8 @@
   "status_text": "Provisional",
   "resolve_by": "The role-exchange and reversal tests of 7.15 under rules that encode no direction (App G, module 6)",
   "revisited_in": "Orientation (7.2, 7.5); App G",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0072",
@@ -861,7 +932,8 @@
   "status_text": "Provisional",
   "resolve_by": "A worked case in which unresolved variation crosses a higher-order threshold",
   "revisited_in": "Orientation (7.4)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0073",
@@ -873,7 +945,8 @@
   "status_text": "Provisional",
   "resolve_by": "Resolved 22 September 2026: Chapter 8 (8.5) defines the return condition as re-satisfaction of F after genuine departure, and the 7.7 threshold is unchanged. Now a cross-reference, not a forward dependency",
   "revisited_in": "Orientation (7.7); Return",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0074",
@@ -885,7 +958,8 @@
   "status_text": "Speculative",
   "resolve_by": "Later chapters showing physical irreversibility as a realization of it, or showing it cannot be",
   "revisited_in": "Orientation (7.8); Time",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0075",
@@ -897,7 +971,8 @@
   "status_text": "Speculative",
   "resolve_by": "Simulations in which symmetric rules yield branch-specific persistence without programmer-supplied direction",
   "revisited_in": "Orientation (7.9, 7.10); App G",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0076",
@@ -909,7 +984,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned for the claim itself; d_O needs a definition before linear algebra is earned",
   "revisited_in": "Orientation (7.11, 7.12); Formalism, 10",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0077",
@@ -921,7 +997,8 @@
   "status_text": "Provisional",
   "resolve_by": "The ten diagnostics of 8.23 under rules containing no cycle template (App G, module 7)",
   "revisited_in": "Return (8.3, 8.5); Orientation (7.8); App G",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0078",
@@ -933,7 +1010,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned",
   "revisited_in": "Return (8.6, 8.13)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0079",
@@ -945,7 +1023,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned",
   "revisited_in": "Return (8.4)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0080",
@@ -957,7 +1036,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned; relevant when causal order is derived",
   "revisited_in": "Return (8.7); Time to Space",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0081",
@@ -969,7 +1049,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned",
   "revisited_in": "Return (8.14); Memory",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0082",
@@ -981,7 +1062,8 @@
   "status_text": "Provisional",
   "resolve_by": "Chapter 10 deriving endogenous standards from recurring structures",
   "revisited_in": "Return (8.22); Scale, 12",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0083",
@@ -993,7 +1075,8 @@
   "status_text": "Speculative",
   "resolve_by": "Simulations showing differential retention with no return reward encoded",
   "revisited_in": "Return (8.17); App G",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0084",
@@ -1005,7 +1088,8 @@
   "status_text": "Speculative",
   "resolve_by": "Chapter 9 earning the algebra, and Chapter 12 the metric, that would turn a count into winding or phase",
   "revisited_in": "Return (8.21); Formalism, 12",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0085",
@@ -1017,7 +1101,8 @@
   "status_text": "Open",
   "resolve_by": "An account of reconstruction after dissolution that does not rely on an external record of the lost criterion",
   "revisited_in": "Return (8.4, 8.5); Black Holes, 19, 20",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0086",
@@ -1029,7 +1114,8 @@
   "status_text": "Superseded",
   "resolve_by": "None planned",
   "revisited_in": "Distinction (3.3); Formalism (9.5)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0087",
@@ -1041,7 +1127,8 @@
   "status_text": "Provisional",
   "resolve_by": "Whether a weaker adequate carrier exists, or 𝒰 reduces to a dependency already in ℜ (Question 1)",
   "revisited_in": "Formalism (9.4, 9.26)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0088",
@@ -1053,7 +1140,8 @@
   "status_text": "Retained",
   "resolve_by": "None; the diagnostics of 9.28 test typing case by case",
   "revisited_in": "Formalism (9.5); Distinction (3.7); Orientation (7.9, 7.10)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0089",
@@ -1065,7 +1153,8 @@
   "status_text": "Provisional",
   "resolve_by": "Conditions for branching transitions (Question 2), and whether exact congruence is too strong for real systems (Question 10)",
   "revisited_in": "Formalism (9.9, 9.10, 9.27); Closure (6.12)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0090",
@@ -1077,7 +1166,8 @@
   "status_text": "Retained",
   "resolve_by": "Diagnostic 1 of 9.28, applied to the results of Chapters 5 to 8 (Question 5)",
   "revisited_in": "Formalism (9.26, 9.30); Relation (5.2)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0091",
@@ -1089,7 +1179,8 @@
   "status_text": "Retained",
   "resolve_by": "Diagnostic 10 of 9.28",
   "revisited_in": "Formalism (9.21); Distinction (3.7); Memory",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0092",
@@ -1101,7 +1192,8 @@
   "status_text": "Retained",
   "resolve_by": "None; a later chapter needing a medium would reopen it",
   "revisited_in": "Formalism (9.24)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0093",
@@ -1113,7 +1205,8 @@
   "status_text": "Open",
   "resolve_by": "Diagnostic 7 of 9.28, comparing binary and hypergraph encodings for changed invariants (Question 6)",
   "revisited_in": "Formalism (9.18); Relation (5.2); Orientation (7.2)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0094",
@@ -1125,7 +1218,8 @@
   "status_text": "Provisional",
   "resolve_by": "Diagnostic 11 of 9.28 (Questions 13 and 14)",
   "revisited_in": "Formalism (9.22); Relation (5.14)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0095",
@@ -1137,7 +1231,8 @@
   "status_text": "Retained",
   "resolve_by": "The ten diagnostics of 10.25, in particular the correspondence-first and relabeling tests (App G, module 9)",
   "revisited_in": "Scale (10.4, 10.5, 10.7); Relation (5.12)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0096",
@@ -1149,7 +1244,8 @@
   "status_text": "Derived",
   "resolve_by": "Diagnostic 3 of 10.25, which reconstructs the condition from a standard collection before using numeral shorthand",
   "revisited_in": "Scale (10.8); Relation (5.12); Closure (6.9)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0097",
@@ -1161,7 +1257,8 @@
   "status_text": "Provisional",
   "resolve_by": "Diagnostics 6 to 8 of 10.25: ratio convergence, recurrence perturbation and robustness to initial conditions",
   "revisited_in": "Scale (10.13 to 10.17); Distinction (3.7)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0098",
@@ -1173,7 +1270,8 @@
   "status_text": "Open",
   "resolve_by": "An independent constraint on decomposition, of the kind F_dyn would supply for identity",
   "revisited_in": "Scale (10.27); Closure (6.14); Return (8.3)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0099",
@@ -1185,7 +1283,8 @@
   "status_text": "Retained",
   "resolve_by": "Whether the construction extends beyond finite organizations, where the product and the correspondences are unproblematic",
   "revisited_in": "Scale (10.10, 10.11)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0100",
@@ -1197,7 +1296,8 @@
   "status_text": "Provisional",
   "resolve_by": "Diagnostic 10 of 10.25, admitting the quotient only after its standard is independently earned",
   "revisited_in": "Scale (10.20); Orientation (7.4)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0101",
@@ -1209,7 +1309,8 @@
   "status_text": "Provisional",
   "resolve_by": "Whether minimum mediation is the weakest adequate definition, and whether pairwise invariants could generate metric structure without chains (Questions 1 and 2)",
   "revisited_in": "Distance (11.5); Scale (10.5)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0102",
@@ -1221,7 +1322,8 @@
   "status_text": "Provisional",
   "resolve_by": "Diagnostics 8 and the additivity condition of 11.8 (Questions 3 and 4)",
   "revisited_in": "Distance (11.8, 11.10)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0103",
@@ -1233,7 +1335,8 @@
   "status_text": "Retained",
   "resolve_by": "None; the distinction is definitional and is tested by diagnostic 9, the hidden-geometry control",
   "revisited_in": "Distance (11.3); Formalism (9.5)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0104",
@@ -1245,7 +1348,8 @@
   "status_text": "Retained",
   "resolve_by": "Diagnostic 7 of 11.21, reversing admissible chains and comparing magnitudes (Question 5)",
   "revisited_in": "Distance (11.11); Orientation (7.2)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0105",
@@ -1257,7 +1361,8 @@
   "status_text": "Open",
   "resolve_by": "Diagnostics 3 and 10 of 11.21: decomposition perturbation, and comparison against matched random organizations (Question 7)",
   "revisited_in": "Distance (11.17); Scale (10.27)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0106",
@@ -1269,7 +1374,8 @@
   "status_text": "Provisional",
   "resolve_by": "Diagnostics 1 to 3 of 12.25: relabeling and representation invariance, and decomposition perturbation",
   "revisited_in": "Geometry (12.2, 12.3); Distance",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0107",
@@ -1281,7 +1387,8 @@
   "status_text": "Retained",
   "resolve_by": "Diagnostic 5 of 12.25, measuring rank from the generated organization rather than stipulating it",
   "revisited_in": "Geometry (12.6); Formalism (9.22)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0108",
@@ -1293,7 +1400,8 @@
   "status_text": "Open",
   "resolve_by": "Diagnostics 5 and 6 of 12.25 run together: measure rank from the organization, then measure it again across heterogeneous probes",
   "revisited_in": "Geometry (12.6, 12.18)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0109",
@@ -1305,7 +1413,8 @@
   "status_text": "Provisional",
   "resolve_by": "Diagnostic 6 of 12.25 and the projection-stability programme of 12.27, requiring heterogeneous probes that could have disagreed",
   "revisited_in": "Geometry (12.15 to 12.17); Closure (6.14)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0110",
@@ -1317,7 +1426,8 @@
   "status_text": "Speculative",
   "resolve_by": "Diagnostic 8 of 12.25, distinguishing route-dependent failure from coordinate artifacts, and the modelling programme of 12.26",
   "revisited_in": "Geometry (12.20, 12.22)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0111",
@@ -1329,7 +1439,8 @@
   "status_text": "Open",
   "resolve_by": "Diagnostics 4, 5, 9 and 10 of 12.25 together: no hidden dimension in the rules, rank recovered rather than stipulated, comparison against matched random organizations, and failure reported",
   "revisited_in": "Geometry (12.26); App G",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0112",
@@ -1341,7 +1452,8 @@
   "status_text": "Provisional",
   "resolve_by": "The coordinate-removal and perturbation-coordination tests of 13.26",
   "revisited_in": "Space (13.6, 13.23); Geometry; Relation (5.9)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0113",
@@ -1353,7 +1465,8 @@
   "status_text": "Retained",
   "resolve_by": "The locality-prediction test of 13.26, against randomized baselines",
   "revisited_in": "Space (13.8)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0114",
@@ -1365,7 +1478,8 @@
   "status_text": "Retained",
   "resolve_by": "The smoothness-failure test of 13.26, which must distinguish loss of continuity from loss of localization",
   "revisited_in": "Space (13.14, 13.15)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0115",
@@ -1377,7 +1491,8 @@
   "status_text": "Speculative",
   "resolve_by": "The responsive-geometry test of 13.26, perturbing the substrate without changing geometric variables explicitly",
   "revisited_in": "Space (13.16, 13.17); Geometry (12.22)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0116",
@@ -1389,7 +1504,8 @@
   "status_text": "Provisional",
   "resolve_by": "The scale test of 13.26, repeated coarse-graining with localization and adjacency measured separately from global separation",
   "revisited_in": "Space (13.18); Scale (10.20)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0117",
@@ -1401,7 +1517,8 @@
   "status_text": "Retained",
   "resolve_by": "The coordinate-removal test of 13.26, stripping embeddings and drawing positions before recovery is attempted",
   "revisited_in": "Space (13.20, 13.21)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0118",
@@ -1413,7 +1530,8 @@
   "status_text": "Open",
   "resolve_by": "An independent criterion for admissible coupling, fixed before locality is tested; without one the chapter has not earned Space",
   "revisited_in": "Space (13.29); Scale (10.27); Distance (11.17)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0119",
@@ -1425,7 +1543,8 @@
   "status_text": "Provisional",
   "resolve_by": "The index-removal and counterfactual-dependency tests of 14.25, which are the chapter’s T-1 condition",
   "revisited_in": "Time (14.3, 14.4); Boundary (4.4)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0120",
@@ -1437,7 +1556,8 @@
   "status_text": "Retained",
   "resolve_by": "The branching test of 14.25: introduce incomparable update structures and verify no artificial global order is forced",
   "revisited_in": "Time (14.5, 14.10)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0121",
@@ -1449,7 +1569,8 @@
   "status_text": "Retained",
   "resolve_by": "The index-removal test of 14.25, run before any other temporal claim is assessed",
   "revisited_in": "Time (14.8); App G",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0122",
@@ -1461,7 +1582,8 @@
   "status_text": "Provisional",
   "resolve_by": "The coarse-graining test of 14.25: change temporal resolution and check that precedence and any metric ratios survive",
   "revisited_in": "Time (14.11, 14.22); Distance (11.18)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0123",
@@ -1473,7 +1595,8 @@
   "status_text": "Provisional",
   "resolve_by": "The cycle-calibration test of 14.25, with two independently organized recurrences and neither defined through the other",
   "revisited_in": "Time (14.12, 14.13)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0124",
@@ -1485,7 +1608,8 @@
   "status_text": "Open",
   "resolve_by": "The six minimal conditions of 14.24: ordered comparability, repeatable standard, cross-standard calibration, resolution robustness, frame coherence and non-circularity",
   "revisited_in": "Time (14.14, 14.24)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0125",
@@ -1497,7 +1621,8 @@
   "status_text": "Retained",
   "resolve_by": "The spacetime-withholding test of 14.25: verify that no propagation speed, Lorentzian signature, null relation or invariant c is required for the temporal construction to work",
   "revisited_in": "Time (14.16, 14.28, 14.31)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0126",
@@ -1509,7 +1634,8 @@
   "status_text": "Provisional",
   "resolve_by": "The reverse-rule test of 14.25: use microscopically reversible laws and check that irreversibility is not manufactured",
   "revisited_in": "Time (14.17, 14.18)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0127",
@@ -1521,7 +1647,8 @@
   "status_text": "Open",
   "resolve_by": "An update rule specified without reference to an external time variable, then the index-removal and counterfactual tests run against it",
   "revisited_in": "Time (14.29); Space (13.29)",
-  "companion_testable": true
+  "companion_testable": true,
+  "sources": []
  },
  {
   "id": "EE-H-0128",
@@ -1533,7 +1660,8 @@
   "status_text": "Provisional",
   "resolve_by": "A cheaper primitive, an incoherent account of co-constitution, or a later need for absolute or relative discernibility from the start would count against it (2.16)",
   "revisited_in": "Difference; Distinction; Boundary; Parts II-III",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0129",
@@ -1545,7 +1673,8 @@
   "status_text": "Provisional",
   "resolve_by": "Counts against it: 𝒰 cannot be specified without the Distinction it grounds, or no downstream consequence separates the role of 𝒰 from that of ≬ (3.18). Dependency precedence ≺ (4.11) is the first such consequence",
   "revisited_in": "Distinction; Boundary",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0130",
@@ -1557,7 +1686,8 @@
   "status_text": "Provisional",
   "resolve_by": "A later chapter that needs the relation itself to ground numerical diversity, or needs absolute or relative discernibility from the start, would count against it (2.16)",
   "revisited_in": "Difference (2.6, 2.15, 2.16)",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0131",
@@ -1569,7 +1699,8 @@
   "status_text": "Provisional",
   "resolve_by": "A derivation of 𝒰 from Difference, or of both from a single weaker principle, would retire it (3.19)",
   "revisited_in": "Distinction; Formalism",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0132",
@@ -1581,7 +1712,8 @@
   "status_text": "Provisional",
   "resolve_by": "A later need for a privileged, underived family of physically realized transformations would add a third commitment (4.25)",
   "revisited_in": "Boundary",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0133",
@@ -1593,7 +1725,8 @@
   "status_text": "Provisional",
   "resolve_by": "Whether every closed organization yields a unique anchor, and what localizes or distributes it, remains open (6.13)",
   "revisited_in": "Closure (6.13); Orientation; Return",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0134",
@@ -1605,7 +1738,8 @@
   "status_text": "Retained",
   "resolve_by": "None planned",
   "revisited_in": "Volume I architecture; Time handoff; Book II opening",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  },
  {
   "id": "EE-H-0135",
@@ -1617,6 +1751,7 @@
   "status_text": "Retained",
   "resolve_by": "None planned",
   "revisited_in": "Life, Memory and Knowing; Volume I architecture",
-  "companion_testable": false
+  "companion_testable": false,
+  "sources": []
  }
 ]

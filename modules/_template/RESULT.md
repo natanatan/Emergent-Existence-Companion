@@ -20,4 +20,4 @@ Supports: the diagnostic passed against its control and survived the representat
 
 ## Register event proposed
 
-The status event to open as a pull request on the Hypothesis Register entry. A single supporting run can move an entry to Provisional, not to Retained.
+One pull request on the main repository that adds a source record for this run (`kind: simulation`, with the module, spec tag, commit and verdict), cites it from the Hypothesis Register entry, and adds a dated status event within the cap. A single supporting run can move an entry to Provisional, not to Retained. See the main repository's `docs/sources.md`.
