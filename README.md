@@ -73,6 +73,8 @@ modules/
 | Initial conditions | Including how they are sampled |
 | Control | What the result is measured against, and why it is the fair comparison |
 | Diagnostic | The quantity computed, and the threshold that counts as success |
+| Readout resolution | What outcome differences the readout can register, and the noise floor below which a difference does not count |
+| Positive control | A case whose effect is known to exist, which must register at that resolution |
 | Failure criterion | What result would count against the hypothesis |
 | Runs | Number of runs and seeds, and how variation is reported |
 | Representation checks | The relabellings and re-encodings the verdict must survive |
@@ -83,6 +85,8 @@ modules/
 - **Supports:** the diagnostic passed against its control, and survived the representation checks.
 - **Fails:** the failure criterion was met. The module is kept, and the failure is sent to the register like any other result.
 - **Inconclusive:** neither, with the reason (too few runs, control too weak, sensitivity to representation).
+
+Every diagnostic also declares its readout resolution and a positive control, a case whose effect is known to exist. A null result is then reported as **absent** (the positive control registers and the tested case does not), **derived** (the tested case registers only through another relation, or only at another level of readout) or **unresolved** (the positive control does not register). Only "absent" counts as evidence that a relation does not participate, or that two microstates are the same.
 
 ## Workflow
 

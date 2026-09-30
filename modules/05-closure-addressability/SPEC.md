@@ -88,40 +88,89 @@ These are the fair comparison because they separate closure from its look-alikes
 
 Whether a coupling descends is computed by linear algebra, before any run.
 
-**Macro-outcome.** After T = 50·|V ∪ Y| succession steps, the outcome is o = (whether F holds on V, the state of Y).
+**Run length.** Every run lasts T = 50·|V ∪ Y| succession steps. T is an external readout; the rule never reads it.
 
-**Addressability gap.** From R = 200 runs per microstate, estimate the outcome distributions P_a and P_b. Then:
+**Addressability gap.** From R = 200 runs per microstate, estimate the distributions P_a and P_b of a readout (defined under Readout resolution). Then:
 
 - D_ab = total-variation distance between P_a and P_b.
 - The noise floor D_aa is the same distance between two independent batches of R runs from Σa.
 - For a candidate and coupling, the gap is G = mean over 20 pairs of (D_ab − D_aa).
-- The candidate is **addressable** under E when G ≤ γ. *Proposed γ = 0.02.*
+- The gap **registers** when G > γ, where γ is calibrated from the null (below).
 
-**Predictions derived from EE-H-0060:**
+## Readout resolution
 
-- **P1 (if):** descending couplings give G ≤ γ.
-- **P2 (only if):** non-descending couplings give G > γ.
-- **Accuracy** is the fraction of (network, candidate, coupling) cases in which descent correctly predicts addressability, over 10 descending and 10 non-descending couplings per candidate.
-- **P3 (nontrivial class):** under natural couplings, closed candidates are addressable more often than each control. This is measured as the difference in the fraction addressable, with a network-level bootstrap 95% interval (10,000 resamples).
+Each diagnostic declares what its readout can register and carries a positive control, a case whose effect is known to exist and which must register at that resolution. A null result is then one of three outcomes, and `RESULT.md` says which applies to every null:
 
-**Success:** accuracy ≥ 0.95 at η = 0 and η = 0.01, and for each control the P3 interval lies entirely above 0. *Proposed thresholds.*
+- **Absent:** the positive control registers, and the tested case does not.
+- **Derived:** the tested case registers only through another relation, or only at another level of readout.
+- **Unresolved:** the positive control does not register, so the readout cannot decide.
 
-**Secondary readouts.** These are reported but do not decide the verdict: leakage; participation by ablation (the change in F-persistence after removing a constitutive constraint, compared with a non-constitutive one); and closure robustness (the fraction of runs under 𝔗C in which F holds at T). These are the remaining three diagnostics of 6.17.
+Only "absent" counts as evidence that a relation does not participate, or that two microstates are the same.
+
+### The addressability gap
+
+- **Readout levels.**
+  - **L1, the coupled readout:** o = (whether F holds on V, the state of Y). This is the readout the verdict uses.
+  - **L2, other relations:** the state of every relation outside V ∪ Y.
+
+  The microstate of V itself is never a readout. Σa and Σb differ there by construction, and 6.12 says that lower-order multiplicity does not disappear; it becomes irrelevant to the coupling.
+- **Resolution, the noise floor.** γ is calibrated from the null before any verdict is computed. For each candidate and coupling, the null gap G₀ is the same statistic as G, computed with three independent batches of R runs all started from the same Σa. γ is the 95th percentile of G₀ over all cases at that density. A gap at or below γ cannot be told apart from run-to-run noise.
+- **Positive control.** Each candidate, and each control, gets one known non-descending coupling: W = {w}, a single member of V that is not constant on 𝒮F(V). Its 20 pairs are drawn so that Σa and Σb differ at w. Its gap must exceed γ at L1. If it does not, every gap for that candidate is **Unresolved**. The positive-control coupling is not counted among the 10 non-descending couplings.
+- **Outcomes.** For each case:
+  - **Registers:** G > γ at L1.
+  - **Absent:** G ≤ γ at L1, and the positive control registered.
+  - **Derived:** G ≤ γ at L1, but the gap computed on L2 exceeds γ.
+  - **Unresolved:** the candidate's positive control did not register.
+
+  A case is **addressable** only if it is Absent.
+
+### The participation ablation
+
+This is a secondary readout, the second diagnostic of 6.17.
+
+- **Readout.** F-persistence is the fraction of runs, at η = 0.01, in which F holds on V at T. To ablate a constraint, it is removed from the rule's C(i) for every member, while F is still judged on the full I(V).
+- **Resolution.** The change in F-persistence must exceed the 95th percentile of the change between two unablated batches.
+- **Positive control.** One internal constraint of V is ablated. It is constitutive of F by definition, so its ablation must register a drop in F-persistence. If it does not, the ablation readout for that candidate is **Unresolved**.
+- **Tested cases.** Each boundary constraint in B(V) is ablated in turn. These are the relations the closure test classes as non-constitutive.
+  - **Absent:** the boundary constraint does not participate.
+  - **Registers:** it participates. That is a constitutive dependency outside V, and it is reported against sufficiency (6.4).
+  - **Derived:** it registers only through another relation, that is, only on L2.
+
+## Predictions and verdict
+
+Accuracy and P3 are computed on resolved cases only. The rates of Unresolved and Derived cases are reported for every arm and density.
+
+- **P1 (if):** descending couplings are Absent.
+- **P2 (only if):** non-descending couplings Register.
+- **Accuracy** is the fraction of cases, among those that are Absent or Register, in which descent predicts the outcome. There are 10 descending and 10 non-descending couplings per candidate.
+- **P3 (nontrivial class):** under natural couplings, closed candidates are addressable (Absent) more often than each control. This is measured as the difference in the fraction addressable, with a network-level bootstrap 95% interval (10,000 resamples).
+
+**Success:** all of the following hold at η = 0 and η = 0.01. *Proposed thresholds.*
+
+- Accuracy is at least 0.95.
+- For each control, the P3 interval lies entirely above 0.
+- Unresolved and Derived cases together are no more than 20% of the cases in the P1 set, in the P2 set, and in each P3 arm.
+
+**Secondary readouts.** These are reported but do not decide the verdict: leakage; the participation ablation above; and closure robustness (the fraction of runs under 𝔗C in which F holds at T). These are the remaining three diagnostics of 6.17.
 
 ## Failure criterion
 
-Either of these counts against the hypothesis:
+Either of these counts against the hypothesis, provided the readout was resolved in at least 80% of cases:
 
 - Accuracy < 0.80 at either η. Descent then does not track addressability, in one direction or both. The RESULT reports which of P1 or P2 failed.
 - For any control, the P3 interval lies entirely below 0.05. The closure criterion then picks out nothing that the look-alike controls do not.
 
-Any outcome between the success and failure criteria is **Inconclusive**, and the result says which criterion was missed and by how much.
+The verdict is **Inconclusive** in either of these cases, and the RESULT says which applied and by how much:
+
+- More than 20% of cases in any set are Unresolved or Derived. The readout could not decide often enough for a verdict.
+- The result lies between the success and failure criteria.
 
 ## Runs
 
 - 3 densities × 100 networks, with up to 5 candidates each, and for each candidate its three controls.
-- Per candidate or control: 10 descending, 10 non-descending and 1 natural coupling; 20 microstate pairs per coupling; R = 200 runs per microstate; η ∈ {0, 0.01}.
+- Per candidate or control: 1 positive-control coupling, 10 descending, 10 non-descending and 1 natural coupling; 20 microstate pairs per coupling; R = 200 runs per microstate; η ∈ {0, 0.01}.
 - Seeds are derived deterministically from (network seed, candidate index, coupling index, pair index, run index), so every run can be reproduced on its own.
+- Null gaps G₀ and the resulting γ per density are computed and recorded before any gap G is compared with them.
 - Variation is reported as medians and interquartile ranges across networks, with bootstrap intervals at network level.
 - Accuracy is also reported separately by density, by |W| and by |V|, so a pooled pass cannot hide a failing regime.
 
