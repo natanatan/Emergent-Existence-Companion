@@ -7,8 +7,9 @@ Copy `modules/_template/` to `modules/NN-short-name/`. Answer every field before
 | Bears on | `EE-H-nnnn`, `EE-C-nnnn`, and the book section that defines the diagnostic |
 | Question | One sentence a reader outside the project would understand |
 | Generative rule | The update rule, in full |
-| Forbidden structure | What the rule may not contain at this stage of the book |
-| Initial conditions | Including how they are sampled |
+| Structure | The stage tested, and what the rule uses and forbids, as register IDs (below) |
+| Forbidden structure | What the rule may not contain at this stage, in words, and how the spec avoids each item |
+| Initial conditions | Including how they are sampled; for anything below the starting resolution, whether the alternatives are sampled or one is declared (guardrail 6) |
 | Control | What the result is measured against, and why it is the fair comparison |
 | Diagnostic | The quantity computed, and the threshold that counts as success |
 | Readout resolution | What outcome differences the readout can register, and the noise floor below which a difference does not count |
@@ -17,6 +18,18 @@ Copy `modules/_template/` to `modules/NN-short-name/`. Answer every field before
 | Runs | Number of runs and seeds, and how variation is reported |
 | Representation checks | The relabellings and re-encodings the verdict must survive |
 | Freeze | The tag that fixes all of the above |
+
+## Structure
+
+Declare the stage and the structure by ID, so `checks/order.py` can follow the book if its derivation order changes:
+
+```structure
+stage: Cl                      # the ladder stage this module tests
+uses: [Df, Ds, Bd, Rl, Cl]     # element codes or EE-C claim IDs the rule relies on
+forbids: [Or, Sc, Dt, Gm, Sp, Tm]
+```
+
+Codes are the element codes in `book/elements.json`; stages are the codes in `book/ladder.json`. What each stage has earned is read from the ladder, never from chapter numbers in this spec.
 
 ## Readout resolution
 

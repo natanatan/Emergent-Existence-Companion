@@ -31,9 +31,9 @@ These come from the book's Methodology and bind every module.
 1. **A model demonstrates a mechanism, not a world.** A rule that produces three effective dimensions shows that such a rule can. It does not show that the world runs on it. Results are reported in that register.
 2. **The diagnostic and its control are fixed before the run.** The specification is committed, and the commit is tagged, before any result exists. A module that changes its diagnostic after seeing results starts a new specification version; the earlier one and its results stay in the record.
 3. **A failed diagnostic is reported, not retuned.** A failure is a finding. Adjusting parameters until the test passes turns a test into a demonstration of the modeller's patience.
-4. **No smuggling.** A model may use only what the book has earned by the stage it tests. A model of Orientation may not encode a direction; a model of Distance may not start from coordinates; a model of Time may not rely on an iteration counter as a clock. Every module states what its rule is forbidden to contain, and the review checks for it.
+4. **No smuggling.** A model may use only what the book has earned by the stage it tests. A model of Orientation may not encode a direction; a model of Distance may not start from coordinates; a model of Time may not rely on an iteration counter as a clock. Every module states what its rule is forbidden to contain, and the review checks for it. The stage and the structure are declared by register ID, not by chapter, so a change in the book's derivation order is caught by `checks/order.py` rather than silently leaving a spec out of date.
 5. **Results must survive a faithful change of representation.** Relabelling nodes, reordering updates or swapping an equivalent encoding should not change the verdict. If it does, the result belongs to the representation, not to the structure (Formalism, 9.28, diagnostic 1).
-6. **Origin is represented openly.** A model may not fix what lies below the resolution it starts from. Initial conditions are sampled across the admissible alternatives (uniform, unresolved variation, and so on) rather than chosen as one, and a verdict that depends on that choice is reported as such (Origin, 1.5).
+6. **Origin is represented openly.** A model may not fix what lies below the resolution it starts from without saying so. A module either samples across the admissible alternatives (uniform, unresolved variation, and so on) or declares the one it studies and limits its verdict to that case; a result that depends on the choice is reported as such (Origin, 1.5).
 
 ## Evidence standard
 
@@ -70,8 +70,9 @@ modules/
 | Bears on | The `EE-H` and `EE-C` IDs, and the book section that defines the diagnostic |
 | Question | One sentence a reader outside the project would understand |
 | Generative rule | The update rule, in full |
-| Forbidden structure | What the rule may not contain at this stage of the book (guardrail 4) |
-| Initial conditions | Including how they are sampled |
+| Structure | The stage tested, and what the rule uses and forbids, as register IDs (guardrail 4) |
+| Forbidden structure | The same in words, with how the spec avoids each item |
+| Initial conditions | Including how they are sampled, and how Origin is represented (guardrail 6) |
 | Control | What the result is measured against, and why it is the fair comparison |
 | Diagnostic | The quantity computed, and the threshold that counts as success |
 | Readout resolution | What outcome differences the readout can register, and the noise floor below which a difference does not count |
@@ -92,11 +93,15 @@ Every diagnostic also declares its readout resolution and a positive control, a 
 ## Workflow
 
 1. Pick an entry marked `companion_testable` in the main repository's Hypothesis Register.
-2. Write `SPEC.md`, including the forbidden structure, and have it reviewed against the book section it cites.
+2. Write `SPEC.md`, including its structure block and the forbidden structure, and have it reviewed against the book section it cites.
 3. Commit and tag the specification. From this point the diagnostic cannot change within this version.
 4. Implement the model and the control. Pin the environment and record seeds.
 5. Run, then write `RESULT.md` whatever the outcome.
 6. Open a pull request on the main repository adding a dated status event to the Hypothesis Register entry, citing the module, the tag and the verdict. The status it may propose is limited by the evidence standard above: a single supporting run can move an entry to Provisional, not to Retained.
+
+## When the derivation order changes
+
+The book's derivation order is a finding, not a fixture: later evidence may show that something is earned earlier, later, or by another route. Modules are built to outlive that. Each spec names what it uses and forbids by register ID, and `checks/order.py` compares those declarations with the ladder in `book/`. After a sync that changes the order, the check flags every frozen module whose declarations now read differently. Its results are not withdrawn: they stand as results about the order they were run under (the book commit in `book/SOURCE` at the spec tag), and the module is reviewed, and if needed respecified, under the new one. Rerunning a module under a proposed reordering is itself a way to test the reordering.
 
 ## Reproducing a result
 
@@ -113,6 +118,7 @@ Specifications are the most valuable contribution: a precise statement of what w
 | [`BACKLOG.md`](BACKLOG.md) | The 43 `companion_testable` entries and the modules that bear on each (generated) |
 | `book/` | A copy of the main repository's `exports/`, pinned to one commit, which `book/SOURCE` records. Refresh it with `python tools/sync_book.py` (or `--ref <commit>`) |
 | `modules/_template/` | Copy it to `modules/NN-short-name/` to start a module. Spec tags are named `NN-short-name/spec-v1`, `spec-v2`, … |
+| `checks/order.py` | Run in CI. Fails if an unfrozen spec uses structure its stage has not earned, or forbids structure it has; flags frozen modules whose declarations the current derivation order reads differently |
 | `checks/freeze.py` | Run in CI. Fails if a module cites an ID the book does not have, or if a `RESULT.md` was committed without a spec tag that came before it |
 
 ## Licence
