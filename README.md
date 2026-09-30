@@ -1,4 +1,4 @@
-# Computational Companion
+# Emergent Existence: Computational Companion
 
 Computational tests of the claims and hypotheses of *Emergent Existence*. The book's public repository, [Emergent-Existence](https://github.com/natanatan/Emergent-Existence), is the reference: this repository reads its registers through `exports/`, pinned to one book commit, and cites everything by permanent ID (`EE-C-nnnn` for claims, `EE-H-nnnn` for hypotheses).
 
