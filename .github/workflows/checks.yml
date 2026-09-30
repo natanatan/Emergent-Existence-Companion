@@ -12,4 +12,4 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python checks/protocol.py
+      - run: python checks/freeze.py
